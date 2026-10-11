@@ -94,16 +94,4 @@ PGRG-Steel-Defect-Detection/
    python main.py
    ```
 
-## Current Status
 
-- [x] Project structure created
-- [x] Dataset loading and visualization
-- [ ] Preprocessing pipeline
-- [ ] Priority feature extraction
-- [ ] Priority map generation
-- [ ] Seed selection
-- [ ] Region growing with max-heap
-- [ ] Union-Find region merging
-- [ ] Otsu baseline
-- [ ] Watershed baseline
-- [ ] Evaluation metrics
