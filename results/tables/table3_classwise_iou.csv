@@ -1,0 +1,7 @@
+Defect Class,PGRG,Standard Region Growing,Otsu + Morphology,Watershed
+crazing,0.6015,0.5993,0.5738,0.6348
+inclusion,0.6581,0.5677,0.5835,0.5773
+patches,0.7085,0.5785,0.5775,0.0000
+pitted_surface,0.6979,0.7360,0.7061,0.6203
+rolled-in_scale,0.6093,0.5805,0.5901,0.5889
+scratches,0.6697,0.7152,0.7305,0.7031

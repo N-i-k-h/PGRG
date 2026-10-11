@@ -1,0 +1,5 @@
+Method,TP,FP,FN
+PGRG,487,7049,3702
+Standard Region Growing,469,42542,3720
+Otsu + Morphology,483,37671,3706
+Watershed,214,10116,3975

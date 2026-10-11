@@ -1,0 +1,16 @@
+{
+  "pilot_target_images": 30,
+  "target_per_class": 5,
+  "classes": [
+    "scratches",
+    "inclusion",
+    "crazing",
+    "pitted_surface",
+    "patches",
+    "rolled-in_scale"
+  ],
+  "completed_genuine_masks": 6,
+  "pending_human_annotation": 24,
+  "pilot_manifest_file": "results\\masks\\annotation_metadata\\pilot_dataset_manifest.json",
+  "timestamp": "2026-10-11T18:10:05"
+}

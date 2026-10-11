@@ -1,0 +1,21 @@
+protocol,method,budget,budget_limit_per_image,total_actual_pixels,mean_pixels_per_image,actual_pixel_pct,TP,FP,FN,precision,recall,f1,mean_iou,mean_runtime_ms
+Image Budget,PGRG,25%,10000,313268,5221.1,13.05%,23,221,101,0.0943,0.1855,0.1250,0.7313,42.26
+Image Budget,PGRG,50%,20000,362951,6049.2,15.12%,21,206,103,0.0925,0.1694,0.1197,0.7300,43.53
+Image Budget,PGRG,75%,30000,362951,6049.2,15.12%,21,206,103,0.0925,0.1694,0.1197,0.7300,44.00
+Image Budget,PGRG,100%,40000,362951,6049.2,15.12%,21,206,103,0.0925,0.1694,0.1197,0.7300,44.10
+Image Budget,PGRG,Unrestricted,None,362951,6049.2,15.12%,21,206,103,0.0925,0.1694,0.1197,0.7300,45.08
+Image Budget,Standard Region Growing,25%,10000,515587,8593.1,21.48%,16,1334,108,0.0119,0.1290,0.0217,0.7846,22.69
+Image Budget,Standard Region Growing,50%,20000,948209,15803.5,39.51%,16,1334,108,0.0119,0.1290,0.0217,0.7846,30.68
+Image Budget,Standard Region Growing,75%,30000,1185509,19758.5,49.40%,16,1334,108,0.0119,0.1290,0.0217,0.7846,37.61
+Image Budget,Standard Region Growing,100%,40000,1287288,21454.8,53.64%,16,1334,108,0.0119,0.1290,0.0217,0.7846,41.69
+Image Budget,Standard Region Growing,Unrestricted,None,1287288,21454.8,53.64%,16,1334,108,0.0119,0.1290,0.0217,0.7846,41.06
+Search-Space Budget,PGRG,25%,25% of Unrestricted,90761,1512.7,3.78%,12,435,112,0.0268,0.0968,0.0420,0.5971,15.97
+Search-Space Budget,PGRG,50%,50% of Unrestricted,181493,3024.9,7.56%,10,293,114,0.0330,0.0806,0.0468,0.6085,27.68
+Search-Space Budget,PGRG,75%,75% of Unrestricted,272236,4537.3,11.34%,15,245,109,0.0577,0.1210,0.0781,0.6638,37.50
+Search-Space Budget,PGRG,100%,100% of Unrestricted,362951,6049.2,15.12%,21,206,103,0.0925,0.1694,0.1197,0.7300,44.34
+Search-Space Budget,PGRG,Unrestricted,None,362951,6049.2,15.12%,21,206,103,0.0925,0.1694,0.1197,0.7300,44.60
+Search-Space Budget,Standard Region Growing,25%,25% of Unrestricted,321845,5364.1,13.41%,16,1334,108,0.0119,0.1290,0.0217,0.7846,18.40
+Search-Space Budget,Standard Region Growing,50%,50% of Unrestricted,643660,10727.7,26.82%,16,1334,108,0.0119,0.1290,0.0217,0.7846,25.14
+Search-Space Budget,Standard Region Growing,75%,75% of Unrestricted,965487,16091.5,40.23%,16,1334,108,0.0119,0.1290,0.0217,0.7846,33.21
+Search-Space Budget,Standard Region Growing,100%,100% of Unrestricted,1287288,21454.8,53.64%,16,1334,108,0.0119,0.1290,0.0217,0.7846,41.66
+Search-Space Budget,Standard Region Growing,Unrestricted,None,1287288,21454.8,53.64%,16,1334,108,0.0119,0.1290,0.0217,0.7846,42.28

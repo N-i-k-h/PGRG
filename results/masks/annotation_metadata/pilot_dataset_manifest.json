@@ -1,0 +1,272 @@
+[
+  {
+    "file": "scratches_1.jpg",
+    "class": "scratches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\scratches\\scratches_1.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\scratches_1.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "scratches_2.jpg",
+    "class": "scratches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\scratches\\scratches_2.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\scratches_2.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "scratches_3.jpg",
+    "class": "scratches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\scratches\\scratches_3.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\scratches_3.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "scratches_4.jpg",
+    "class": "scratches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\scratches\\scratches_4.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\scratches_4.xml",
+    "mask_path": "results\\masks\\ground_truth\\scratches_4.png",
+    "status": "annotated",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "scratches_5.jpg",
+    "class": "scratches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\scratches\\scratches_5.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\scratches_5.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "inclusion_1.jpg",
+    "class": "inclusion",
+    "image_path": "dataset\\NEU-DET\\train\\images\\inclusion\\inclusion_1.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\inclusion_1.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "inclusion_2.jpg",
+    "class": "inclusion",
+    "image_path": "dataset\\NEU-DET\\train\\images\\inclusion\\inclusion_2.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\inclusion_2.xml",
+    "mask_path": "results\\masks\\ground_truth\\inclusion_2.png",
+    "status": "annotated",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "inclusion_3.jpg",
+    "class": "inclusion",
+    "image_path": "dataset\\NEU-DET\\train\\images\\inclusion\\inclusion_3.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\inclusion_3.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "inclusion_4.jpg",
+    "class": "inclusion",
+    "image_path": "dataset\\NEU-DET\\train\\images\\inclusion\\inclusion_4.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\inclusion_4.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "inclusion_5.jpg",
+    "class": "inclusion",
+    "image_path": "dataset\\NEU-DET\\train\\images\\inclusion\\inclusion_5.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\inclusion_5.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "crazing_1.jpg",
+    "class": "crazing",
+    "image_path": "dataset\\NEU-DET\\train\\images\\crazing\\crazing_1.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\crazing_1.xml",
+    "mask_path": "results\\masks\\ground_truth\\crazing_1.png",
+    "status": "annotated",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "crazing_2.jpg",
+    "class": "crazing",
+    "image_path": "dataset\\NEU-DET\\train\\images\\crazing\\crazing_2.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\crazing_2.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "crazing_3.jpg",
+    "class": "crazing",
+    "image_path": "dataset\\NEU-DET\\train\\images\\crazing\\crazing_3.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\crazing_3.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "crazing_4.jpg",
+    "class": "crazing",
+    "image_path": "dataset\\NEU-DET\\train\\images\\crazing\\crazing_4.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\crazing_4.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "crazing_5.jpg",
+    "class": "crazing",
+    "image_path": "dataset\\NEU-DET\\train\\images\\crazing\\crazing_5.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\crazing_5.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "pitted_surface_1.jpg",
+    "class": "pitted_surface",
+    "image_path": "dataset\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_1.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\pitted_surface_1.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "pitted_surface_2.jpg",
+    "class": "pitted_surface",
+    "image_path": "dataset\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_2.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\pitted_surface_2.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "pitted_surface_3.jpg",
+    "class": "pitted_surface",
+    "image_path": "dataset\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_3.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\pitted_surface_3.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "pitted_surface_4.jpg",
+    "class": "pitted_surface",
+    "image_path": "dataset\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_4.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\pitted_surface_4.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "pitted_surface_7.jpg",
+    "class": "pitted_surface",
+    "image_path": "dataset\\NEU-DET\\train\\images\\pitted_surface\\pitted_surface_7.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\pitted_surface_7.xml",
+    "mask_path": "results\\masks\\ground_truth\\pitted_surface_7.png",
+    "status": "annotated",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "patches_1.jpg",
+    "class": "patches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\patches\\patches_1.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\patches_1.xml",
+    "mask_path": "results\\masks\\ground_truth\\patches_1.png",
+    "status": "annotated",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "patches_2.jpg",
+    "class": "patches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\patches\\patches_2.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\patches_2.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "patches_3.jpg",
+    "class": "patches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\patches\\patches_3.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\patches_3.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "patches_4.jpg",
+    "class": "patches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\patches\\patches_4.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\patches_4.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "patches_5.jpg",
+    "class": "patches",
+    "image_path": "dataset\\NEU-DET\\train\\images\\patches\\patches_5.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\patches_5.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "rolled-in_scale_1.jpg",
+    "class": "rolled-in_scale",
+    "image_path": "dataset\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_1.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\rolled-in_scale_1.xml",
+    "mask_path": "results\\masks\\ground_truth\\rolled-in_scale_1.png",
+    "status": "annotated",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "rolled-in_scale_2.jpg",
+    "class": "rolled-in_scale",
+    "image_path": "dataset\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_2.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\rolled-in_scale_2.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "rolled-in_scale_3.jpg",
+    "class": "rolled-in_scale",
+    "image_path": "dataset\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_3.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\rolled-in_scale_3.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "rolled-in_scale_4.jpg",
+    "class": "rolled-in_scale",
+    "image_path": "dataset\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_4.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\rolled-in_scale_4.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  },
+  {
+    "file": "rolled-in_scale_5.jpg",
+    "class": "rolled-in_scale",
+    "image_path": "dataset\\NEU-DET\\train\\images\\rolled-in_scale\\rolled-in_scale_5.jpg",
+    "xml_path": "dataset\\NEU-DET\\train\\annotations\\rolled-in_scale_5.xml",
+    "mask_path": null,
+    "status": "pending_human_annotation",
+    "approximate_roi_only": false
+  }
+]

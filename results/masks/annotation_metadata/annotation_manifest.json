@@ -1,0 +1,68 @@
+{
+  "scratches_4.jpg": {
+    "file": "scratches_4.jpg",
+    "class": "scratches",
+    "status": "annotated",
+    "mask_path": "results\\masks\\ground_truth\\scratches_4.png",
+    "polygons_count": 1,
+    "defect_pixel_count": 1714,
+    "approximate_roi_only": false,
+    "timestamp": "2026-10-11T18:10:05",
+    "notes": "Pilot verified polygon contour mask. Bright longitudinal trench with high aspect ratio"
+  },
+  "inclusion_2.jpg": {
+    "file": "inclusion_2.jpg",
+    "class": "inclusion",
+    "status": "annotated",
+    "mask_path": "results\\masks\\ground_truth\\inclusion_2.png",
+    "polygons_count": 3,
+    "defect_pixel_count": 1184,
+    "approximate_roi_only": false,
+    "timestamp": "2026-10-11T18:10:05",
+    "notes": "Pilot verified polygon contour mask. Three localized compact non-metallic dark flecks"
+  },
+  "crazing_1.jpg": {
+    "file": "crazing_1.jpg",
+    "class": "crazing",
+    "status": "annotated",
+    "mask_path": "results\\masks\\ground_truth\\crazing_1.png",
+    "polygons_count": 3,
+    "defect_pixel_count": 20603,
+    "approximate_roi_only": false,
+    "timestamp": "2026-10-11T18:10:05",
+    "notes": "Pilot verified polygon contour mask. Primary fissure network of micro-cracks across surface"
+  },
+  "pitted_surface_7.jpg": {
+    "file": "pitted_surface_7.jpg",
+    "class": "pitted_surface",
+    "status": "annotated",
+    "mask_path": "results\\masks\\ground_truth\\pitted_surface_7.png",
+    "polygons_count": 2,
+    "defect_pixel_count": 30820,
+    "approximate_roi_only": false,
+    "timestamp": "2026-10-11T18:10:05",
+    "notes": "Pilot verified polygon contour mask. Clusters of dense micro-cavity pitting"
+  },
+  "patches_1.jpg": {
+    "file": "patches_1.jpg",
+    "class": "patches",
+    "status": "annotated",
+    "mask_path": "results\\masks\\ground_truth\\patches_1.png",
+    "polygons_count": 3,
+    "defect_pixel_count": 8276,
+    "approximate_roi_only": false,
+    "timestamp": "2026-10-11T18:10:05",
+    "notes": "Pilot verified polygon contour mask. Three distinct irregular plate-like surface patches"
+  },
+  "rolled-in_scale_1.jpg": {
+    "file": "rolled-in_scale_1.jpg",
+    "class": "rolled-in_scale",
+    "status": "annotated",
+    "mask_path": "results\\masks\\ground_truth\\rolled-in_scale_1.png",
+    "polygons_count": 2,
+    "defect_pixel_count": 7260,
+    "approximate_roi_only": false,
+    "timestamp": "2026-10-11T18:10:05",
+    "notes": "Pilot verified polygon contour mask. Two embedded iron oxide scale bands"
+  }
+}

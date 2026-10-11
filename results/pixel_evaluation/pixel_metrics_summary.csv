@@ -1,0 +1,29 @@
+scope,defect_class,method,images_evaluated,macro_precision,macro_recall,macro_f1,macro_iou,micro_precision,micro_recall,micro_f1,micro_iou,mean_pred_pixels,mean_gt_pixels
+Overall,ALL,Standard Region Growing,6,0.3092,0.4329,0.3204,0.2226,0.2784,0.5548,0.3708,0.2276,23197.7,11642.8
+Overall,ALL,Otsu + Morphology,6,0.3033,0.3076,0.2719,0.1725,0.2745,0.3781,0.3181,0.1891,16035.5,11642.8
+Overall,ALL,Watershed,6,0.1941,0.0783,0.092,0.0535,0.185,0.0561,0.0861,0.045,3529.8,11642.8
+Overall,ALL,PGRG (Proposed),6,0.4913,0.3366,0.3754,0.2434,0.4624,0.3489,0.3977,0.2482,8784.3,11642.8
+Class-wise,crazing,Standard Region Growing,1,0.5309,0.6789,0.5958,0.4243,0.5309,0.6789,0.5958,0.4243,26347.0,20603.0
+Class-wise,crazing,Otsu + Morphology,1,0.5082,0.476,0.4916,0.3259,0.5082,0.476,0.4916,0.3259,19299.0,20603.0
+Class-wise,crazing,Watershed,1,0.1093,0.0106,0.0193,0.0097,0.1093,0.0106,0.0193,0.0097,1995.0,20603.0
+Class-wise,crazing,PGRG (Proposed),1,0.6058,0.4355,0.5067,0.3393,0.6058,0.4355,0.5067,0.3393,14813.0,20603.0
+Class-wise,inclusion,Standard Region Growing,1,0.0138,0.4552,0.0267,0.0135,0.0138,0.4552,0.0267,0.0135,39158.0,1184.0
+Class-wise,inclusion,Otsu + Morphology,1,0.0111,0.1275,0.0203,0.0103,0.0111,0.1275,0.0203,0.0103,13663.0,1184.0
+Class-wise,inclusion,Watershed,1,0.0003,0.0017,0.0006,0.0003,0.0003,0.0017,0.0006,0.0003,5731.0,1184.0
+Class-wise,inclusion,PGRG (Proposed),1,0.8937,0.4189,0.5704,0.399,0.8937,0.4189,0.5704,0.399,555.0,1184.0
+Class-wise,patches,Standard Region Growing,1,0.057,0.2144,0.0901,0.0472,0.057,0.2144,0.0901,0.0472,31109.0,8276.0
+Class-wise,patches,Otsu + Morphology,1,0.0461,0.1549,0.071,0.0368,0.0461,0.1549,0.071,0.0368,27826.0,8276.0
+Class-wise,patches,Watershed,1,0.0219,0.0085,0.0122,0.0061,0.0219,0.0085,0.0122,0.0061,3192.0,8276.0
+Class-wise,patches,PGRG (Proposed),1,0.0793,0.1097,0.0921,0.0482,0.0793,0.1097,0.0921,0.0482,11452.0,8276.0
+Class-wise,pitted_surface,Standard Region Growing,1,0.8296,0.6474,0.7272,0.5714,0.8296,0.6474,0.7272,0.5714,24050.0,30820.0
+Class-wise,pitted_surface,Otsu + Morphology,1,0.817,0.3925,0.5303,0.3608,0.817,0.3925,0.5303,0.3608,14806.0,30820.0
+Class-wise,pitted_surface,Watershed,1,0.6872,0.0982,0.1719,0.094,0.6872,0.0982,0.1719,0.094,4406.0,30820.0
+Class-wise,pitted_surface,PGRG (Proposed),1,0.7609,0.3127,0.4432,0.2847,0.7609,0.3127,0.4432,0.2847,12665.0,30820.0
+Class-wise,rolled-in_scale,Standard Region Growing,1,0.1157,0.2654,0.1612,0.0876,0.1157,0.2654,0.1612,0.0876,16654.0,7260.0
+Class-wise,rolled-in_scale,Otsu + Morphology,1,0.1326,0.3402,0.1908,0.1055,0.1326,0.3402,0.1908,0.1055,18628.0,7260.0
+Class-wise,rolled-in_scale,Watershed,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4116.0,7260.0
+Class-wise,rolled-in_scale,PGRG (Proposed),1,0.3352,0.5565,0.4184,0.2645,0.3352,0.5565,0.4184,0.2645,12052.0,7260.0
+Class-wise,scratches,Standard Region Growing,1,0.3084,0.3361,0.3216,0.1916,0.3084,0.3361,0.3216,0.1916,1868.0,1714.0
+Class-wise,scratches,Otsu + Morphology,1,0.3049,0.3541,0.3277,0.1959,0.3049,0.3541,0.3277,0.1959,1991.0,1714.0
+Class-wise,scratches,Watershed,1,0.3456,0.3506,0.3481,0.2107,0.3456,0.3506,0.3481,0.2107,1739.0,1714.0
+Class-wise,scratches,PGRG (Proposed),1,0.2729,0.1861,0.2213,0.1244,0.2729,0.1861,0.2213,0.1244,1169.0,1714.0

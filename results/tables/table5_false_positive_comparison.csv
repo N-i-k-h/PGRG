@@ -1,0 +1,5 @@
+Method,Total FP,FP Reduction vs PGRG
+PGRG,7049,0%
+Standard Region Growing,42542,83.43%
+Otsu + Morphology,37671,81.29%
+Watershed,10116,30.32%

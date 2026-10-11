@@ -1,0 +1,56 @@
+{
+  "scratches_4.jpg": {
+    "file": "scratches_4.jpg",
+    "class": "scratches",
+    "mask_path": "results\\masks\\approximate_roi\\scratches_4.png",
+    "boxes_count": 1,
+    "roi_pixel_count": 5754,
+    "approximate_roi_only": true,
+    "warning": "XML bounding boxes do not represent pixel-accurate defect contours. Excluded from genuine evaluation."
+  },
+  "inclusion_2.jpg": {
+    "file": "inclusion_2.jpg",
+    "class": "inclusion",
+    "mask_path": "results\\masks\\approximate_roi\\inclusion_2.png",
+    "boxes_count": 3,
+    "roi_pixel_count": 1822,
+    "approximate_roi_only": true,
+    "warning": "XML bounding boxes do not represent pixel-accurate defect contours. Excluded from genuine evaluation."
+  },
+  "crazing_1.jpg": {
+    "file": "crazing_1.jpg",
+    "class": "crazing",
+    "mask_path": "results\\masks\\approximate_roi\\crazing_1.png",
+    "boxes_count": 1,
+    "roi_pixel_count": 36672,
+    "approximate_roi_only": true,
+    "warning": "XML bounding boxes do not represent pixel-accurate defect contours. Excluded from genuine evaluation."
+  },
+  "pitted_surface_7.jpg": {
+    "file": "pitted_surface_7.jpg",
+    "class": "pitted_surface",
+    "mask_path": "results\\masks\\approximate_roi\\pitted_surface_7.png",
+    "boxes_count": 2,
+    "roi_pixel_count": 39006,
+    "approximate_roi_only": true,
+    "warning": "XML bounding boxes do not represent pixel-accurate defect contours. Excluded from genuine evaluation."
+  },
+  "patches_1.jpg": {
+    "file": "patches_1.jpg",
+    "class": "patches",
+    "mask_path": "results\\masks\\approximate_roi\\patches_1.png",
+    "boxes_count": 3,
+    "roi_pixel_count": 9684,
+    "approximate_roi_only": true,
+    "warning": "XML bounding boxes do not represent pixel-accurate defect contours. Excluded from genuine evaluation."
+  },
+  "rolled-in_scale_1.jpg": {
+    "file": "rolled-in_scale_1.jpg",
+    "class": "rolled-in_scale",
+    "mask_path": "results\\masks\\approximate_roi\\rolled-in_scale_1.png",
+    "boxes_count": 2,
+    "roi_pixel_count": 8232,
+    "approximate_roi_only": true,
+    "warning": "XML bounding boxes do not represent pixel-accurate defect contours. Excluded from genuine evaluation."
+  }
+}

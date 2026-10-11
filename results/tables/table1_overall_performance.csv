@@ -1,0 +1,5 @@
+Method,Precision,Recall,F1 Score,Mean Matched IoU,Runtime (ms)
+PGRG,0.0646,0.1163,0.0831,0.6789,70.86
+Standard Region Growing,0.0109,0.1120,0.0199,0.7159,49.24
+Otsu + Morphology,0.0127,0.1153,0.0228,0.7073,0.14
+Watershed,0.0207,0.0511,0.0295,0.6894,0.98
