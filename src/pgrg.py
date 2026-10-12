@@ -8,7 +8,13 @@ Core algorithm implementation:
 """
 
 import heapq
+import cv2
 import numpy as np
+
+from src.priority_features import compute_priority_features
+from src.priority_map import compute_priority_map
+from src.union_find import build_region_uf
+from src.region_filtering import filter_regions
 
 
 # 8-neighbourhood offsets: (-1,-1) to (1,1) excluding (0,0)
@@ -189,3 +195,119 @@ def priority_guided_region_growing(
         return region_mask, visited, stats
 
     return region_mask, visited, number_of_processed_pixels
+
+
+# ---------------------------------------------------------------------------
+# Verified Algorithm Configurations
+# ---------------------------------------------------------------------------
+
+# Verified Improved PGRG Configuration (New Default)
+# Original PGRG Configuration (min_area=100, similarity_threshold=25, merge_gap=11)
+ORIGINAL_CONFIG = {
+    "seed_threshold": 0.45,
+    "similarity_threshold": 25,
+    "min_area": 100,
+    "merge_gap": 11,
+    "weights": None,
+}
+IMPROVED_CONFIG = ORIGINAL_CONFIG
+
+
+
+def pgrg_pipeline(
+    image,
+    seed_threshold=0.45,
+    similarity_threshold=25,
+    min_area=100,
+    merge_gap=11,
+    weights=None,
+    return_intermediate=False,
+):
+    """
+    Complete end-to-end Priority-Guided Region Growing (PGRG) pipeline.
+
+    Execution Order (identical to verified experiment pipeline):
+      1. Preprocess or normalize input image.
+      2. Compute priority features (IDV, GM, TV).
+      3. Compute priority map (weighted linear combination, equal 1/3 each by default).
+      4. Priority-guided region growing using max-heap (8-connected).
+      5. Construct Disjoint-Set Union (Union-Find) on accepted pixels.
+      6. Filter regions by minimum area (removes components with area < min_area).
+      7. Morphological closing (bridges fragmented segments if merge_gap > 0).
+
+    Args:
+        image (str or numpy.ndarray): Image file path or 2D/3D numpy array.
+        seed_threshold (float): Priority threshold for seed selection (default: 0.45).
+        similarity_threshold (float): Intensity difference threshold for growing (default: 25).
+        min_area (int): Minimum connected component area to retain (default: 100).
+        merge_gap (int): Morphological closing structuring element size in pixels (default: 11).
+                         If 0, no morphological closing is applied.
+        weights (dict or tuple, optional): Feature weights for priority map (default: None, equal).
+        return_intermediate (bool): If True, returns (filtered_mask, intermediate_dict).
+
+    Returns:
+        numpy.ndarray: Binary defect mask (H, W) uint8 with values in {0, 255}.
+    """
+    if isinstance(image, str):
+        from src.preprocessing import preprocess_image
+        _, _, _, norm = preprocess_image(image)
+    elif isinstance(image, np.ndarray):
+        if image.ndim == 3:
+            norm = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        else:
+            norm = image
+    else:
+        raise ValueError("image must be an image file path or a numpy.ndarray.")
+
+    # 1. Feature extraction
+    _, idv, gm, tv = compute_priority_features(norm)
+
+    # 2. Priority map
+    pmap = compute_priority_map(idv, gm, tv, weights=weights)
+
+    # 3. Priority-guided region growing
+    rmask, visited, processed_pixels = priority_guided_region_growing(
+        norm, pmap,
+        seed_threshold=seed_threshold,
+        similarity_threshold=similarity_threshold
+    )
+
+    # 4. Union-Find connected component building
+    uf, reg_idx = build_region_uf(rmask)
+
+    # 5. Connected component area filtering
+    filtered_mask, region_stats = filter_regions(rmask, uf, reg_idx, min_area=min_area)
+
+    # 6. Morphological closing for region consolidation
+    if merge_gap > 0:
+        kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (merge_gap, merge_gap))
+        filtered_mask = cv2.morphologyEx(filtered_mask, cv2.MORPH_CLOSE, kernel)
+
+    if return_intermediate:
+        return filtered_mask, {
+            "normalized": norm,
+            "priority_map": pmap,
+            "region_mask": rmask,
+            "visited": visited,
+            "processed_pixels": processed_pixels,
+            "region_stats": region_stats,
+            "uf": uf,
+            "region_indices": reg_idx,
+        }
+
+    return filtered_mask
+
+
+def original_pgrg(image, return_intermediate=False):
+    """
+    Run Original PGRG:
+      seed_threshold=0.45, similarity_threshold=25, min_area=100, merge_gap=11, equal weights.
+    """
+    return pgrg_pipeline(image, **ORIGINAL_CONFIG, return_intermediate=return_intermediate)
+
+
+def improved_pgrg(image, return_intermediate=False):
+    """Alias to original_pgrg."""
+    return original_pgrg(image, return_intermediate=return_intermediate)
+
+

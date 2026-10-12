@@ -395,6 +395,12 @@ def run_ablation_study():
     # 10. Verification checks
     run_verification_checks(samples, detailed_rows, summary_rows)
 
+    chart_path = os.path.join(OUTPUT_DIR, "ablation_comparison.png")
+    print("\nAblation study completed successfully:")
+    print(f"  Chart path       : {chart_path}")
+    print(f"  Results CSV path : {detailed_csv_path}")
+    print(f"  Summary CSV path : {summary_csv_path}")
+
 
 # ── Visualization ─────────────────────────────────────────────────
 def generate_ablation_figure(summary_rows):
@@ -453,10 +459,14 @@ def generate_ablation_figure(summary_rows):
     )
     plt.tight_layout()
 
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     fig_path = os.path.join(OUTPUT_DIR, "ablation_comparison.png")
-    fig.savefig(fig_path, dpi=150, bbox_inches="tight")
-    plt.close(fig)
-    print(f"[OK] Saved comparison figure: {fig_path}")
+    plt.savefig(fig_path, dpi=150, bbox_inches="tight")
+    plt.close()
+    if os.path.exists(fig_path) and os.path.getsize(fig_path) > 0:
+        print(f"[OK] Saved comparison figure ({os.path.getsize(fig_path)} bytes): {fig_path}")
+    else:
+        print(f"[ERROR] Failed to save comparison figure: {fig_path}")
 
 
 # ── Report generation ─────────────────────────────────────────────

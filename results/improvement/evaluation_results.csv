@@ -1,0 +1,1801 @@
+image,class,split,method,tp,fp,fn,num_pred_boxes,num_gt_boxes,precision,recall,f1,mean_iou,runtime_ms
+crazing_241.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,251.4093
+crazing_242.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,250.4718
+crazing_243.jpg,crazing,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,297.5000
+crazing_244.jpg,crazing,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,238.9141
+crazing_245.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,301.1630
+crazing_246.jpg,crazing,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,371.5552
+crazing_247.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,351.0740
+crazing_248.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,344.2761
+crazing_249.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,322.1687
+crazing_250.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,366.3368
+crazing_251.jpg,crazing,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,233.7192
+crazing_252.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,366.6668
+crazing_253.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,174.0217
+crazing_254.jpg,crazing,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,353.3430
+crazing_255.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,343.8846
+crazing_256.jpg,crazing,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.5157,156.7877
+crazing_257.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,187.6715
+crazing_258.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,337.4330
+crazing_259.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,279.2708
+crazing_260.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,280.7238
+crazing_261.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,249.9210
+crazing_262.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,317.2963
+crazing_263.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,335.3532
+crazing_264.jpg,crazing,validation,Improved PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,37.3081
+crazing_265.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,364.4739
+crazing_266.jpg,crazing,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,301.0589
+crazing_267.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,141.3492
+crazing_268.jpg,crazing,validation,Improved PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,204.1647
+crazing_269.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,102.3614
+crazing_270.jpg,crazing,validation,Improved PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,139.9463
+crazing_271.jpg,crazing,validation,Improved PGRG,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,167.5187
+crazing_272.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,386.3916
+crazing_273.jpg,crazing,validation,Improved PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,222.1265
+crazing_274.jpg,crazing,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,231.8369
+crazing_275.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,265.2808
+crazing_276.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,122.3792
+crazing_277.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,289.6727
+crazing_278.jpg,crazing,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,348.2282
+crazing_279.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,291.8026
+crazing_280.jpg,crazing,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,217.7142
+crazing_281.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,155.6271
+crazing_282.jpg,crazing,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,267.2632
+crazing_283.jpg,crazing,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,173.5748
+crazing_284.jpg,crazing,validation,Improved PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,162.6583
+crazing_285.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,265.9753
+crazing_286.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,254.5668
+crazing_287.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,6.9410
+crazing_288.jpg,crazing,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,9.5573
+crazing_289.jpg,crazing,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,13.5872
+crazing_290.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,229.0964
+crazing_291.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,353.2140
+crazing_292.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,358.5861
+crazing_293.jpg,crazing,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,386.9772
+crazing_294.jpg,crazing,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.5445,154.5199
+crazing_295.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,314.9770
+crazing_296.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,278.5668
+crazing_297.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,245.5835
+crazing_298.jpg,crazing,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,340.8489
+crazing_299.jpg,crazing,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,376.9570
+crazing_300.jpg,crazing,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,148.3115
+inclusion_241.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,200.5114
+inclusion_242.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,18.6248
+inclusion_243.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,16.1725
+inclusion_244.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,199.7645
+inclusion_245.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,164.5386
+inclusion_246.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,218.5712
+inclusion_247.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,195.2995
+inclusion_248.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,145.8607
+inclusion_249.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,162.4855
+inclusion_250.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,166.8646
+inclusion_251.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,115.3513
+inclusion_252.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,196.1867
+inclusion_253.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,160.7782
+inclusion_254.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,169.5536
+inclusion_255.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,183.1202
+inclusion_256.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,189.0945
+inclusion_257.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,260.4464
+inclusion_258.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,248.9326
+inclusion_259.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,311.7445
+inclusion_260.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,337.6149
+inclusion_261.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,278.5453
+inclusion_262.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,251.3020
+inclusion_263.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,258.5812
+inclusion_264.jpg,inclusion,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,166.2619
+inclusion_265.jpg,inclusion,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,276.8908
+inclusion_266.jpg,inclusion,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,151.7182
+inclusion_267.jpg,inclusion,validation,Improved PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.5068,130.7717
+inclusion_268.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,150.2202
+inclusion_269.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,186.3383
+inclusion_270.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,146.0342
+inclusion_271.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,241.5181
+inclusion_272.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,148.5419
+inclusion_273.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,7.3064
+inclusion_274.jpg,inclusion,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,280.8983
+inclusion_275.jpg,inclusion,validation,Improved PGRG,0,2,6,2,6,0.0000,0.0000,0.0000,0.0000,275.1350
+inclusion_276.jpg,inclusion,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,273.1801
+inclusion_277.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,88.7288
+inclusion_278.jpg,inclusion,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,250.7662
+inclusion_279.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,309.8905
+inclusion_280.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,93.4574
+inclusion_281.jpg,inclusion,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,278.1747
+inclusion_282.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,392.8813
+inclusion_283.jpg,inclusion,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,378.2935
+inclusion_284.jpg,inclusion,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,174.7886
+inclusion_285.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,205.0539
+inclusion_286.jpg,inclusion,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.7276,18.4248
+inclusion_287.jpg,inclusion,validation,Improved PGRG,0,1,8,1,8,0.0000,0.0000,0.0000,0.0000,207.6063
+inclusion_288.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,275.2362
+inclusion_289.jpg,inclusion,validation,Improved PGRG,2,2,2,4,4,0.5000,0.5000,0.5000,0.5298,20.4669
+inclusion_290.jpg,inclusion,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.8049,24.3193
+inclusion_291.jpg,inclusion,validation,Improved PGRG,1,3,3,4,4,0.2500,0.2500,0.2500,0.8905,40.1113
+inclusion_292.jpg,inclusion,validation,Improved PGRG,1,2,6,3,7,0.3333,0.1429,0.2000,0.5312,129.4415
+inclusion_293.jpg,inclusion,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,227.2035
+inclusion_294.jpg,inclusion,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,235.3823
+inclusion_295.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,81.8522
+inclusion_296.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,229.9078
+inclusion_297.jpg,inclusion,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,228.7740
+inclusion_298.jpg,inclusion,validation,Improved PGRG,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,20.5801
+inclusion_299.jpg,inclusion,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,10.4128
+inclusion_300.jpg,inclusion,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,14.2828
+patches_241.jpg,patches,validation,Improved PGRG,1,1,0,2,1,0.5000,1.0000,0.6667,0.7878,27.8203
+patches_242.jpg,patches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.5796,60.0682
+patches_243.jpg,patches,validation,Improved PGRG,0,1,5,1,5,0.0000,0.0000,0.0000,0.0000,128.6046
+patches_244.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,170.3190
+patches_245.jpg,patches,validation,Improved PGRG,1,3,6,4,7,0.2500,0.1429,0.1818,0.6609,111.5564
+patches_246.jpg,patches,validation,Improved PGRG,0,1,5,1,5,0.0000,0.0000,0.0000,0.0000,97.4588
+patches_247.jpg,patches,validation,Improved PGRG,2,1,0,3,2,0.6667,1.0000,0.8000,0.7163,82.9168
+patches_248.jpg,patches,validation,Improved PGRG,1,1,4,2,5,0.5000,0.2000,0.2857,0.9569,109.1292
+patches_249.jpg,patches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.8024,87.8311
+patches_250.jpg,patches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,119.7666
+patches_251.jpg,patches,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,236.7540
+patches_252.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,205.3908
+patches_253.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,108.9856
+patches_254.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,104.1857
+patches_255.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,154.5530
+patches_256.jpg,patches,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.8376,105.0342
+patches_257.jpg,patches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,61.2305
+patches_258.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,200.3995
+patches_259.jpg,patches,validation,Improved PGRG,0,2,5,2,5,0.0000,0.0000,0.0000,0.0000,217.0957
+patches_260.jpg,patches,validation,Improved PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,32.4017
+patches_261.jpg,patches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,243.1662
+patches_262.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,145.5974
+patches_263.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,97.4012
+patches_264.jpg,patches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,161.1521
+patches_265.jpg,patches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,85.4965
+patches_266.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,207.2935
+patches_267.jpg,patches,validation,Improved PGRG,3,0,1,3,4,1.0000,0.7500,0.8571,0.6934,95.9799
+patches_268.jpg,patches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.8678,120.0647
+patches_269.jpg,patches,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,116.6495
+patches_270.jpg,patches,validation,Improved PGRG,2,1,0,3,2,0.6667,1.0000,0.8000,0.6827,38.5946
+patches_271.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,304.8888
+patches_272.jpg,patches,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,276.0152
+patches_273.jpg,patches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.7360,108.5563
+patches_274.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,30.8916
+patches_275.jpg,patches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,249.8088
+patches_276.jpg,patches,validation,Improved PGRG,2,1,2,3,4,0.6667,0.5000,0.5714,0.7219,94.0607
+patches_277.jpg,patches,validation,Improved PGRG,1,2,3,3,4,0.3333,0.2500,0.2857,0.6504,119.8511
+patches_278.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,125.1586
+patches_279.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,227.3913
+patches_280.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,240.7878
+patches_281.jpg,patches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.7987,55.1686
+patches_282.jpg,patches,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,114.5141
+patches_283.jpg,patches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,170.9361
+patches_284.jpg,patches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,97.8605
+patches_285.jpg,patches,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,196.7069
+patches_286.jpg,patches,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,43.0087
+patches_287.jpg,patches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,164.0455
+patches_288.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,116.6400
+patches_289.jpg,patches,validation,Improved PGRG,0,2,5,2,5,0.0000,0.0000,0.0000,0.0000,204.0928
+patches_290.jpg,patches,validation,Improved PGRG,0,3,5,3,5,0.0000,0.0000,0.0000,0.0000,112.5039
+patches_291.jpg,patches,validation,Improved PGRG,1,3,3,4,4,0.2500,0.2500,0.2500,0.6861,116.0389
+patches_292.jpg,patches,validation,Improved PGRG,2,1,3,3,5,0.6667,0.4000,0.5000,0.6949,130.3818
+patches_293.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,151.0811
+patches_294.jpg,patches,validation,Improved PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.7238,101.8796
+patches_295.jpg,patches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.8158,46.2498
+patches_296.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,111.9456
+patches_297.jpg,patches,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,117.6356
+patches_298.jpg,patches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,245.7690
+patches_299.jpg,patches,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,104.6842
+patches_300.jpg,patches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,246.3015
+pitted_surface_241.jpg,pitted_surface,validation,Improved PGRG,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,41.7485
+pitted_surface_242.jpg,pitted_surface,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.6116,159.6697
+pitted_surface_243.jpg,pitted_surface,validation,Improved PGRG,1,1,0,2,1,0.5000,1.0000,0.6667,0.8651,306.3668
+pitted_surface_244.jpg,pitted_surface,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,112.4627
+pitted_surface_245.jpg,pitted_surface,validation,Improved PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.5913,212.6822
+pitted_surface_246.jpg,pitted_surface,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.5639,123.9070
+pitted_surface_247.jpg,pitted_surface,validation,Improved PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.7324,24.7318
+pitted_surface_248.jpg,pitted_surface,validation,Improved PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.5246,89.7198
+pitted_surface_249.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.9174,161.3593
+pitted_surface_250.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.9167,278.8873
+pitted_surface_251.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7022,237.4817
+pitted_surface_252.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,132.5643
+pitted_surface_253.jpg,pitted_surface,validation,Improved PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,73.1371
+pitted_surface_254.jpg,pitted_surface,validation,Improved PGRG,0,7,1,7,1,0.0000,0.0000,0.0000,0.0000,124.1805
+pitted_surface_255.jpg,pitted_surface,validation,Improved PGRG,1,1,0,2,1,0.5000,1.0000,0.6667,0.9349,319.0263
+pitted_surface_256.jpg,pitted_surface,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.8766,192.7736
+pitted_surface_257.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.5214,121.4100
+pitted_surface_258.jpg,pitted_surface,validation,Improved PGRG,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,75.7365
+pitted_surface_259.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.9121,239.3594
+pitted_surface_260.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.8400,200.4689
+pitted_surface_261.jpg,pitted_surface,validation,Improved PGRG,2,1,1,3,3,0.6667,0.6667,0.6667,0.6187,44.5531
+pitted_surface_262.jpg,pitted_surface,validation,Improved PGRG,1,2,0,3,1,0.3333,1.0000,0.5000,0.8100,204.1931
+pitted_surface_263.jpg,pitted_surface,validation,Improved PGRG,1,3,0,4,1,0.2500,1.0000,0.4000,0.6213,179.9113
+pitted_surface_264.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7632,197.0807
+pitted_surface_265.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,134.4258
+pitted_surface_266.jpg,pitted_surface,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,113.8130
+pitted_surface_267.jpg,pitted_surface,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,135.7953
+pitted_surface_268.jpg,pitted_surface,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.6163,223.1527
+pitted_surface_269.jpg,pitted_surface,validation,Improved PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,224.8988
+pitted_surface_270.jpg,pitted_surface,validation,Improved PGRG,1,2,0,3,1,0.3333,1.0000,0.5000,0.6997,136.9993
+pitted_surface_271.jpg,pitted_surface,validation,Improved PGRG,1,4,1,5,2,0.2000,0.5000,0.2857,0.7236,123.8830
+pitted_surface_272.jpg,pitted_surface,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.7629,168.8071
+pitted_surface_273.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,102.5511
+pitted_surface_274.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,142.3720
+pitted_surface_275.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,6.4360
+pitted_surface_276.jpg,pitted_surface,validation,Improved PGRG,2,0,1,2,3,1.0000,0.6667,0.8000,0.6643,85.2538
+pitted_surface_277.jpg,pitted_surface,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,153.5349
+pitted_surface_278.jpg,pitted_surface,validation,Improved PGRG,1,3,0,4,1,0.2500,1.0000,0.4000,0.8373,239.2961
+pitted_surface_279.jpg,pitted_surface,validation,Improved PGRG,2,1,1,3,3,0.6667,0.6667,0.6667,0.6902,126.7773
+pitted_surface_280.jpg,pitted_surface,validation,Improved PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.7067,124.0485
+pitted_surface_281.jpg,pitted_surface,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,187.6887
+pitted_surface_282.jpg,pitted_surface,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.5067,330.0327
+pitted_surface_283.jpg,pitted_surface,validation,Improved PGRG,1,1,0,2,1,0.5000,1.0000,0.6667,0.5850,106.8731
+pitted_surface_284.jpg,pitted_surface,validation,Improved PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,40.7011
+pitted_surface_285.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,101.2404
+pitted_surface_286.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6758,159.2506
+pitted_surface_287.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,145.6937
+pitted_surface_288.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6195,247.5398
+pitted_surface_289.jpg,pitted_surface,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.7518,216.7833
+pitted_surface_290.jpg,pitted_surface,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,69.4840
+pitted_surface_291.jpg,pitted_surface,validation,Improved PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,205.5008
+pitted_surface_292.jpg,pitted_surface,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,216.2467
+pitted_surface_293.jpg,pitted_surface,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,18.3181
+pitted_surface_294.jpg,pitted_surface,validation,Improved PGRG,2,3,1,5,3,0.4000,0.6667,0.5000,0.7137,178.8734
+pitted_surface_295.jpg,pitted_surface,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,235.0472
+pitted_surface_296.jpg,pitted_surface,validation,Improved PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.5874,293.1829
+pitted_surface_297.jpg,pitted_surface,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6139,139.3638
+pitted_surface_298.jpg,pitted_surface,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,213.2984
+pitted_surface_299.jpg,pitted_surface,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,128.6272
+pitted_surface_300.jpg,pitted_surface,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.6079,164.3005
+rolled-in_scale_241.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,373.6453
+rolled-in_scale_242.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,348.5946
+rolled-in_scale_243.jpg,rolled-in_scale,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,196.5417
+rolled-in_scale_244.jpg,rolled-in_scale,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,317.5439
+rolled-in_scale_245.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,390.7639
+rolled-in_scale_246.jpg,rolled-in_scale,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,308.0923
+rolled-in_scale_247.jpg,rolled-in_scale,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,377.0230
+rolled-in_scale_248.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,431.6448
+rolled-in_scale_249.jpg,rolled-in_scale,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,425.6523
+rolled-in_scale_250.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,291.5495
+rolled-in_scale_251.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,229.9157
+rolled-in_scale_252.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,372.0068
+rolled-in_scale_253.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,349.7603
+rolled-in_scale_254.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,340.2475
+rolled-in_scale_255.jpg,rolled-in_scale,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,518.6125
+rolled-in_scale_256.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,345.2006
+rolled-in_scale_257.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,294.0244
+rolled-in_scale_258.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,421.0142
+rolled-in_scale_259.jpg,rolled-in_scale,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,330.6744
+rolled-in_scale_260.jpg,rolled-in_scale,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,277.4819
+rolled-in_scale_261.jpg,rolled-in_scale,validation,Improved PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,409.9910
+rolled-in_scale_262.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,394.6227
+rolled-in_scale_263.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,254.9043
+rolled-in_scale_264.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,421.0021
+rolled-in_scale_265.jpg,rolled-in_scale,validation,Improved PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,218.8973
+rolled-in_scale_266.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,357.8385
+rolled-in_scale_267.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,281.6877
+rolled-in_scale_268.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,267.5354
+rolled-in_scale_269.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,314.2140
+rolled-in_scale_270.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,391.6027
+rolled-in_scale_271.jpg,rolled-in_scale,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,367.3341
+rolled-in_scale_272.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,347.4237
+rolled-in_scale_273.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,281.5273
+rolled-in_scale_274.jpg,rolled-in_scale,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,266.7731
+rolled-in_scale_275.jpg,rolled-in_scale,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,267.6416
+rolled-in_scale_276.jpg,rolled-in_scale,validation,Improved PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,281.0136
+rolled-in_scale_277.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,289.4600
+rolled-in_scale_278.jpg,rolled-in_scale,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,415.2037
+rolled-in_scale_279.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,449.3286
+rolled-in_scale_280.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,351.1519
+rolled-in_scale_281.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,408.5969
+rolled-in_scale_282.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,377.0540
+rolled-in_scale_283.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,298.5758
+rolled-in_scale_284.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,378.3349
+rolled-in_scale_285.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,385.5967
+rolled-in_scale_286.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,304.0035
+rolled-in_scale_287.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,302.5891
+rolled-in_scale_288.jpg,rolled-in_scale,validation,Improved PGRG,1,4,1,5,2,0.2000,0.5000,0.2857,0.6202,287.5455
+rolled-in_scale_289.jpg,rolled-in_scale,validation,Improved PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,347.9012
+rolled-in_scale_290.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,406.4867
+rolled-in_scale_291.jpg,rolled-in_scale,validation,Improved PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,179.9087
+rolled-in_scale_292.jpg,rolled-in_scale,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,241.7615
+rolled-in_scale_293.jpg,rolled-in_scale,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,270.7144
+rolled-in_scale_294.jpg,rolled-in_scale,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,257.9161
+rolled-in_scale_295.jpg,rolled-in_scale,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,316.2477
+rolled-in_scale_296.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,358.8196
+rolled-in_scale_297.jpg,rolled-in_scale,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,346.3801
+rolled-in_scale_298.jpg,rolled-in_scale,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,351.1454
+rolled-in_scale_299.jpg,rolled-in_scale,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,263.4546
+rolled-in_scale_300.jpg,rolled-in_scale,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,307.1351
+scratches_241.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,24.2761
+scratches_242.jpg,scratches,validation,Improved PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,11.7003
+scratches_243.jpg,scratches,validation,Improved PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,16.9168
+scratches_244.jpg,scratches,validation,Improved PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,14.2233
+scratches_245.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,13.5107
+scratches_246.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.5916,15.6731
+scratches_247.jpg,scratches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,9.9695
+scratches_248.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.5316,10.5082
+scratches_249.jpg,scratches,validation,Improved PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,12.8933
+scratches_250.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,18.2095
+scratches_251.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.8389,21.3594
+scratches_252.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.8130,25.9888
+scratches_253.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,14.0211
+scratches_254.jpg,scratches,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,14.2374
+scratches_255.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6421,30.2996
+scratches_256.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6138,40.1120
+scratches_257.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6851,44.8862
+scratches_258.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7246,40.9500
+scratches_259.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6920,58.6373
+scratches_260.jpg,scratches,validation,Improved PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.8178,45.3413
+scratches_261.jpg,scratches,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,16.9838
+scratches_262.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,24.4468
+scratches_263.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.5180,30.1747
+scratches_264.jpg,scratches,validation,Improved PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,35.3839
+scratches_265.jpg,scratches,validation,Improved PGRG,1,3,1,4,2,0.2500,0.5000,0.3333,0.6410,37.8806
+scratches_266.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,28.2150
+scratches_267.jpg,scratches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,14.0384
+scratches_268.jpg,scratches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,9.1061
+scratches_269.jpg,scratches,validation,Improved PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,15.8315
+scratches_270.jpg,scratches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,17.2381
+scratches_271.jpg,scratches,validation,Improved PGRG,1,2,3,3,4,0.3333,0.2500,0.2857,0.8518,31.4119
+scratches_272.jpg,scratches,validation,Improved PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.5241,34.6592
+scratches_273.jpg,scratches,validation,Improved PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,25.2563
+scratches_274.jpg,scratches,validation,Improved PGRG,2,0,1,2,3,1.0000,0.6667,0.8000,0.6139,65.0658
+scratches_275.jpg,scratches,validation,Improved PGRG,1,4,3,5,4,0.2000,0.2500,0.2222,0.5593,56.4555
+scratches_276.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,35.9630
+scratches_277.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,41.4711
+scratches_278.jpg,scratches,validation,Improved PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.8264,56.3455
+scratches_279.jpg,scratches,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.7254,50.4184
+scratches_280.jpg,scratches,validation,Improved PGRG,2,0,0,2,2,1.0000,1.0000,1.0000,0.7731,76.5535
+scratches_281.jpg,scratches,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,17.9628
+scratches_282.jpg,scratches,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,22.0878
+scratches_283.jpg,scratches,validation,Improved PGRG,2,0,0,2,2,1.0000,1.0000,1.0000,0.5360,29.7118
+scratches_284.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.5607,15.4191
+scratches_285.jpg,scratches,validation,Improved PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,23.7338
+scratches_286.jpg,scratches,validation,Improved PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,9.6914
+scratches_287.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7682,41.5475
+scratches_288.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6031,20.4195
+scratches_289.jpg,scratches,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,9.8820
+scratches_290.jpg,scratches,validation,Improved PGRG,2,0,1,2,3,1.0000,0.6667,0.8000,0.6176,36.1883
+scratches_291.jpg,scratches,validation,Improved PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7418,24.0007
+scratches_292.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.9562,30.9769
+scratches_293.jpg,scratches,validation,Improved PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.7130,12.3246
+scratches_294.jpg,scratches,validation,Improved PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.9742,28.8082
+scratches_295.jpg,scratches,validation,Improved PGRG,3,1,1,4,4,0.7500,0.7500,0.7500,0.6358,33.2635
+scratches_296.jpg,scratches,validation,Improved PGRG,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,19.2181
+scratches_297.jpg,scratches,validation,Improved PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,7.1075
+scratches_298.jpg,scratches,validation,Improved PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,19.3528
+scratches_299.jpg,scratches,validation,Improved PGRG,1,1,0,2,1,0.5000,1.0000,0.6667,0.8243,31.0844
+scratches_300.jpg,scratches,validation,Improved PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.8609,18.7215
+crazing_241.jpg,crazing,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,233.6746
+crazing_242.jpg,crazing,validation,Original PGRG,0,13,3,13,3,0.0000,0.0000,0.0000,0.0000,224.3924
+crazing_243.jpg,crazing,validation,Original PGRG,1,13,3,14,4,0.0714,0.2500,0.1111,0.5015,147.8808
+crazing_244.jpg,crazing,validation,Original PGRG,0,15,3,15,3,0.0000,0.0000,0.0000,0.0000,107.2790
+crazing_245.jpg,crazing,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,131.6778
+crazing_246.jpg,crazing,validation,Original PGRG,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,196.2543
+crazing_247.jpg,crazing,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,203.9992
+crazing_248.jpg,crazing,validation,Original PGRG,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,256.7482
+crazing_249.jpg,crazing,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,267.0720
+crazing_250.jpg,crazing,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,350.9381
+crazing_251.jpg,crazing,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,214.1513
+crazing_252.jpg,crazing,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,332.9719
+crazing_253.jpg,crazing,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,156.7643
+crazing_254.jpg,crazing,validation,Original PGRG,1,3,0,4,1,0.2500,1.0000,0.4000,0.5857,272.2383
+crazing_255.jpg,crazing,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,212.6540
+crazing_256.jpg,crazing,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,10.6165
+crazing_257.jpg,crazing,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,75.0483
+crazing_258.jpg,crazing,validation,Original PGRG,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,229.1794
+crazing_259.jpg,crazing,validation,Original PGRG,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,173.5293
+crazing_260.jpg,crazing,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,79.5286
+crazing_261.jpg,crazing,validation,Original PGRG,1,3,2,4,3,0.2500,0.3333,0.2857,0.5253,115.8396
+crazing_262.jpg,crazing,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,253.7678
+crazing_263.jpg,crazing,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,227.5720
+crazing_264.jpg,crazing,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,29.5919
+crazing_265.jpg,crazing,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,284.2303
+crazing_266.jpg,crazing,validation,Original PGRG,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,169.8570
+crazing_267.jpg,crazing,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,106.2698
+crazing_268.jpg,crazing,validation,Original PGRG,0,16,3,16,3,0.0000,0.0000,0.0000,0.0000,159.7740
+crazing_269.jpg,crazing,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,90.2267
+crazing_270.jpg,crazing,validation,Original PGRG,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,38.8052
+crazing_271.jpg,crazing,validation,Original PGRG,0,10,4,10,4,0.0000,0.0000,0.0000,0.0000,172.7739
+crazing_272.jpg,crazing,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,178.2850
+crazing_273.jpg,crazing,validation,Original PGRG,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,157.4122
+crazing_274.jpg,crazing,validation,Original PGRG,0,11,4,11,4,0.0000,0.0000,0.0000,0.0000,197.2784
+crazing_275.jpg,crazing,validation,Original PGRG,1,6,2,7,3,0.1429,0.3333,0.2000,0.6108,150.0767
+crazing_276.jpg,crazing,validation,Original PGRG,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,102.2389
+crazing_277.jpg,crazing,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,255.0758
+crazing_278.jpg,crazing,validation,Original PGRG,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,278.4766
+crazing_279.jpg,crazing,validation,Original PGRG,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,47.1239
+crazing_280.jpg,crazing,validation,Original PGRG,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,167.9516
+crazing_281.jpg,crazing,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,128.4541
+crazing_282.jpg,crazing,validation,Original PGRG,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,225.5873
+crazing_283.jpg,crazing,validation,Original PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,159.7910
+crazing_284.jpg,crazing,validation,Original PGRG,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,130.8668
+crazing_285.jpg,crazing,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,226.9636
+crazing_286.jpg,crazing,validation,Original PGRG,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,210.7838
+crazing_287.jpg,crazing,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,7.7210
+crazing_288.jpg,crazing,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,7.7645
+crazing_289.jpg,crazing,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,9.0783
+crazing_290.jpg,crazing,validation,Original PGRG,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,138.6617
+crazing_291.jpg,crazing,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,244.5537
+crazing_292.jpg,crazing,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,191.6405
+crazing_293.jpg,crazing,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,254.4087
+crazing_294.jpg,crazing,validation,Original PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.5231,114.4723
+crazing_295.jpg,crazing,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,186.4505
+crazing_296.jpg,crazing,validation,Original PGRG,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,233.5154
+crazing_297.jpg,crazing,validation,Original PGRG,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,120.0172
+crazing_298.jpg,crazing,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,158.6912
+crazing_299.jpg,crazing,validation,Original PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,307.7789
+crazing_300.jpg,crazing,validation,Original PGRG,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,35.9291
+inclusion_241.jpg,inclusion,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,10.1839
+inclusion_242.jpg,inclusion,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,15.1551
+inclusion_243.jpg,inclusion,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,15.9688
+inclusion_244.jpg,inclusion,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,175.5079
+inclusion_245.jpg,inclusion,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,117.2127
+inclusion_246.jpg,inclusion,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,157.1972
+inclusion_247.jpg,inclusion,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,148.4226
+inclusion_248.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,117.5624
+inclusion_249.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,159.3032
+inclusion_250.jpg,inclusion,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,120.0325
+inclusion_251.jpg,inclusion,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,108.4359
+inclusion_252.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,168.3787
+inclusion_253.jpg,inclusion,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,140.8288
+inclusion_254.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,139.7614
+inclusion_255.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,151.8229
+inclusion_256.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,164.3057
+inclusion_257.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,206.6962
+inclusion_258.jpg,inclusion,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,210.7586
+inclusion_259.jpg,inclusion,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,247.8281
+inclusion_260.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,158.6576
+inclusion_261.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,173.7640
+inclusion_262.jpg,inclusion,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,204.7428
+inclusion_263.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,250.5468
+inclusion_264.jpg,inclusion,validation,Original PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,142.6651
+inclusion_265.jpg,inclusion,validation,Original PGRG,0,7,4,7,4,0.0000,0.0000,0.0000,0.0000,222.9844
+inclusion_266.jpg,inclusion,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,132.2473
+inclusion_267.jpg,inclusion,validation,Original PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.5068,120.1857
+inclusion_268.jpg,inclusion,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,112.0252
+inclusion_269.jpg,inclusion,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,147.7833
+inclusion_270.jpg,inclusion,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,151.2983
+inclusion_271.jpg,inclusion,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,225.5101
+inclusion_272.jpg,inclusion,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,140.1789
+inclusion_273.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,7.9481
+inclusion_274.jpg,inclusion,validation,Original PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,245.8790
+inclusion_275.jpg,inclusion,validation,Original PGRG,0,4,6,4,6,0.0000,0.0000,0.0000,0.0000,225.2596
+inclusion_276.jpg,inclusion,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,199.7176
+inclusion_277.jpg,inclusion,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,80.2706
+inclusion_278.jpg,inclusion,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,159.1718
+inclusion_279.jpg,inclusion,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,237.7667
+inclusion_280.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,113.2577
+inclusion_281.jpg,inclusion,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,203.8963
+inclusion_282.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,260.2023
+inclusion_283.jpg,inclusion,validation,Original PGRG,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,239.2137
+inclusion_284.jpg,inclusion,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,106.5945
+inclusion_285.jpg,inclusion,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,177.9915
+inclusion_286.jpg,inclusion,validation,Original PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.7276,20.5873
+inclusion_287.jpg,inclusion,validation,Original PGRG,1,4,7,5,8,0.2000,0.1250,0.1538,0.5256,26.8761
+inclusion_288.jpg,inclusion,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,225.4194
+inclusion_289.jpg,inclusion,validation,Original PGRG,2,3,2,5,4,0.4000,0.5000,0.4444,0.5327,24.8398
+inclusion_290.jpg,inclusion,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7802,32.0143
+inclusion_291.jpg,inclusion,validation,Original PGRG,1,5,3,6,4,0.1667,0.2500,0.2000,0.9283,37.3742
+inclusion_292.jpg,inclusion,validation,Original PGRG,0,5,7,5,7,0.0000,0.0000,0.0000,0.0000,106.7879
+inclusion_293.jpg,inclusion,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,68.9352
+inclusion_294.jpg,inclusion,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,187.8260
+inclusion_295.jpg,inclusion,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,28.1983
+inclusion_296.jpg,inclusion,validation,Original PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.7115,21.8454
+inclusion_297.jpg,inclusion,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,196.6912
+inclusion_298.jpg,inclusion,validation,Original PGRG,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,25.5951
+inclusion_299.jpg,inclusion,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,13.2407
+inclusion_300.jpg,inclusion,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,11.4528
+patches_241.jpg,patches,validation,Original PGRG,1,5,0,6,1,0.1667,1.0000,0.2857,0.7979,26.1022
+patches_242.jpg,patches,validation,Original PGRG,1,3,2,4,3,0.2500,0.3333,0.2857,0.5967,58.7411
+patches_243.jpg,patches,validation,Original PGRG,0,5,5,5,5,0.0000,0.0000,0.0000,0.0000,127.3474
+patches_244.jpg,patches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,152.1126
+patches_245.jpg,patches,validation,Original PGRG,1,4,6,5,7,0.2000,0.1429,0.1667,0.7660,95.4497
+patches_246.jpg,patches,validation,Original PGRG,1,2,4,3,5,0.3333,0.2000,0.2500,0.5162,47.7653
+patches_247.jpg,patches,validation,Original PGRG,2,5,0,7,2,0.2857,1.0000,0.4444,0.7274,78.5273
+patches_248.jpg,patches,validation,Original PGRG,1,3,4,4,5,0.2500,0.2000,0.2222,0.9569,70.4321
+patches_249.jpg,patches,validation,Original PGRG,1,2,2,3,3,0.3333,0.3333,0.3333,0.8069,62.1390
+patches_250.jpg,patches,validation,Original PGRG,1,2,3,3,4,0.3333,0.2500,0.2857,0.6782,99.4185
+patches_251.jpg,patches,validation,Original PGRG,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,198.2737
+patches_252.jpg,patches,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,195.4737
+patches_253.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,99.6048
+patches_254.jpg,patches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,60.5063
+patches_255.jpg,patches,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,106.1139
+patches_256.jpg,patches,validation,Original PGRG,1,5,1,6,2,0.1667,0.5000,0.2500,0.9070,66.8191
+patches_257.jpg,patches,validation,Original PGRG,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,46.4093
+patches_258.jpg,patches,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,98.8790
+patches_259.jpg,patches,validation,Original PGRG,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,41.7502
+patches_260.jpg,patches,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,21.2941
+patches_261.jpg,patches,validation,Original PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,145.3018
+patches_262.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,97.1101
+patches_263.jpg,patches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,61.0241
+patches_264.jpg,patches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,119.0145
+patches_265.jpg,patches,validation,Original PGRG,1,2,3,3,4,0.3333,0.2500,0.2857,0.8354,71.1833
+patches_266.jpg,patches,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,188.4600
+patches_267.jpg,patches,validation,Original PGRG,2,3,2,5,4,0.4000,0.5000,0.4444,0.8014,84.0405
+patches_268.jpg,patches,validation,Original PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.8678,58.9186
+patches_269.jpg,patches,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,88.9994
+patches_270.jpg,patches,validation,Original PGRG,2,1,0,3,2,0.6667,1.0000,0.8000,0.6884,32.4880
+patches_271.jpg,patches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,232.9931
+patches_272.jpg,patches,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,220.2933
+patches_273.jpg,patches,validation,Original PGRG,1,2,2,3,3,0.3333,0.3333,0.3333,0.7360,85.8997
+patches_274.jpg,patches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,24.4947
+patches_275.jpg,patches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,199.7632
+patches_276.jpg,patches,validation,Original PGRG,3,0,1,3,4,1.0000,0.7500,0.8571,0.7136,48.9803
+patches_277.jpg,patches,validation,Original PGRG,1,4,3,5,4,0.2000,0.2500,0.2222,0.6629,103.1106
+patches_278.jpg,patches,validation,Original PGRG,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,92.8680
+patches_279.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,190.7225
+patches_280.jpg,patches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,224.1232
+patches_281.jpg,patches,validation,Original PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.8343,33.3967
+patches_282.jpg,patches,validation,Original PGRG,1,1,2,2,3,0.5000,0.3333,0.4000,0.5242,82.5716
+patches_283.jpg,patches,validation,Original PGRG,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,151.9662
+patches_284.jpg,patches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,65.6093
+patches_285.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,135.1578
+patches_286.jpg,patches,validation,Original PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,26.1363
+patches_287.jpg,patches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,110.1398
+patches_288.jpg,patches,validation,Original PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.6407,46.7420
+patches_289.jpg,patches,validation,Original PGRG,0,2,5,2,5,0.0000,0.0000,0.0000,0.0000,164.2681
+patches_290.jpg,patches,validation,Original PGRG,0,3,5,3,5,0.0000,0.0000,0.0000,0.0000,91.1109
+patches_291.jpg,patches,validation,Original PGRG,3,3,1,6,4,0.5000,0.7500,0.6000,0.7599,95.5741
+patches_292.jpg,patches,validation,Original PGRG,2,2,3,4,5,0.5000,0.4000,0.4444,0.7452,104.0844
+patches_293.jpg,patches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,109.7235
+patches_294.jpg,patches,validation,Original PGRG,1,3,1,4,2,0.2500,0.5000,0.3333,0.7506,78.2779
+patches_295.jpg,patches,validation,Original PGRG,1,2,2,3,3,0.3333,0.3333,0.3333,0.8247,38.2436
+patches_296.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,104.1700
+patches_297.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,88.4594
+patches_298.jpg,patches,validation,Original PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,207.0158
+patches_299.jpg,patches,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,80.3202
+patches_300.jpg,patches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,172.3531
+pitted_surface_241.jpg,pitted_surface,validation,Original PGRG,0,25,1,25,1,0.0000,0.0000,0.0000,0.0000,30.3507
+pitted_surface_242.jpg,pitted_surface,validation,Original PGRG,1,11,1,12,2,0.0833,0.5000,0.1429,0.7724,125.4589
+pitted_surface_243.jpg,pitted_surface,validation,Original PGRG,1,3,0,4,1,0.2500,1.0000,0.4000,0.8280,242.7287
+pitted_surface_244.jpg,pitted_surface,validation,Original PGRG,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,94.0023
+pitted_surface_245.jpg,pitted_surface,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,90.3663
+pitted_surface_246.jpg,pitted_surface,validation,Original PGRG,1,4,1,5,2,0.2000,0.5000,0.2857,0.5396,86.0822
+pitted_surface_247.jpg,pitted_surface,validation,Original PGRG,1,11,1,12,2,0.0833,0.5000,0.1429,0.9434,19.7148
+pitted_surface_248.jpg,pitted_surface,validation,Original PGRG,0,26,2,26,2,0.0000,0.0000,0.0000,0.0000,72.3712
+pitted_surface_249.jpg,pitted_surface,validation,Original PGRG,1,17,0,18,1,0.0556,1.0000,0.1053,0.7972,121.4753
+pitted_surface_250.jpg,pitted_surface,validation,Original PGRG,1,5,0,6,1,0.1667,1.0000,0.2857,0.9167,164.5425
+pitted_surface_251.jpg,pitted_surface,validation,Original PGRG,1,4,0,5,1,0.2000,1.0000,0.3333,0.6962,173.8265
+pitted_surface_252.jpg,pitted_surface,validation,Original PGRG,0,13,1,13,1,0.0000,0.0000,0.0000,0.0000,122.4608
+pitted_surface_253.jpg,pitted_surface,validation,Original PGRG,0,23,2,23,2,0.0000,0.0000,0.0000,0.0000,58.1401
+pitted_surface_254.jpg,pitted_surface,validation,Original PGRG,0,35,1,35,1,0.0000,0.0000,0.0000,0.0000,77.9185
+pitted_surface_255.jpg,pitted_surface,validation,Original PGRG,1,9,0,10,1,0.1000,1.0000,0.1818,0.8549,258.3057
+pitted_surface_256.jpg,pitted_surface,validation,Original PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.9014,164.9622
+pitted_surface_257.jpg,pitted_surface,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,117.3044
+pitted_surface_258.jpg,pitted_surface,validation,Original PGRG,0,33,2,33,2,0.0000,0.0000,0.0000,0.0000,53.3448
+pitted_surface_259.jpg,pitted_surface,validation,Original PGRG,1,12,0,13,1,0.0769,1.0000,0.1429,0.7670,188.5175
+pitted_surface_260.jpg,pitted_surface,validation,Original PGRG,1,4,0,5,1,0.2000,1.0000,0.3333,0.7890,164.7502
+pitted_surface_261.jpg,pitted_surface,validation,Original PGRG,2,6,1,8,3,0.2500,0.6667,0.3636,0.6525,41.4156
+pitted_surface_262.jpg,pitted_surface,validation,Original PGRG,1,13,0,14,1,0.0714,1.0000,0.1333,0.7496,200.7948
+pitted_surface_263.jpg,pitted_surface,validation,Original PGRG,1,13,0,14,1,0.0714,1.0000,0.1333,0.5101,145.1903
+pitted_surface_264.jpg,pitted_surface,validation,Original PGRG,1,3,0,4,1,0.2500,1.0000,0.4000,0.7582,150.7109
+pitted_surface_265.jpg,pitted_surface,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,95.7509
+pitted_surface_266.jpg,pitted_surface,validation,Original PGRG,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,121.0205
+pitted_surface_267.jpg,pitted_surface,validation,Original PGRG,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,108.1079
+pitted_surface_268.jpg,pitted_surface,validation,Original PGRG,1,12,1,13,2,0.0769,0.5000,0.1333,0.6163,179.7512
+pitted_surface_269.jpg,pitted_surface,validation,Original PGRG,0,29,2,29,2,0.0000,0.0000,0.0000,0.0000,182.3119
+pitted_surface_270.jpg,pitted_surface,validation,Original PGRG,1,24,0,25,1,0.0400,1.0000,0.0769,0.7993,118.9424
+pitted_surface_271.jpg,pitted_surface,validation,Original PGRG,1,13,1,14,2,0.0714,0.5000,0.1250,0.7236,115.2289
+pitted_surface_272.jpg,pitted_surface,validation,Original PGRG,1,6,2,7,3,0.1429,0.3333,0.2000,0.7629,138.9259
+pitted_surface_273.jpg,pitted_surface,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,79.8151
+pitted_surface_274.jpg,pitted_surface,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,120.7145
+pitted_surface_275.jpg,pitted_surface,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,11.8405
+pitted_surface_276.jpg,pitted_surface,validation,Original PGRG,2,3,1,5,3,0.4000,0.6667,0.5000,0.6595,80.5783
+pitted_surface_277.jpg,pitted_surface,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,122.4893
+pitted_surface_278.jpg,pitted_surface,validation,Original PGRG,1,8,0,9,1,0.1111,1.0000,0.2000,0.8166,196.0947
+pitted_surface_279.jpg,pitted_surface,validation,Original PGRG,3,7,0,10,3,0.3000,1.0000,0.4615,0.7532,117.7786
+pitted_surface_280.jpg,pitted_surface,validation,Original PGRG,1,2,2,3,3,0.3333,0.3333,0.3333,0.6722,104.4333
+pitted_surface_281.jpg,pitted_surface,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,140.6163
+pitted_surface_282.jpg,pitted_surface,validation,Original PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.5067,172.9216
+pitted_surface_283.jpg,pitted_surface,validation,Original PGRG,1,9,0,10,1,0.1000,1.0000,0.1818,0.5630,94.0093
+pitted_surface_284.jpg,pitted_surface,validation,Original PGRG,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,34.1546
+pitted_surface_285.jpg,pitted_surface,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,98.5934
+pitted_surface_286.jpg,pitted_surface,validation,Original PGRG,1,2,0,3,1,0.3333,1.0000,0.5000,0.5413,157.6434
+pitted_surface_287.jpg,pitted_surface,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,131.9540
+pitted_surface_288.jpg,pitted_surface,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6289,200.3471
+pitted_surface_289.jpg,pitted_surface,validation,Original PGRG,1,6,1,7,2,0.1429,0.5000,0.2222,0.7412,200.5127
+pitted_surface_290.jpg,pitted_surface,validation,Original PGRG,1,18,2,19,3,0.0526,0.3333,0.0909,0.8064,62.7418
+pitted_surface_291.jpg,pitted_surface,validation,Original PGRG,0,27,2,27,2,0.0000,0.0000,0.0000,0.0000,202.1409
+pitted_surface_292.jpg,pitted_surface,validation,Original PGRG,2,12,2,14,4,0.1429,0.5000,0.2222,0.5885,171.5255
+pitted_surface_293.jpg,pitted_surface,validation,Original PGRG,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,15.3671
+pitted_surface_294.jpg,pitted_surface,validation,Original PGRG,1,14,2,15,3,0.0667,0.3333,0.1111,0.9095,137.9014
+pitted_surface_295.jpg,pitted_surface,validation,Original PGRG,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,208.6494
+pitted_surface_296.jpg,pitted_surface,validation,Original PGRG,1,13,2,14,3,0.0714,0.3333,0.1176,0.7103,180.4302
+pitted_surface_297.jpg,pitted_surface,validation,Original PGRG,1,6,0,7,1,0.1429,1.0000,0.2500,0.5835,89.0305
+pitted_surface_298.jpg,pitted_surface,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,184.8170
+pitted_surface_299.jpg,pitted_surface,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,87.8209
+pitted_surface_300.jpg,pitted_surface,validation,Original PGRG,1,28,1,29,2,0.0345,0.5000,0.0645,0.7325,125.1280
+rolled-in_scale_241.jpg,rolled-in_scale,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,160.9653
+rolled-in_scale_242.jpg,rolled-in_scale,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,281.1681
+rolled-in_scale_243.jpg,rolled-in_scale,validation,Original PGRG,0,15,1,15,1,0.0000,0.0000,0.0000,0.0000,99.9642
+rolled-in_scale_244.jpg,rolled-in_scale,validation,Original PGRG,0,20,3,20,3,0.0000,0.0000,0.0000,0.0000,241.5800
+rolled-in_scale_245.jpg,rolled-in_scale,validation,Original PGRG,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,293.7698
+rolled-in_scale_246.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,211.3163
+rolled-in_scale_247.jpg,rolled-in_scale,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,324.4654
+rolled-in_scale_248.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,342.7984
+rolled-in_scale_249.jpg,rolled-in_scale,validation,Original PGRG,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,360.6887
+rolled-in_scale_250.jpg,rolled-in_scale,validation,Original PGRG,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,186.2572
+rolled-in_scale_251.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,173.0987
+rolled-in_scale_252.jpg,rolled-in_scale,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,314.6774
+rolled-in_scale_253.jpg,rolled-in_scale,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,307.0168
+rolled-in_scale_254.jpg,rolled-in_scale,validation,Original PGRG,0,11,1,11,1,0.0000,0.0000,0.0000,0.0000,193.7211
+rolled-in_scale_255.jpg,rolled-in_scale,validation,Original PGRG,1,5,3,6,4,0.1667,0.2500,0.2000,0.6674,301.1414
+rolled-in_scale_256.jpg,rolled-in_scale,validation,Original PGRG,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,243.3827
+rolled-in_scale_257.jpg,rolled-in_scale,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,237.6032
+rolled-in_scale_258.jpg,rolled-in_scale,validation,Original PGRG,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,361.9218
+rolled-in_scale_259.jpg,rolled-in_scale,validation,Original PGRG,1,11,3,12,4,0.0833,0.2500,0.1250,0.5650,268.9531
+rolled-in_scale_260.jpg,rolled-in_scale,validation,Original PGRG,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,234.5074
+rolled-in_scale_261.jpg,rolled-in_scale,validation,Original PGRG,0,7,1,7,1,0.0000,0.0000,0.0000,0.0000,362.5882
+rolled-in_scale_262.jpg,rolled-in_scale,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,307.7862
+rolled-in_scale_263.jpg,rolled-in_scale,validation,Original PGRG,1,12,1,13,2,0.0769,0.5000,0.1333,0.5918,214.6932
+rolled-in_scale_264.jpg,rolled-in_scale,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,387.2650
+rolled-in_scale_265.jpg,rolled-in_scale,validation,Original PGRG,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,190.1464
+rolled-in_scale_266.jpg,rolled-in_scale,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,310.3207
+rolled-in_scale_267.jpg,rolled-in_scale,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,209.4146
+rolled-in_scale_268.jpg,rolled-in_scale,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,235.2616
+rolled-in_scale_269.jpg,rolled-in_scale,validation,Original PGRG,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,255.9350
+rolled-in_scale_270.jpg,rolled-in_scale,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,357.1182
+rolled-in_scale_271.jpg,rolled-in_scale,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,316.8065
+rolled-in_scale_272.jpg,rolled-in_scale,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,258.9216
+rolled-in_scale_273.jpg,rolled-in_scale,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,259.8271
+rolled-in_scale_274.jpg,rolled-in_scale,validation,Original PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,132.7314
+rolled-in_scale_275.jpg,rolled-in_scale,validation,Original PGRG,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,216.4363
+rolled-in_scale_276.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,166.7340
+rolled-in_scale_277.jpg,rolled-in_scale,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,225.3325
+rolled-in_scale_278.jpg,rolled-in_scale,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,352.6790
+rolled-in_scale_279.jpg,rolled-in_scale,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,331.7846
+rolled-in_scale_280.jpg,rolled-in_scale,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,282.7467
+rolled-in_scale_281.jpg,rolled-in_scale,validation,Original PGRG,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,314.4573
+rolled-in_scale_282.jpg,rolled-in_scale,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,309.6805
+rolled-in_scale_283.jpg,rolled-in_scale,validation,Original PGRG,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,268.7661
+rolled-in_scale_284.jpg,rolled-in_scale,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,351.4168
+rolled-in_scale_285.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,310.4649
+rolled-in_scale_286.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,261.8473
+rolled-in_scale_287.jpg,rolled-in_scale,validation,Original PGRG,1,7,1,8,2,0.1250,0.5000,0.2000,0.6091,158.7313
+rolled-in_scale_288.jpg,rolled-in_scale,validation,Original PGRG,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,266.5010
+rolled-in_scale_289.jpg,rolled-in_scale,validation,Original PGRG,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,314.6585
+rolled-in_scale_290.jpg,rolled-in_scale,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,332.7049
+rolled-in_scale_291.jpg,rolled-in_scale,validation,Original PGRG,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,150.1515
+rolled-in_scale_292.jpg,rolled-in_scale,validation,Original PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,210.0107
+rolled-in_scale_293.jpg,rolled-in_scale,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,204.4913
+rolled-in_scale_294.jpg,rolled-in_scale,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,212.5571
+rolled-in_scale_295.jpg,rolled-in_scale,validation,Original PGRG,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,234.6835
+rolled-in_scale_296.jpg,rolled-in_scale,validation,Original PGRG,1,4,0,5,1,0.2000,1.0000,0.3333,0.7449,170.7094
+rolled-in_scale_297.jpg,rolled-in_scale,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,249.4657
+rolled-in_scale_298.jpg,rolled-in_scale,validation,Original PGRG,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,299.9220
+rolled-in_scale_299.jpg,rolled-in_scale,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,232.5387
+rolled-in_scale_300.jpg,rolled-in_scale,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,228.5029
+scratches_241.jpg,scratches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,18.4873
+scratches_242.jpg,scratches,validation,Original PGRG,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,9.7556
+scratches_243.jpg,scratches,validation,Original PGRG,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,14.7271
+scratches_244.jpg,scratches,validation,Original PGRG,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,13.3905
+scratches_245.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,13.4065
+scratches_246.jpg,scratches,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,11.2186
+scratches_247.jpg,scratches,validation,Original PGRG,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,8.6759
+scratches_248.jpg,scratches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,7.7399
+scratches_249.jpg,scratches,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,12.4324
+scratches_250.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,15.5991
+scratches_251.jpg,scratches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,22.0528
+scratches_252.jpg,scratches,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,21.3007
+scratches_253.jpg,scratches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,14.4306
+scratches_254.jpg,scratches,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,15.4188
+scratches_255.jpg,scratches,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6182,29.1595
+scratches_256.jpg,scratches,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6138,33.9948
+scratches_257.jpg,scratches,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.6851,44.1249
+scratches_258.jpg,scratches,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,44.1298
+scratches_259.jpg,scratches,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,44.2200
+scratches_260.jpg,scratches,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,33.9962
+scratches_261.jpg,scratches,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,14.4256
+scratches_262.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,19.4801
+scratches_263.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,19.5226
+scratches_264.jpg,scratches,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,29.2189
+scratches_265.jpg,scratches,validation,Original PGRG,1,4,1,5,2,0.2000,0.5000,0.2857,0.6410,33.4681
+scratches_266.jpg,scratches,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,18.0913
+scratches_267.jpg,scratches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,13.7826
+scratches_268.jpg,scratches,validation,Original PGRG,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,9.8620
+scratches_269.jpg,scratches,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,18.6842
+scratches_270.jpg,scratches,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,18.6583
+scratches_271.jpg,scratches,validation,Original PGRG,1,3,3,4,4,0.2500,0.2500,0.2500,0.5814,26.9930
+scratches_272.jpg,scratches,validation,Original PGRG,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,25.6933
+scratches_273.jpg,scratches,validation,Original PGRG,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,20.0200
+scratches_274.jpg,scratches,validation,Original PGRG,1,5,2,6,3,0.1667,0.3333,0.2222,0.5197,28.7076
+scratches_275.jpg,scratches,validation,Original PGRG,0,8,4,8,4,0.0000,0.0000,0.0000,0.0000,41.4747
+scratches_276.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,20.9279
+scratches_277.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,32.9356
+scratches_278.jpg,scratches,validation,Original PGRG,1,0,2,1,3,1.0000,0.3333,0.5000,0.8264,38.0911
+scratches_279.jpg,scratches,validation,Original PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.7254,38.5047
+scratches_280.jpg,scratches,validation,Original PGRG,2,2,0,4,2,0.5000,1.0000,0.6667,0.6509,53.7836
+scratches_281.jpg,scratches,validation,Original PGRG,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,11.9097
+scratches_282.jpg,scratches,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,13.8393
+scratches_283.jpg,scratches,validation,Original PGRG,1,1,1,2,2,0.5000,0.5000,0.5000,0.5637,25.3646
+scratches_284.jpg,scratches,validation,Original PGRG,1,0,1,1,2,1.0000,0.5000,0.6667,0.5139,15.1739
+scratches_285.jpg,scratches,validation,Original PGRG,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,20.0773
+scratches_286.jpg,scratches,validation,Original PGRG,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,9.9348
+scratches_287.jpg,scratches,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7364,28.8633
+scratches_288.jpg,scratches,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.5808,17.7747
+scratches_289.jpg,scratches,validation,Original PGRG,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,11.9366
+scratches_290.jpg,scratches,validation,Original PGRG,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,23.2979
+scratches_291.jpg,scratches,validation,Original PGRG,1,0,0,1,1,1.0000,1.0000,1.0000,0.7498,22.6749
+scratches_292.jpg,scratches,validation,Original PGRG,1,2,1,3,2,0.3333,0.5000,0.4000,0.9562,31.5716
+scratches_293.jpg,scratches,validation,Original PGRG,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,11.3394
+scratches_294.jpg,scratches,validation,Original PGRG,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,26.5352
+scratches_295.jpg,scratches,validation,Original PGRG,2,7,2,9,4,0.2222,0.5000,0.3077,0.6223,34.8326
+scratches_296.jpg,scratches,validation,Original PGRG,0,5,5,5,5,0.0000,0.0000,0.0000,0.0000,16.0508
+scratches_297.jpg,scratches,validation,Original PGRG,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,6.7576
+scratches_298.jpg,scratches,validation,Original PGRG,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,15.4519
+scratches_299.jpg,scratches,validation,Original PGRG,1,2,0,3,1,0.3333,1.0000,0.5000,0.8243,29.6019
+scratches_300.jpg,scratches,validation,Original PGRG,1,4,1,5,2,0.2000,0.5000,0.2857,0.5625,15.5093
+crazing_241.jpg,crazing,validation,Standard Region Growing,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,149.4060
+crazing_242.jpg,crazing,validation,Standard Region Growing,0,24,3,24,3,0.0000,0.0000,0.0000,0.0000,135.5772
+crazing_243.jpg,crazing,validation,Standard Region Growing,0,5,4,5,4,0.0000,0.0000,0.0000,0.0000,140.9399
+crazing_244.jpg,crazing,validation,Standard Region Growing,0,31,3,31,3,0.0000,0.0000,0.0000,0.0000,134.6681
+crazing_245.jpg,crazing,validation,Standard Region Growing,0,31,2,31,2,0.0000,0.0000,0.0000,0.0000,125.5650
+crazing_246.jpg,crazing,validation,Standard Region Growing,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,155.2588
+crazing_247.jpg,crazing,validation,Standard Region Growing,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,161.6702
+crazing_248.jpg,crazing,validation,Standard Region Growing,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,158.2401
+crazing_249.jpg,crazing,validation,Standard Region Growing,0,38,3,38,3,0.0000,0.0000,0.0000,0.0000,133.1709
+crazing_250.jpg,crazing,validation,Standard Region Growing,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,182.9941
+crazing_251.jpg,crazing,validation,Standard Region Growing,0,41,3,41,3,0.0000,0.0000,0.0000,0.0000,121.5962
+crazing_252.jpg,crazing,validation,Standard Region Growing,0,24,3,24,3,0.0000,0.0000,0.0000,0.0000,133.8717
+crazing_253.jpg,crazing,validation,Standard Region Growing,0,32,3,32,3,0.0000,0.0000,0.0000,0.0000,82.5295
+crazing_254.jpg,crazing,validation,Standard Region Growing,0,13,1,13,1,0.0000,0.0000,0.0000,0.0000,158.7346
+crazing_255.jpg,crazing,validation,Standard Region Growing,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,159.6538
+crazing_256.jpg,crazing,validation,Standard Region Growing,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,149.1859
+crazing_257.jpg,crazing,validation,Standard Region Growing,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,170.5161
+crazing_258.jpg,crazing,validation,Standard Region Growing,0,28,2,28,2,0.0000,0.0000,0.0000,0.0000,127.0159
+crazing_259.jpg,crazing,validation,Standard Region Growing,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,146.8689
+crazing_260.jpg,crazing,validation,Standard Region Growing,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,159.9714
+crazing_261.jpg,crazing,validation,Standard Region Growing,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,186.3443
+crazing_262.jpg,crazing,validation,Standard Region Growing,0,68,3,68,3,0.0000,0.0000,0.0000,0.0000,85.1477
+crazing_263.jpg,crazing,validation,Standard Region Growing,0,41,2,41,2,0.0000,0.0000,0.0000,0.0000,116.4849
+crazing_264.jpg,crazing,validation,Standard Region Growing,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,168.5216
+crazing_265.jpg,crazing,validation,Standard Region Growing,0,39,2,39,2,0.0000,0.0000,0.0000,0.0000,132.7101
+crazing_266.jpg,crazing,validation,Standard Region Growing,0,30,2,30,2,0.0000,0.0000,0.0000,0.0000,148.8445
+crazing_267.jpg,crazing,validation,Standard Region Growing,0,37,3,37,3,0.0000,0.0000,0.0000,0.0000,101.7386
+crazing_268.jpg,crazing,validation,Standard Region Growing,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,177.7772
+crazing_269.jpg,crazing,validation,Standard Region Growing,0,61,3,61,3,0.0000,0.0000,0.0000,0.0000,49.1710
+crazing_270.jpg,crazing,validation,Standard Region Growing,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,157.4649
+crazing_271.jpg,crazing,validation,Standard Region Growing,0,39,4,39,4,0.0000,0.0000,0.0000,0.0000,130.4922
+crazing_272.jpg,crazing,validation,Standard Region Growing,0,15,3,15,3,0.0000,0.0000,0.0000,0.0000,153.0401
+crazing_273.jpg,crazing,validation,Standard Region Growing,0,52,3,52,3,0.0000,0.0000,0.0000,0.0000,135.9000
+crazing_274.jpg,crazing,validation,Standard Region Growing,0,24,4,24,4,0.0000,0.0000,0.0000,0.0000,142.3187
+crazing_275.jpg,crazing,validation,Standard Region Growing,0,22,3,22,3,0.0000,0.0000,0.0000,0.0000,147.9378
+crazing_276.jpg,crazing,validation,Standard Region Growing,0,30,2,30,2,0.0000,0.0000,0.0000,0.0000,76.8949
+crazing_277.jpg,crazing,validation,Standard Region Growing,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,150.6513
+crazing_278.jpg,crazing,validation,Standard Region Growing,0,12,4,12,4,0.0000,0.0000,0.0000,0.0000,150.2540
+crazing_279.jpg,crazing,validation,Standard Region Growing,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,159.5548
+crazing_280.jpg,crazing,validation,Standard Region Growing,0,37,1,37,1,0.0000,0.0000,0.0000,0.0000,81.9868
+crazing_281.jpg,crazing,validation,Standard Region Growing,0,35,2,35,2,0.0000,0.0000,0.0000,0.0000,131.5389
+crazing_282.jpg,crazing,validation,Standard Region Growing,0,34,2,34,2,0.0000,0.0000,0.0000,0.0000,131.5514
+crazing_283.jpg,crazing,validation,Standard Region Growing,0,72,4,72,4,0.0000,0.0000,0.0000,0.0000,110.9308
+crazing_284.jpg,crazing,validation,Standard Region Growing,0,93,2,93,2,0.0000,0.0000,0.0000,0.0000,97.8469
+crazing_285.jpg,crazing,validation,Standard Region Growing,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,171.9884
+crazing_286.jpg,crazing,validation,Standard Region Growing,0,53,3,53,3,0.0000,0.0000,0.0000,0.0000,105.8804
+crazing_287.jpg,crazing,validation,Standard Region Growing,0,42,2,42,2,0.0000,0.0000,0.0000,0.0000,131.8886
+crazing_288.jpg,crazing,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,158.2759
+crazing_289.jpg,crazing,validation,Standard Region Growing,1,60,0,61,1,0.0164,1.0000,0.0323,0.5911,101.0742
+crazing_290.jpg,crazing,validation,Standard Region Growing,0,32,3,32,3,0.0000,0.0000,0.0000,0.0000,136.1329
+crazing_291.jpg,crazing,validation,Standard Region Growing,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,143.7942
+crazing_292.jpg,crazing,validation,Standard Region Growing,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,167.8734
+crazing_293.jpg,crazing,validation,Standard Region Growing,0,31,3,31,3,0.0000,0.0000,0.0000,0.0000,157.5184
+crazing_294.jpg,crazing,validation,Standard Region Growing,0,51,2,51,2,0.0000,0.0000,0.0000,0.0000,82.8369
+crazing_295.jpg,crazing,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,143.5638
+crazing_296.jpg,crazing,validation,Standard Region Growing,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,157.9671
+crazing_297.jpg,crazing,validation,Standard Region Growing,0,13,3,13,3,0.0000,0.0000,0.0000,0.0000,141.7685
+crazing_298.jpg,crazing,validation,Standard Region Growing,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,141.3948
+crazing_299.jpg,crazing,validation,Standard Region Growing,0,5,4,5,4,0.0000,0.0000,0.0000,0.0000,144.5139
+crazing_300.jpg,crazing,validation,Standard Region Growing,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,172.1734
+inclusion_241.jpg,inclusion,validation,Standard Region Growing,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,124.0020
+inclusion_242.jpg,inclusion,validation,Standard Region Growing,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,137.3431
+inclusion_243.jpg,inclusion,validation,Standard Region Growing,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,121.3886
+inclusion_244.jpg,inclusion,validation,Standard Region Growing,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,103.1700
+inclusion_245.jpg,inclusion,validation,Standard Region Growing,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,101.6774
+inclusion_246.jpg,inclusion,validation,Standard Region Growing,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,104.1776
+inclusion_247.jpg,inclusion,validation,Standard Region Growing,0,12,1,12,1,0.0000,0.0000,0.0000,0.0000,102.5159
+inclusion_248.jpg,inclusion,validation,Standard Region Growing,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,113.6433
+inclusion_249.jpg,inclusion,validation,Standard Region Growing,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,90.7770
+inclusion_250.jpg,inclusion,validation,Standard Region Growing,0,9,1,9,1,0.0000,0.0000,0.0000,0.0000,113.4581
+inclusion_251.jpg,inclusion,validation,Standard Region Growing,0,33,1,33,1,0.0000,0.0000,0.0000,0.0000,124.2583
+inclusion_252.jpg,inclusion,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,78.0662
+inclusion_253.jpg,inclusion,validation,Standard Region Growing,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,109.2542
+inclusion_254.jpg,inclusion,validation,Standard Region Growing,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,93.6552
+inclusion_255.jpg,inclusion,validation,Standard Region Growing,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,96.9597
+inclusion_256.jpg,inclusion,validation,Standard Region Growing,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,102.1650
+inclusion_257.jpg,inclusion,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,102.9216
+inclusion_258.jpg,inclusion,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,96.0733
+inclusion_259.jpg,inclusion,validation,Standard Region Growing,0,26,1,26,1,0.0000,0.0000,0.0000,0.0000,86.5800
+inclusion_260.jpg,inclusion,validation,Standard Region Growing,0,25,2,25,2,0.0000,0.0000,0.0000,0.0000,139.4070
+inclusion_261.jpg,inclusion,validation,Standard Region Growing,0,32,2,32,2,0.0000,0.0000,0.0000,0.0000,149.0576
+inclusion_262.jpg,inclusion,validation,Standard Region Growing,0,20,3,20,3,0.0000,0.0000,0.0000,0.0000,108.4727
+inclusion_263.jpg,inclusion,validation,Standard Region Growing,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,96.0101
+inclusion_264.jpg,inclusion,validation,Standard Region Growing,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,95.8112
+inclusion_265.jpg,inclusion,validation,Standard Region Growing,0,14,4,14,4,0.0000,0.0000,0.0000,0.0000,162.5135
+inclusion_266.jpg,inclusion,validation,Standard Region Growing,0,13,3,13,3,0.0000,0.0000,0.0000,0.0000,168.7641
+inclusion_267.jpg,inclusion,validation,Standard Region Growing,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,125.6442
+inclusion_268.jpg,inclusion,validation,Standard Region Growing,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,123.7003
+inclusion_269.jpg,inclusion,validation,Standard Region Growing,0,20,3,20,3,0.0000,0.0000,0.0000,0.0000,93.1851
+inclusion_270.jpg,inclusion,validation,Standard Region Growing,0,7,1,7,1,0.0000,0.0000,0.0000,0.0000,69.5689
+inclusion_271.jpg,inclusion,validation,Standard Region Growing,0,27,3,27,3,0.0000,0.0000,0.0000,0.0000,68.8323
+inclusion_272.jpg,inclusion,validation,Standard Region Growing,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,86.0993
+inclusion_273.jpg,inclusion,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,35.5002
+inclusion_274.jpg,inclusion,validation,Standard Region Growing,0,5,4,5,4,0.0000,0.0000,0.0000,0.0000,65.8284
+inclusion_275.jpg,inclusion,validation,Standard Region Growing,0,5,6,5,6,0.0000,0.0000,0.0000,0.0000,95.3538
+inclusion_276.jpg,inclusion,validation,Standard Region Growing,0,19,2,19,2,0.0000,0.0000,0.0000,0.0000,103.8913
+inclusion_277.jpg,inclusion,validation,Standard Region Growing,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,142.8093
+inclusion_278.jpg,inclusion,validation,Standard Region Growing,0,16,3,16,3,0.0000,0.0000,0.0000,0.0000,68.7852
+inclusion_279.jpg,inclusion,validation,Standard Region Growing,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,73.8885
+inclusion_280.jpg,inclusion,validation,Standard Region Growing,0,18,2,18,2,0.0000,0.0000,0.0000,0.0000,128.1375
+inclusion_281.jpg,inclusion,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,58.5970
+inclusion_282.jpg,inclusion,validation,Standard Region Growing,0,20,2,20,2,0.0000,0.0000,0.0000,0.0000,102.2869
+inclusion_283.jpg,inclusion,validation,Standard Region Growing,0,59,1,59,1,0.0000,0.0000,0.0000,0.0000,32.2719
+inclusion_284.jpg,inclusion,validation,Standard Region Growing,0,26,3,26,3,0.0000,0.0000,0.0000,0.0000,56.4163
+inclusion_285.jpg,inclusion,validation,Standard Region Growing,0,14,1,14,1,0.0000,0.0000,0.0000,0.0000,89.2723
+inclusion_286.jpg,inclusion,validation,Standard Region Growing,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,96.5326
+inclusion_287.jpg,inclusion,validation,Standard Region Growing,0,18,8,18,8,0.0000,0.0000,0.0000,0.0000,125.8147
+inclusion_288.jpg,inclusion,validation,Standard Region Growing,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,106.0553
+inclusion_289.jpg,inclusion,validation,Standard Region Growing,0,12,4,12,4,0.0000,0.0000,0.0000,0.0000,115.2358
+inclusion_290.jpg,inclusion,validation,Standard Region Growing,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,86.2065
+inclusion_291.jpg,inclusion,validation,Standard Region Growing,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,166.9475
+inclusion_292.jpg,inclusion,validation,Standard Region Growing,0,11,7,11,7,0.0000,0.0000,0.0000,0.0000,154.2865
+inclusion_293.jpg,inclusion,validation,Standard Region Growing,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,143.9413
+inclusion_294.jpg,inclusion,validation,Standard Region Growing,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,95.9860
+inclusion_295.jpg,inclusion,validation,Standard Region Growing,0,18,2,18,2,0.0000,0.0000,0.0000,0.0000,142.9550
+inclusion_296.jpg,inclusion,validation,Standard Region Growing,0,19,2,19,2,0.0000,0.0000,0.0000,0.0000,113.7846
+inclusion_297.jpg,inclusion,validation,Standard Region Growing,0,12,1,12,1,0.0000,0.0000,0.0000,0.0000,147.6265
+inclusion_298.jpg,inclusion,validation,Standard Region Growing,0,5,5,5,5,0.0000,0.0000,0.0000,0.0000,151.6569
+inclusion_299.jpg,inclusion,validation,Standard Region Growing,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,143.2413
+inclusion_300.jpg,inclusion,validation,Standard Region Growing,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,149.1602
+patches_241.jpg,patches,validation,Standard Region Growing,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,160.6131
+patches_242.jpg,patches,validation,Standard Region Growing,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,129.1547
+patches_243.jpg,patches,validation,Standard Region Growing,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,115.1659
+patches_244.jpg,patches,validation,Standard Region Growing,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,85.6536
+patches_245.jpg,patches,validation,Standard Region Growing,0,27,7,27,7,0.0000,0.0000,0.0000,0.0000,121.1682
+patches_246.jpg,patches,validation,Standard Region Growing,0,30,5,30,5,0.0000,0.0000,0.0000,0.0000,97.4614
+patches_247.jpg,patches,validation,Standard Region Growing,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,122.6816
+patches_248.jpg,patches,validation,Standard Region Growing,0,13,5,13,5,0.0000,0.0000,0.0000,0.0000,132.7519
+patches_249.jpg,patches,validation,Standard Region Growing,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,113.9750
+patches_250.jpg,patches,validation,Standard Region Growing,0,15,4,15,4,0.0000,0.0000,0.0000,0.0000,76.2356
+patches_251.jpg,patches,validation,Standard Region Growing,0,34,1,34,1,0.0000,0.0000,0.0000,0.0000,115.5437
+patches_252.jpg,patches,validation,Standard Region Growing,0,34,3,34,3,0.0000,0.0000,0.0000,0.0000,66.0108
+patches_253.jpg,patches,validation,Standard Region Growing,0,57,3,57,3,0.0000,0.0000,0.0000,0.0000,55.6565
+patches_254.jpg,patches,validation,Standard Region Growing,0,42,2,42,2,0.0000,0.0000,0.0000,0.0000,106.1533
+patches_255.jpg,patches,validation,Standard Region Growing,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,74.4697
+patches_256.jpg,patches,validation,Standard Region Growing,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,110.3569
+patches_257.jpg,patches,validation,Standard Region Growing,0,14,4,14,4,0.0000,0.0000,0.0000,0.0000,96.7349
+patches_258.jpg,patches,validation,Standard Region Growing,0,32,3,32,3,0.0000,0.0000,0.0000,0.0000,56.2543
+patches_259.jpg,patches,validation,Standard Region Growing,0,11,5,11,5,0.0000,0.0000,0.0000,0.0000,141.6967
+patches_260.jpg,patches,validation,Standard Region Growing,0,19,2,19,2,0.0000,0.0000,0.0000,0.0000,112.1461
+patches_261.jpg,patches,validation,Standard Region Growing,0,52,4,52,4,0.0000,0.0000,0.0000,0.0000,57.5406
+patches_262.jpg,patches,validation,Standard Region Growing,0,42,3,42,3,0.0000,0.0000,0.0000,0.0000,67.6142
+patches_263.jpg,patches,validation,Standard Region Growing,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,71.0056
+patches_264.jpg,patches,validation,Standard Region Growing,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,56.3928
+patches_265.jpg,patches,validation,Standard Region Growing,0,9,4,9,4,0.0000,0.0000,0.0000,0.0000,128.4912
+patches_266.jpg,patches,validation,Standard Region Growing,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,85.8660
+patches_267.jpg,patches,validation,Standard Region Growing,0,14,4,14,4,0.0000,0.0000,0.0000,0.0000,112.1939
+patches_268.jpg,patches,validation,Standard Region Growing,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,131.6657
+patches_269.jpg,patches,validation,Standard Region Growing,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,86.0018
+patches_270.jpg,patches,validation,Standard Region Growing,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,140.8591
+patches_271.jpg,patches,validation,Standard Region Growing,0,40,2,40,2,0.0000,0.0000,0.0000,0.0000,69.5844
+patches_272.jpg,patches,validation,Standard Region Growing,0,41,1,41,1,0.0000,0.0000,0.0000,0.0000,117.2918
+patches_273.jpg,patches,validation,Standard Region Growing,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,123.2475
+patches_274.jpg,patches,validation,Standard Region Growing,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,147.8201
+patches_275.jpg,patches,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,88.6070
+patches_276.jpg,patches,validation,Standard Region Growing,0,4,4,4,4,0.0000,0.0000,0.0000,0.0000,121.1042
+patches_277.jpg,patches,validation,Standard Region Growing,0,14,4,14,4,0.0000,0.0000,0.0000,0.0000,111.4984
+patches_278.jpg,patches,validation,Standard Region Growing,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,67.4648
+patches_279.jpg,patches,validation,Standard Region Growing,0,36,3,36,3,0.0000,0.0000,0.0000,0.0000,75.2765
+patches_280.jpg,patches,validation,Standard Region Growing,0,48,2,48,2,0.0000,0.0000,0.0000,0.0000,92.7337
+patches_281.jpg,patches,validation,Standard Region Growing,0,25,3,25,3,0.0000,0.0000,0.0000,0.0000,105.9310
+patches_282.jpg,patches,validation,Standard Region Growing,0,18,3,18,3,0.0000,0.0000,0.0000,0.0000,105.8553
+patches_283.jpg,patches,validation,Standard Region Growing,0,24,4,24,4,0.0000,0.0000,0.0000,0.0000,70.5712
+patches_284.jpg,patches,validation,Standard Region Growing,0,37,2,37,2,0.0000,0.0000,0.0000,0.0000,59.4040
+patches_285.jpg,patches,validation,Standard Region Growing,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,98.7981
+patches_286.jpg,patches,validation,Standard Region Growing,0,4,4,4,4,0.0000,0.0000,0.0000,0.0000,90.2473
+patches_287.jpg,patches,validation,Standard Region Growing,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,106.3403
+patches_288.jpg,patches,validation,Standard Region Growing,0,84,2,84,2,0.0000,0.0000,0.0000,0.0000,51.8344
+patches_289.jpg,patches,validation,Standard Region Growing,0,22,5,22,5,0.0000,0.0000,0.0000,0.0000,71.7213
+patches_290.jpg,patches,validation,Standard Region Growing,0,9,5,9,5,0.0000,0.0000,0.0000,0.0000,98.4435
+patches_291.jpg,patches,validation,Standard Region Growing,0,7,4,7,4,0.0000,0.0000,0.0000,0.0000,93.0599
+patches_292.jpg,patches,validation,Standard Region Growing,0,6,5,6,5,0.0000,0.0000,0.0000,0.0000,136.3697
+patches_293.jpg,patches,validation,Standard Region Growing,0,25,2,25,2,0.0000,0.0000,0.0000,0.0000,78.5508
+patches_294.jpg,patches,validation,Standard Region Growing,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,79.9050
+patches_295.jpg,patches,validation,Standard Region Growing,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,90.5937
+patches_296.jpg,patches,validation,Standard Region Growing,0,47,3,47,3,0.0000,0.0000,0.0000,0.0000,97.4898
+patches_297.jpg,patches,validation,Standard Region Growing,0,13,3,13,3,0.0000,0.0000,0.0000,0.0000,96.4678
+patches_298.jpg,patches,validation,Standard Region Growing,0,17,4,17,4,0.0000,0.0000,0.0000,0.0000,77.9784
+patches_299.jpg,patches,validation,Standard Region Growing,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,47.0219
+patches_300.jpg,patches,validation,Standard Region Growing,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,91.7068
+pitted_surface_241.jpg,pitted_surface,validation,Standard Region Growing,1,0,0,1,1,1.0000,1.0000,1.0000,0.7320,180.6219
+pitted_surface_242.jpg,pitted_surface,validation,Standard Region Growing,1,61,1,62,2,0.0161,0.5000,0.0312,0.5051,114.0587
+pitted_surface_243.jpg,pitted_surface,validation,Standard Region Growing,1,12,0,13,1,0.0769,1.0000,0.1429,0.9214,202.5252
+pitted_surface_244.jpg,pitted_surface,validation,Standard Region Growing,1,5,0,6,1,0.1667,1.0000,0.2857,0.5460,75.5902
+pitted_surface_245.jpg,pitted_surface,validation,Standard Region Growing,1,4,2,5,3,0.2000,0.3333,0.2500,0.5546,123.2794
+pitted_surface_246.jpg,pitted_surface,validation,Standard Region Growing,1,19,1,20,2,0.0500,0.5000,0.0909,0.6711,110.3540
+pitted_surface_247.jpg,pitted_surface,validation,Standard Region Growing,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,168.6115
+pitted_surface_248.jpg,pitted_surface,validation,Standard Region Growing,1,4,1,5,2,0.2000,0.5000,0.2857,0.7562,167.0887
+pitted_surface_249.jpg,pitted_surface,validation,Standard Region Growing,1,51,0,52,1,0.0192,1.0000,0.0377,0.9604,126.0482
+pitted_surface_250.jpg,pitted_surface,validation,Standard Region Growing,0,203,1,203,1,0.0000,0.0000,0.0000,0.0000,80.7617
+pitted_surface_251.jpg,pitted_surface,validation,Standard Region Growing,1,19,0,20,1,0.0500,1.0000,0.0952,0.7384,97.5909
+pitted_surface_252.jpg,pitted_surface,validation,Standard Region Growing,0,18,1,18,1,0.0000,0.0000,0.0000,0.0000,112.5857
+pitted_surface_253.jpg,pitted_surface,validation,Standard Region Growing,1,0,1,1,2,1.0000,0.5000,0.6667,0.6747,212.0225
+pitted_surface_254.jpg,pitted_surface,validation,Standard Region Growing,1,9,0,10,1,0.1000,1.0000,0.1818,0.9163,174.0692
+pitted_surface_255.jpg,pitted_surface,validation,Standard Region Growing,1,92,0,93,1,0.0108,1.0000,0.0213,0.9214,91.1636
+pitted_surface_256.jpg,pitted_surface,validation,Standard Region Growing,1,21,1,22,2,0.0455,0.5000,0.0833,0.8029,83.5265
+pitted_surface_257.jpg,pitted_surface,validation,Standard Region Growing,0,13,1,13,1,0.0000,0.0000,0.0000,0.0000,101.7299
+pitted_surface_258.jpg,pitted_surface,validation,Standard Region Growing,1,0,1,1,2,1.0000,0.5000,0.6667,0.7872,162.2171
+pitted_surface_259.jpg,pitted_surface,validation,Standard Region Growing,1,65,0,66,1,0.0152,1.0000,0.0299,0.9457,110.8960
+pitted_surface_260.jpg,pitted_surface,validation,Standard Region Growing,1,61,0,62,1,0.0161,1.0000,0.0317,0.8568,81.7142
+pitted_surface_261.jpg,pitted_surface,validation,Standard Region Growing,1,2,2,3,3,0.3333,0.3333,0.3333,0.5512,154.0805
+pitted_surface_262.jpg,pitted_surface,validation,Standard Region Growing,1,17,0,18,1,0.0556,1.0000,0.1053,0.8058,135.1181
+pitted_surface_263.jpg,pitted_surface,validation,Standard Region Growing,1,18,0,19,1,0.0526,1.0000,0.1000,0.7405,120.7788
+pitted_surface_264.jpg,pitted_surface,validation,Standard Region Growing,1,20,0,21,1,0.0476,1.0000,0.0909,0.8789,81.8139
+pitted_surface_265.jpg,pitted_surface,validation,Standard Region Growing,1,22,0,23,1,0.0435,1.0000,0.0833,0.8288,85.0964
+pitted_surface_266.jpg,pitted_surface,validation,Standard Region Growing,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,71.5216
+pitted_surface_267.jpg,pitted_surface,validation,Standard Region Growing,1,12,1,13,2,0.0769,0.5000,0.1333,0.5167,61.9109
+pitted_surface_268.jpg,pitted_surface,validation,Standard Region Growing,1,6,1,7,2,0.1429,0.5000,0.2222,0.6636,106.9197
+pitted_surface_269.jpg,pitted_surface,validation,Standard Region Growing,1,30,1,31,2,0.0323,0.5000,0.0606,0.6300,168.3930
+pitted_surface_270.jpg,pitted_surface,validation,Standard Region Growing,1,34,0,35,1,0.0286,1.0000,0.0556,0.6935,167.1556
+pitted_surface_271.jpg,pitted_surface,validation,Standard Region Growing,1,30,1,31,2,0.0323,0.5000,0.0606,0.5295,136.0932
+pitted_surface_272.jpg,pitted_surface,validation,Standard Region Growing,1,28,2,29,3,0.0345,0.3333,0.0625,0.8376,112.8805
+pitted_surface_273.jpg,pitted_surface,validation,Standard Region Growing,1,11,0,12,1,0.0833,1.0000,0.1538,0.5346,60.3347
+pitted_surface_274.jpg,pitted_surface,validation,Standard Region Growing,0,37,1,37,1,0.0000,0.0000,0.0000,0.0000,60.7071
+pitted_surface_275.jpg,pitted_surface,validation,Standard Region Growing,1,34,0,35,1,0.0286,1.0000,0.0556,0.6800,95.3445
+pitted_surface_276.jpg,pitted_surface,validation,Standard Region Growing,1,11,2,12,3,0.0833,0.3333,0.1333,0.5712,129.5537
+pitted_surface_277.jpg,pitted_surface,validation,Standard Region Growing,1,12,1,13,2,0.0769,0.5000,0.1333,0.7473,158.5201
+pitted_surface_278.jpg,pitted_surface,validation,Standard Region Growing,1,5,0,6,1,0.1667,1.0000,0.2857,0.6615,151.5414
+pitted_surface_279.jpg,pitted_surface,validation,Standard Region Growing,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,111.2093
+pitted_surface_280.jpg,pitted_surface,validation,Standard Region Growing,1,4,2,5,3,0.2000,0.3333,0.2500,0.7662,52.6427
+pitted_surface_281.jpg,pitted_surface,validation,Standard Region Growing,1,5,1,6,2,0.1667,0.5000,0.2500,0.5294,97.6992
+pitted_surface_282.jpg,pitted_surface,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,109.8170
+pitted_surface_283.jpg,pitted_surface,validation,Standard Region Growing,1,9,0,10,1,0.1000,1.0000,0.1818,0.8647,143.7986
+pitted_surface_284.jpg,pitted_surface,validation,Standard Region Growing,1,2,1,3,2,0.3333,0.5000,0.4000,0.7227,158.6364
+pitted_surface_285.jpg,pitted_surface,validation,Standard Region Growing,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,72.2739
+pitted_surface_286.jpg,pitted_surface,validation,Standard Region Growing,1,29,0,30,1,0.0333,1.0000,0.0645,0.8170,155.3066
+pitted_surface_287.jpg,pitted_surface,validation,Standard Region Growing,1,23,0,24,1,0.0417,1.0000,0.0800,0.8013,95.7814
+pitted_surface_288.jpg,pitted_surface,validation,Standard Region Growing,0,73,1,73,1,0.0000,0.0000,0.0000,0.0000,95.3808
+pitted_surface_289.jpg,pitted_surface,validation,Standard Region Growing,1,4,1,5,2,0.2000,0.5000,0.2857,0.7762,128.1177
+pitted_surface_290.jpg,pitted_surface,validation,Standard Region Growing,1,0,2,1,3,1.0000,0.3333,0.5000,0.8234,162.7665
+pitted_surface_291.jpg,pitted_surface,validation,Standard Region Growing,1,6,1,7,2,0.1429,0.5000,0.2222,0.8633,153.2842
+pitted_surface_292.jpg,pitted_surface,validation,Standard Region Growing,0,17,4,17,4,0.0000,0.0000,0.0000,0.0000,108.2413
+pitted_surface_293.jpg,pitted_surface,validation,Standard Region Growing,1,0,0,1,1,1.0000,1.0000,1.0000,0.8690,194.5098
+pitted_surface_294.jpg,pitted_surface,validation,Standard Region Growing,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,121.0827
+pitted_surface_295.jpg,pitted_surface,validation,Standard Region Growing,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,78.8283
+pitted_surface_296.jpg,pitted_surface,validation,Standard Region Growing,1,34,2,35,3,0.0286,0.3333,0.0526,0.7757,111.2691
+pitted_surface_297.jpg,pitted_surface,validation,Standard Region Growing,1,4,0,5,1,0.2000,1.0000,0.3333,0.6000,47.2010
+pitted_surface_298.jpg,pitted_surface,validation,Standard Region Growing,1,0,1,1,2,1.0000,0.5000,0.6667,0.5296,101.8530
+pitted_surface_299.jpg,pitted_surface,validation,Standard Region Growing,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,80.5856
+pitted_surface_300.jpg,pitted_surface,validation,Standard Region Growing,1,7,1,8,2,0.1250,0.5000,0.2000,0.7486,158.9126
+rolled-in_scale_241.jpg,rolled-in_scale,validation,Standard Region Growing,0,31,2,31,2,0.0000,0.0000,0.0000,0.0000,106.2259
+rolled-in_scale_242.jpg,rolled-in_scale,validation,Standard Region Growing,0,61,2,61,2,0.0000,0.0000,0.0000,0.0000,106.0750
+rolled-in_scale_243.jpg,rolled-in_scale,validation,Standard Region Growing,0,16,1,16,1,0.0000,0.0000,0.0000,0.0000,145.6919
+rolled-in_scale_244.jpg,rolled-in_scale,validation,Standard Region Growing,0,57,3,57,3,0.0000,0.0000,0.0000,0.0000,116.5141
+rolled-in_scale_245.jpg,rolled-in_scale,validation,Standard Region Growing,0,53,2,53,2,0.0000,0.0000,0.0000,0.0000,114.3463
+rolled-in_scale_246.jpg,rolled-in_scale,validation,Standard Region Growing,0,36,2,36,2,0.0000,0.0000,0.0000,0.0000,117.5272
+rolled-in_scale_247.jpg,rolled-in_scale,validation,Standard Region Growing,0,59,3,59,3,0.0000,0.0000,0.0000,0.0000,113.9409
+rolled-in_scale_248.jpg,rolled-in_scale,validation,Standard Region Growing,0,32,2,32,2,0.0000,0.0000,0.0000,0.0000,130.4746
+rolled-in_scale_249.jpg,rolled-in_scale,validation,Standard Region Growing,0,50,1,50,1,0.0000,0.0000,0.0000,0.0000,115.1105
+rolled-in_scale_250.jpg,rolled-in_scale,validation,Standard Region Growing,0,52,3,52,3,0.0000,0.0000,0.0000,0.0000,111.1486
+rolled-in_scale_251.jpg,rolled-in_scale,validation,Standard Region Growing,0,28,2,28,2,0.0000,0.0000,0.0000,0.0000,176.4545
+rolled-in_scale_252.jpg,rolled-in_scale,validation,Standard Region Growing,0,25,2,25,2,0.0000,0.0000,0.0000,0.0000,149.8730
+rolled-in_scale_253.jpg,rolled-in_scale,validation,Standard Region Growing,0,73,1,73,1,0.0000,0.0000,0.0000,0.0000,89.3479
+rolled-in_scale_254.jpg,rolled-in_scale,validation,Standard Region Growing,0,35,1,35,1,0.0000,0.0000,0.0000,0.0000,128.5508
+rolled-in_scale_255.jpg,rolled-in_scale,validation,Standard Region Growing,1,75,3,76,4,0.0132,0.2500,0.0250,0.5531,125.1759
+rolled-in_scale_256.jpg,rolled-in_scale,validation,Standard Region Growing,0,47,1,47,1,0.0000,0.0000,0.0000,0.0000,88.1450
+rolled-in_scale_257.jpg,rolled-in_scale,validation,Standard Region Growing,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,48.9389
+rolled-in_scale_258.jpg,rolled-in_scale,validation,Standard Region Growing,0,68,1,68,1,0.0000,0.0000,0.0000,0.0000,59.7692
+rolled-in_scale_259.jpg,rolled-in_scale,validation,Standard Region Growing,0,44,4,44,4,0.0000,0.0000,0.0000,0.0000,88.0108
+rolled-in_scale_260.jpg,rolled-in_scale,validation,Standard Region Growing,0,32,3,32,3,0.0000,0.0000,0.0000,0.0000,92.7125
+rolled-in_scale_261.jpg,rolled-in_scale,validation,Standard Region Growing,0,55,1,55,1,0.0000,0.0000,0.0000,0.0000,83.4006
+rolled-in_scale_262.jpg,rolled-in_scale,validation,Standard Region Growing,0,76,1,76,1,0.0000,0.0000,0.0000,0.0000,75.4527
+rolled-in_scale_263.jpg,rolled-in_scale,validation,Standard Region Growing,0,32,2,32,2,0.0000,0.0000,0.0000,0.0000,108.1315
+rolled-in_scale_264.jpg,rolled-in_scale,validation,Standard Region Growing,0,73,3,73,3,0.0000,0.0000,0.0000,0.0000,56.7696
+rolled-in_scale_265.jpg,rolled-in_scale,validation,Standard Region Growing,0,79,2,79,2,0.0000,0.0000,0.0000,0.0000,82.8975
+rolled-in_scale_266.jpg,rolled-in_scale,validation,Standard Region Growing,0,43,2,43,2,0.0000,0.0000,0.0000,0.0000,99.7414
+rolled-in_scale_267.jpg,rolled-in_scale,validation,Standard Region Growing,0,58,3,58,3,0.0000,0.0000,0.0000,0.0000,54.1135
+rolled-in_scale_268.jpg,rolled-in_scale,validation,Standard Region Growing,0,17,2,17,2,0.0000,0.0000,0.0000,0.0000,123.0569
+rolled-in_scale_269.jpg,rolled-in_scale,validation,Standard Region Growing,0,30,1,30,1,0.0000,0.0000,0.0000,0.0000,137.8703
+rolled-in_scale_270.jpg,rolled-in_scale,validation,Standard Region Growing,0,74,3,74,3,0.0000,0.0000,0.0000,0.0000,79.5239
+rolled-in_scale_271.jpg,rolled-in_scale,validation,Standard Region Growing,0,38,2,38,2,0.0000,0.0000,0.0000,0.0000,136.3815
+rolled-in_scale_272.jpg,rolled-in_scale,validation,Standard Region Growing,0,75,2,75,2,0.0000,0.0000,0.0000,0.0000,66.7858
+rolled-in_scale_273.jpg,rolled-in_scale,validation,Standard Region Growing,0,49,2,49,2,0.0000,0.0000,0.0000,0.0000,94.6163
+rolled-in_scale_274.jpg,rolled-in_scale,validation,Standard Region Growing,0,74,4,74,4,0.0000,0.0000,0.0000,0.0000,66.3589
+rolled-in_scale_275.jpg,rolled-in_scale,validation,Standard Region Growing,0,61,3,61,3,0.0000,0.0000,0.0000,0.0000,99.2718
+rolled-in_scale_276.jpg,rolled-in_scale,validation,Standard Region Growing,0,53,2,53,2,0.0000,0.0000,0.0000,0.0000,105.0215
+rolled-in_scale_277.jpg,rolled-in_scale,validation,Standard Region Growing,0,39,3,39,3,0.0000,0.0000,0.0000,0.0000,126.7832
+rolled-in_scale_278.jpg,rolled-in_scale,validation,Standard Region Growing,0,84,3,84,3,0.0000,0.0000,0.0000,0.0000,74.3172
+rolled-in_scale_279.jpg,rolled-in_scale,validation,Standard Region Growing,0,56,3,56,3,0.0000,0.0000,0.0000,0.0000,94.7856
+rolled-in_scale_280.jpg,rolled-in_scale,validation,Standard Region Growing,0,49,2,49,2,0.0000,0.0000,0.0000,0.0000,115.7126
+rolled-in_scale_281.jpg,rolled-in_scale,validation,Standard Region Growing,0,57,3,57,3,0.0000,0.0000,0.0000,0.0000,92.6279
+rolled-in_scale_282.jpg,rolled-in_scale,validation,Standard Region Growing,0,47,2,47,2,0.0000,0.0000,0.0000,0.0000,93.1217
+rolled-in_scale_283.jpg,rolled-in_scale,validation,Standard Region Growing,0,74,3,74,3,0.0000,0.0000,0.0000,0.0000,111.0245
+rolled-in_scale_284.jpg,rolled-in_scale,validation,Standard Region Growing,0,74,1,74,1,0.0000,0.0000,0.0000,0.0000,98.1976
+rolled-in_scale_285.jpg,rolled-in_scale,validation,Standard Region Growing,0,91,2,91,2,0.0000,0.0000,0.0000,0.0000,75.4337
+rolled-in_scale_286.jpg,rolled-in_scale,validation,Standard Region Growing,0,85,2,85,2,0.0000,0.0000,0.0000,0.0000,85.8681
+rolled-in_scale_287.jpg,rolled-in_scale,validation,Standard Region Growing,0,30,2,30,2,0.0000,0.0000,0.0000,0.0000,126.4558
+rolled-in_scale_288.jpg,rolled-in_scale,validation,Standard Region Growing,0,29,2,29,2,0.0000,0.0000,0.0000,0.0000,103.5985
+rolled-in_scale_289.jpg,rolled-in_scale,validation,Standard Region Growing,1,66,1,67,2,0.0149,0.5000,0.0290,0.5269,88.5443
+rolled-in_scale_290.jpg,rolled-in_scale,validation,Standard Region Growing,0,66,2,66,2,0.0000,0.0000,0.0000,0.0000,69.0231
+rolled-in_scale_291.jpg,rolled-in_scale,validation,Standard Region Growing,0,85,3,85,3,0.0000,0.0000,0.0000,0.0000,42.6980
+rolled-in_scale_292.jpg,rolled-in_scale,validation,Standard Region Growing,0,88,4,88,4,0.0000,0.0000,0.0000,0.0000,56.2894
+rolled-in_scale_293.jpg,rolled-in_scale,validation,Standard Region Growing,0,74,2,74,2,0.0000,0.0000,0.0000,0.0000,100.4938
+rolled-in_scale_294.jpg,rolled-in_scale,validation,Standard Region Growing,0,64,2,64,2,0.0000,0.0000,0.0000,0.0000,100.4489
+rolled-in_scale_295.jpg,rolled-in_scale,validation,Standard Region Growing,0,67,3,67,3,0.0000,0.0000,0.0000,0.0000,99.4663
+rolled-in_scale_296.jpg,rolled-in_scale,validation,Standard Region Growing,0,21,1,21,1,0.0000,0.0000,0.0000,0.0000,116.0129
+rolled-in_scale_297.jpg,rolled-in_scale,validation,Standard Region Growing,0,57,2,57,2,0.0000,0.0000,0.0000,0.0000,98.4957
+rolled-in_scale_298.jpg,rolled-in_scale,validation,Standard Region Growing,0,64,1,64,1,0.0000,0.0000,0.0000,0.0000,110.5843
+rolled-in_scale_299.jpg,rolled-in_scale,validation,Standard Region Growing,0,55,2,55,2,0.0000,0.0000,0.0000,0.0000,100.3712
+rolled-in_scale_300.jpg,rolled-in_scale,validation,Standard Region Growing,0,65,2,65,2,0.0000,0.0000,0.0000,0.0000,104.1709
+scratches_241.jpg,scratches,validation,Standard Region Growing,1,14,1,15,2,0.0667,0.5000,0.1176,0.5964,8.5277
+scratches_242.jpg,scratches,validation,Standard Region Growing,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,2.8321
+scratches_243.jpg,scratches,validation,Standard Region Growing,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,3.7954
+scratches_244.jpg,scratches,validation,Standard Region Growing,0,8,4,8,4,0.0000,0.0000,0.0000,0.0000,3.6742
+scratches_245.jpg,scratches,validation,Standard Region Growing,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,3.3473
+scratches_246.jpg,scratches,validation,Standard Region Growing,1,31,0,32,1,0.0312,1.0000,0.0606,0.6364,23.4917
+scratches_247.jpg,scratches,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,3.7073
+scratches_248.jpg,scratches,validation,Standard Region Growing,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,2.2628
+scratches_249.jpg,scratches,validation,Standard Region Growing,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,2.3448
+scratches_250.jpg,scratches,validation,Standard Region Growing,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,4.3367
+scratches_251.jpg,scratches,validation,Standard Region Growing,1,10,1,11,2,0.0909,0.5000,0.1538,0.6301,8.2985
+scratches_252.jpg,scratches,validation,Standard Region Growing,1,16,1,17,2,0.0588,0.5000,0.1053,0.5676,8.9642
+scratches_253.jpg,scratches,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,4.1654
+scratches_254.jpg,scratches,validation,Standard Region Growing,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,2.9203
+scratches_255.jpg,scratches,validation,Standard Region Growing,1,2,0,3,1,0.3333,1.0000,0.5000,0.6375,8.6417
+scratches_256.jpg,scratches,validation,Standard Region Growing,1,3,0,4,1,0.2500,1.0000,0.4000,0.5557,11.3731
+scratches_257.jpg,scratches,validation,Standard Region Growing,1,0,0,1,1,1.0000,1.0000,1.0000,0.6541,12.5539
+scratches_258.jpg,scratches,validation,Standard Region Growing,1,0,0,1,1,1.0000,1.0000,1.0000,0.6644,14.1709
+scratches_259.jpg,scratches,validation,Standard Region Growing,1,0,0,1,1,1.0000,1.0000,1.0000,0.6368,16.0406
+scratches_260.jpg,scratches,validation,Standard Region Growing,1,1,2,2,3,0.5000,0.3333,0.4000,0.8807,12.3176
+scratches_261.jpg,scratches,validation,Standard Region Growing,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,7.9158
+scratches_262.jpg,scratches,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,7.2964
+scratches_263.jpg,scratches,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,6.5994
+scratches_264.jpg,scratches,validation,Standard Region Growing,0,18,3,18,3,0.0000,0.0000,0.0000,0.0000,11.4915
+scratches_265.jpg,scratches,validation,Standard Region Growing,1,9,1,10,2,0.1000,0.5000,0.1667,0.6728,14.7929
+scratches_266.jpg,scratches,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,4.3740
+scratches_267.jpg,scratches,validation,Standard Region Growing,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,3.1733
+scratches_268.jpg,scratches,validation,Standard Region Growing,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,2.3851
+scratches_269.jpg,scratches,validation,Standard Region Growing,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,4.8716
+scratches_270.jpg,scratches,validation,Standard Region Growing,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,6.1654
+scratches_271.jpg,scratches,validation,Standard Region Growing,1,6,3,7,4,0.1429,0.2500,0.1818,0.8076,12.0747
+scratches_272.jpg,scratches,validation,Standard Region Growing,0,14,2,14,2,0.0000,0.0000,0.0000,0.0000,8.2534
+scratches_273.jpg,scratches,validation,Standard Region Growing,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,14.0441
+scratches_274.jpg,scratches,validation,Standard Region Growing,2,16,1,18,3,0.1111,0.6667,0.1905,0.7073,20.0897
+scratches_275.jpg,scratches,validation,Standard Region Growing,0,26,4,26,4,0.0000,0.0000,0.0000,0.0000,11.7850
+scratches_276.jpg,scratches,validation,Standard Region Growing,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,6.0163
+scratches_277.jpg,scratches,validation,Standard Region Growing,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,9.5733
+scratches_278.jpg,scratches,validation,Standard Region Growing,1,6,2,7,3,0.1429,0.3333,0.2000,0.7608,15.0839
+scratches_279.jpg,scratches,validation,Standard Region Growing,1,9,1,10,2,0.1000,0.5000,0.1667,0.7714,16.1866
+scratches_280.jpg,scratches,validation,Standard Region Growing,2,4,0,6,2,0.3333,1.0000,0.5000,0.7114,21.1425
+scratches_281.jpg,scratches,validation,Standard Region Growing,0,9,1,9,1,0.0000,0.0000,0.0000,0.0000,6.4005
+scratches_282.jpg,scratches,validation,Standard Region Growing,0,10,1,10,1,0.0000,0.0000,0.0000,0.0000,9.3594
+scratches_283.jpg,scratches,validation,Standard Region Growing,2,4,0,6,2,0.3333,1.0000,0.5000,0.5327,8.4206
+scratches_284.jpg,scratches,validation,Standard Region Growing,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,6.7344
+scratches_285.jpg,scratches,validation,Standard Region Growing,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,6.4867
+scratches_286.jpg,scratches,validation,Standard Region Growing,0,7,1,7,1,0.0000,0.0000,0.0000,0.0000,2.3574
+scratches_287.jpg,scratches,validation,Standard Region Growing,1,0,0,1,1,1.0000,1.0000,1.0000,0.8056,11.9930
+scratches_288.jpg,scratches,validation,Standard Region Growing,1,2,0,3,1,0.3333,1.0000,0.5000,0.5499,6.6059
+scratches_289.jpg,scratches,validation,Standard Region Growing,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,3.4757
+scratches_290.jpg,scratches,validation,Standard Region Growing,0,13,3,13,3,0.0000,0.0000,0.0000,0.0000,47.5529
+scratches_291.jpg,scratches,validation,Standard Region Growing,1,19,0,20,1,0.0500,1.0000,0.0952,0.6899,23.9543
+scratches_292.jpg,scratches,validation,Standard Region Growing,1,6,1,7,2,0.1429,0.5000,0.2222,0.9014,14.6001
+scratches_293.jpg,scratches,validation,Standard Region Growing,0,14,2,14,2,0.0000,0.0000,0.0000,0.0000,4.6915
+scratches_294.jpg,scratches,validation,Standard Region Growing,1,4,2,5,3,0.2000,0.3333,0.2500,0.9742,9.5517
+scratches_295.jpg,scratches,validation,Standard Region Growing,3,6,1,9,4,0.3333,0.7500,0.4615,0.6462,15.9864
+scratches_296.jpg,scratches,validation,Standard Region Growing,0,11,5,11,5,0.0000,0.0000,0.0000,0.0000,13.9632
+scratches_297.jpg,scratches,validation,Standard Region Growing,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,2.3140
+scratches_298.jpg,scratches,validation,Standard Region Growing,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,8.9455
+scratches_299.jpg,scratches,validation,Standard Region Growing,1,2,0,3,1,0.3333,1.0000,0.5000,0.8482,11.2872
+scratches_300.jpg,scratches,validation,Standard Region Growing,1,5,1,6,2,0.1667,0.5000,0.2500,0.7925,9.9131
+crazing_241.jpg,crazing,validation,Otsu + Morphology,0,55,3,55,3,0.0000,0.0000,0.0000,0.0000,0.2669
+crazing_242.jpg,crazing,validation,Otsu + Morphology,0,36,3,36,3,0.0000,0.0000,0.0000,0.0000,0.1856
+crazing_243.jpg,crazing,validation,Otsu + Morphology,0,68,4,68,4,0.0000,0.0000,0.0000,0.0000,0.1774
+crazing_244.jpg,crazing,validation,Otsu + Morphology,0,42,3,42,3,0.0000,0.0000,0.0000,0.0000,0.1630
+crazing_245.jpg,crazing,validation,Otsu + Morphology,0,26,2,26,2,0.0000,0.0000,0.0000,0.0000,0.1316
+crazing_246.jpg,crazing,validation,Otsu + Morphology,0,58,4,58,4,0.0000,0.0000,0.0000,0.0000,0.1849
+crazing_247.jpg,crazing,validation,Otsu + Morphology,0,58,3,58,3,0.0000,0.0000,0.0000,0.0000,0.1594
+crazing_248.jpg,crazing,validation,Otsu + Morphology,1,68,2,69,3,0.0145,0.3333,0.0278,0.5193,0.2181
+crazing_249.jpg,crazing,validation,Otsu + Morphology,0,72,3,72,3,0.0000,0.0000,0.0000,0.0000,0.1433
+crazing_250.jpg,crazing,validation,Otsu + Morphology,0,65,3,65,3,0.0000,0.0000,0.0000,0.0000,0.1361
+crazing_251.jpg,crazing,validation,Otsu + Morphology,0,33,3,33,3,0.0000,0.0000,0.0000,0.0000,0.2481
+crazing_252.jpg,crazing,validation,Otsu + Morphology,0,58,3,58,3,0.0000,0.0000,0.0000,0.0000,0.3461
+crazing_253.jpg,crazing,validation,Otsu + Morphology,0,16,3,16,3,0.0000,0.0000,0.0000,0.0000,0.1378
+crazing_254.jpg,crazing,validation,Otsu + Morphology,0,51,1,51,1,0.0000,0.0000,0.0000,0.0000,0.1520
+crazing_255.jpg,crazing,validation,Otsu + Morphology,0,49,3,49,3,0.0000,0.0000,0.0000,0.0000,0.2111
+crazing_256.jpg,crazing,validation,Otsu + Morphology,0,51,3,51,3,0.0000,0.0000,0.0000,0.0000,0.2106
+crazing_257.jpg,crazing,validation,Otsu + Morphology,0,50,3,50,3,0.0000,0.0000,0.0000,0.0000,0.2253
+crazing_258.jpg,crazing,validation,Otsu + Morphology,0,64,2,64,2,0.0000,0.0000,0.0000,0.0000,0.1369
+crazing_259.jpg,crazing,validation,Otsu + Morphology,0,58,3,58,3,0.0000,0.0000,0.0000,0.0000,0.1380
+crazing_260.jpg,crazing,validation,Otsu + Morphology,0,50,2,50,2,0.0000,0.0000,0.0000,0.0000,0.1539
+crazing_261.jpg,crazing,validation,Otsu + Morphology,0,63,3,63,3,0.0000,0.0000,0.0000,0.0000,0.2121
+crazing_262.jpg,crazing,validation,Otsu + Morphology,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,0.1898
+crazing_263.jpg,crazing,validation,Otsu + Morphology,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,0.2204
+crazing_264.jpg,crazing,validation,Otsu + Morphology,0,32,2,32,2,0.0000,0.0000,0.0000,0.0000,0.1508
+crazing_265.jpg,crazing,validation,Otsu + Morphology,0,49,2,49,2,0.0000,0.0000,0.0000,0.0000,0.2052
+crazing_266.jpg,crazing,validation,Otsu + Morphology,0,40,2,40,2,0.0000,0.0000,0.0000,0.0000,0.2019
+crazing_267.jpg,crazing,validation,Otsu + Morphology,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,0.1622
+crazing_268.jpg,crazing,validation,Otsu + Morphology,0,32,3,32,3,0.0000,0.0000,0.0000,0.0000,0.2298
+crazing_269.jpg,crazing,validation,Otsu + Morphology,0,36,3,36,3,0.0000,0.0000,0.0000,0.0000,0.2458
+crazing_270.jpg,crazing,validation,Otsu + Morphology,1,48,2,49,3,0.0204,0.3333,0.0385,0.5857,3.2025
+crazing_271.jpg,crazing,validation,Otsu + Morphology,0,42,4,42,4,0.0000,0.0000,0.0000,0.0000,0.2154
+crazing_272.jpg,crazing,validation,Otsu + Morphology,0,54,3,54,3,0.0000,0.0000,0.0000,0.0000,0.2052
+crazing_273.jpg,crazing,validation,Otsu + Morphology,0,34,3,34,3,0.0000,0.0000,0.0000,0.0000,0.2902
+crazing_274.jpg,crazing,validation,Otsu + Morphology,0,27,4,27,4,0.0000,0.0000,0.0000,0.0000,0.1957
+crazing_275.jpg,crazing,validation,Otsu + Morphology,0,68,3,68,3,0.0000,0.0000,0.0000,0.0000,0.1919
+crazing_276.jpg,crazing,validation,Otsu + Morphology,0,17,2,17,2,0.0000,0.0000,0.0000,0.0000,0.1342
+crazing_277.jpg,crazing,validation,Otsu + Morphology,0,64,2,64,2,0.0000,0.0000,0.0000,0.0000,0.1754
+crazing_278.jpg,crazing,validation,Otsu + Morphology,0,75,4,75,4,0.0000,0.0000,0.0000,0.0000,0.1867
+crazing_279.jpg,crazing,validation,Otsu + Morphology,0,73,2,73,2,0.0000,0.0000,0.0000,0.0000,0.1940
+crazing_280.jpg,crazing,validation,Otsu + Morphology,0,15,1,15,1,0.0000,0.0000,0.0000,0.0000,0.1926
+crazing_281.jpg,crazing,validation,Otsu + Morphology,0,57,2,57,2,0.0000,0.0000,0.0000,0.0000,0.2158
+crazing_282.jpg,crazing,validation,Otsu + Morphology,0,49,2,49,2,0.0000,0.0000,0.0000,0.0000,0.1447
+crazing_283.jpg,crazing,validation,Otsu + Morphology,0,34,4,34,4,0.0000,0.0000,0.0000,0.0000,0.1819
+crazing_284.jpg,crazing,validation,Otsu + Morphology,0,36,2,36,2,0.0000,0.0000,0.0000,0.0000,0.1868
+crazing_285.jpg,crazing,validation,Otsu + Morphology,0,62,3,62,3,0.0000,0.0000,0.0000,0.0000,0.1287
+crazing_286.jpg,crazing,validation,Otsu + Morphology,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,0.2392
+crazing_287.jpg,crazing,validation,Otsu + Morphology,0,27,2,27,2,0.0000,0.0000,0.0000,0.0000,0.1747
+crazing_288.jpg,crazing,validation,Otsu + Morphology,0,53,2,53,2,0.0000,0.0000,0.0000,0.0000,0.1258
+crazing_289.jpg,crazing,validation,Otsu + Morphology,1,55,0,56,1,0.0179,1.0000,0.0351,0.6442,0.1816
+crazing_290.jpg,crazing,validation,Otsu + Morphology,0,47,3,47,3,0.0000,0.0000,0.0000,0.0000,0.1763
+crazing_291.jpg,crazing,validation,Otsu + Morphology,2,60,1,62,3,0.0323,0.6667,0.0615,0.5147,0.1736
+crazing_292.jpg,crazing,validation,Otsu + Morphology,0,46,3,46,3,0.0000,0.0000,0.0000,0.0000,0.1981
+crazing_293.jpg,crazing,validation,Otsu + Morphology,1,61,2,62,3,0.0161,0.3333,0.0308,0.5039,0.1975
+crazing_294.jpg,crazing,validation,Otsu + Morphology,0,20,2,20,2,0.0000,0.0000,0.0000,0.0000,0.1353
+crazing_295.jpg,crazing,validation,Otsu + Morphology,0,73,2,73,2,0.0000,0.0000,0.0000,0.0000,0.1989
+crazing_296.jpg,crazing,validation,Otsu + Morphology,0,55,2,55,2,0.0000,0.0000,0.0000,0.0000,0.1919
+crazing_297.jpg,crazing,validation,Otsu + Morphology,0,58,3,58,3,0.0000,0.0000,0.0000,0.0000,0.1889
+crazing_298.jpg,crazing,validation,Otsu + Morphology,0,74,2,74,2,0.0000,0.0000,0.0000,0.0000,0.1845
+crazing_299.jpg,crazing,validation,Otsu + Morphology,0,73,4,73,4,0.0000,0.0000,0.0000,0.0000,0.1839
+crazing_300.jpg,crazing,validation,Otsu + Morphology,0,42,3,42,3,0.0000,0.0000,0.0000,0.0000,0.1270
+inclusion_241.jpg,inclusion,validation,Otsu + Morphology,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,0.2277
+inclusion_242.jpg,inclusion,validation,Otsu + Morphology,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,0.2398
+inclusion_243.jpg,inclusion,validation,Otsu + Morphology,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,0.2309
+inclusion_244.jpg,inclusion,validation,Otsu + Morphology,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,0.1777
+inclusion_245.jpg,inclusion,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1765
+inclusion_246.jpg,inclusion,validation,Otsu + Morphology,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,0.1848
+inclusion_247.jpg,inclusion,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1707
+inclusion_248.jpg,inclusion,validation,Otsu + Morphology,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,0.1764
+inclusion_249.jpg,inclusion,validation,Otsu + Morphology,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,0.1840
+inclusion_250.jpg,inclusion,validation,Otsu + Morphology,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,0.1921
+inclusion_251.jpg,inclusion,validation,Otsu + Morphology,0,7,1,7,1,0.0000,0.0000,0.0000,0.0000,0.2292
+inclusion_252.jpg,inclusion,validation,Otsu + Morphology,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,0.1334
+inclusion_253.jpg,inclusion,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1894
+inclusion_254.jpg,inclusion,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.1834
+inclusion_255.jpg,inclusion,validation,Otsu + Morphology,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,0.1243
+inclusion_256.jpg,inclusion,validation,Otsu + Morphology,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,0.1315
+inclusion_257.jpg,inclusion,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.1261
+inclusion_258.jpg,inclusion,validation,Otsu + Morphology,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,0.1201
+inclusion_259.jpg,inclusion,validation,Otsu + Morphology,0,12,1,12,1,0.0000,0.0000,0.0000,0.0000,0.1803
+inclusion_260.jpg,inclusion,validation,Otsu + Morphology,0,17,2,17,2,0.0000,0.0000,0.0000,0.0000,0.2045
+inclusion_261.jpg,inclusion,validation,Otsu + Morphology,0,15,2,15,2,0.0000,0.0000,0.0000,0.0000,0.2434
+inclusion_262.jpg,inclusion,validation,Otsu + Morphology,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,0.1155
+inclusion_263.jpg,inclusion,validation,Otsu + Morphology,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,0.1793
+inclusion_264.jpg,inclusion,validation,Otsu + Morphology,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,0.1499
+inclusion_265.jpg,inclusion,validation,Otsu + Morphology,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,0.1644
+inclusion_266.jpg,inclusion,validation,Otsu + Morphology,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,0.1181
+inclusion_267.jpg,inclusion,validation,Otsu + Morphology,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,0.1720
+inclusion_268.jpg,inclusion,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1680
+inclusion_269.jpg,inclusion,validation,Otsu + Morphology,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,0.1723
+inclusion_270.jpg,inclusion,validation,Otsu + Morphology,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,0.1489
+inclusion_271.jpg,inclusion,validation,Otsu + Morphology,0,11,3,11,3,0.0000,0.0000,0.0000,0.0000,0.2092
+inclusion_272.jpg,inclusion,validation,Otsu + Morphology,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,0.2435
+inclusion_273.jpg,inclusion,validation,Otsu + Morphology,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,0.2069
+inclusion_274.jpg,inclusion,validation,Otsu + Morphology,0,6,4,6,4,0.0000,0.0000,0.0000,0.0000,0.1915
+inclusion_275.jpg,inclusion,validation,Otsu + Morphology,0,2,6,2,6,0.0000,0.0000,0.0000,0.0000,0.1887
+inclusion_276.jpg,inclusion,validation,Otsu + Morphology,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,0.1859
+inclusion_277.jpg,inclusion,validation,Otsu + Morphology,0,14,1,14,1,0.0000,0.0000,0.0000,0.0000,0.1274
+inclusion_278.jpg,inclusion,validation,Otsu + Morphology,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,0.1811
+inclusion_279.jpg,inclusion,validation,Otsu + Morphology,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,0.1706
+inclusion_280.jpg,inclusion,validation,Otsu + Morphology,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,0.1227
+inclusion_281.jpg,inclusion,validation,Otsu + Morphology,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,0.2028
+inclusion_282.jpg,inclusion,validation,Otsu + Morphology,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,0.1242
+inclusion_283.jpg,inclusion,validation,Otsu + Morphology,0,18,1,18,1,0.0000,0.0000,0.0000,0.0000,0.1778
+inclusion_284.jpg,inclusion,validation,Otsu + Morphology,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,0.1746
+inclusion_285.jpg,inclusion,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1251
+inclusion_286.jpg,inclusion,validation,Otsu + Morphology,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,0.1861
+inclusion_287.jpg,inclusion,validation,Otsu + Morphology,0,19,8,19,8,0.0000,0.0000,0.0000,0.0000,0.1238
+inclusion_288.jpg,inclusion,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.1768
+inclusion_289.jpg,inclusion,validation,Otsu + Morphology,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,0.1923
+inclusion_290.jpg,inclusion,validation,Otsu + Morphology,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,0.2285
+inclusion_291.jpg,inclusion,validation,Otsu + Morphology,0,9,4,9,4,0.0000,0.0000,0.0000,0.0000,0.1975
+inclusion_292.jpg,inclusion,validation,Otsu + Morphology,0,15,7,15,7,0.0000,0.0000,0.0000,0.0000,0.1972
+inclusion_293.jpg,inclusion,validation,Otsu + Morphology,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,0.1516
+inclusion_294.jpg,inclusion,validation,Otsu + Morphology,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,0.1967
+inclusion_295.jpg,inclusion,validation,Otsu + Morphology,0,19,2,19,2,0.0000,0.0000,0.0000,0.0000,0.1857
+inclusion_296.jpg,inclusion,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.2423
+inclusion_297.jpg,inclusion,validation,Otsu + Morphology,0,9,1,9,1,0.0000,0.0000,0.0000,0.0000,0.1765
+inclusion_298.jpg,inclusion,validation,Otsu + Morphology,0,15,5,15,5,0.0000,0.0000,0.0000,0.0000,0.1226
+inclusion_299.jpg,inclusion,validation,Otsu + Morphology,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,0.1190
+inclusion_300.jpg,inclusion,validation,Otsu + Morphology,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,0.1856
+patches_241.jpg,patches,validation,Otsu + Morphology,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,0.1250
+patches_242.jpg,patches,validation,Otsu + Morphology,0,27,3,27,3,0.0000,0.0000,0.0000,0.0000,0.1776
+patches_243.jpg,patches,validation,Otsu + Morphology,0,19,5,19,5,0.0000,0.0000,0.0000,0.0000,0.1754
+patches_244.jpg,patches,validation,Otsu + Morphology,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,0.1779
+patches_245.jpg,patches,validation,Otsu + Morphology,0,5,7,5,7,0.0000,0.0000,0.0000,0.0000,0.1801
+patches_246.jpg,patches,validation,Otsu + Morphology,0,15,5,15,5,0.0000,0.0000,0.0000,0.0000,0.1481
+patches_247.jpg,patches,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.2206
+patches_248.jpg,patches,validation,Otsu + Morphology,0,10,5,10,5,0.0000,0.0000,0.0000,0.0000,0.1181
+patches_249.jpg,patches,validation,Otsu + Morphology,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,0.1767
+patches_250.jpg,patches,validation,Otsu + Morphology,0,4,4,4,4,0.0000,0.0000,0.0000,0.0000,0.1803
+patches_251.jpg,patches,validation,Otsu + Morphology,0,21,1,21,1,0.0000,0.0000,0.0000,0.0000,0.1977
+patches_252.jpg,patches,validation,Otsu + Morphology,0,18,3,18,3,0.0000,0.0000,0.0000,0.0000,0.1890
+patches_253.jpg,patches,validation,Otsu + Morphology,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,0.1352
+patches_254.jpg,patches,validation,Otsu + Morphology,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,0.2028
+patches_255.jpg,patches,validation,Otsu + Morphology,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,0.2044
+patches_256.jpg,patches,validation,Otsu + Morphology,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,0.1883
+patches_257.jpg,patches,validation,Otsu + Morphology,0,10,4,10,4,0.0000,0.0000,0.0000,0.0000,0.1325
+patches_258.jpg,patches,validation,Otsu + Morphology,0,15,3,15,3,0.0000,0.0000,0.0000,0.0000,0.1755
+patches_259.jpg,patches,validation,Otsu + Morphology,0,12,5,12,5,0.0000,0.0000,0.0000,0.0000,0.1724
+patches_260.jpg,patches,validation,Otsu + Morphology,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,0.1764
+patches_261.jpg,patches,validation,Otsu + Morphology,0,10,4,10,4,0.0000,0.0000,0.0000,0.0000,0.1935
+patches_262.jpg,patches,validation,Otsu + Morphology,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,0.1867
+patches_263.jpg,patches,validation,Otsu + Morphology,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,0.1631
+patches_264.jpg,patches,validation,Otsu + Morphology,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,0.2647
+patches_265.jpg,patches,validation,Otsu + Morphology,0,8,4,8,4,0.0000,0.0000,0.0000,0.0000,0.2625
+patches_266.jpg,patches,validation,Otsu + Morphology,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,0.1917
+patches_267.jpg,patches,validation,Otsu + Morphology,0,7,4,7,4,0.0000,0.0000,0.0000,0.0000,0.2222
+patches_268.jpg,patches,validation,Otsu + Morphology,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,0.1878
+patches_269.jpg,patches,validation,Otsu + Morphology,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,0.1826
+patches_270.jpg,patches,validation,Otsu + Morphology,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,0.1328
+patches_271.jpg,patches,validation,Otsu + Morphology,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,0.1241
+patches_272.jpg,patches,validation,Otsu + Morphology,0,16,1,16,1,0.0000,0.0000,0.0000,0.0000,0.1761
+patches_273.jpg,patches,validation,Otsu + Morphology,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,0.1721
+patches_274.jpg,patches,validation,Otsu + Morphology,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,0.1694
+patches_275.jpg,patches,validation,Otsu + Morphology,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,0.1947
+patches_276.jpg,patches,validation,Otsu + Morphology,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,0.1749
+patches_277.jpg,patches,validation,Otsu + Morphology,0,9,4,9,4,0.0000,0.0000,0.0000,0.0000,0.1690
+patches_278.jpg,patches,validation,Otsu + Morphology,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,0.1733
+patches_279.jpg,patches,validation,Otsu + Morphology,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,0.1927
+patches_280.jpg,patches,validation,Otsu + Morphology,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,0.1712
+patches_281.jpg,patches,validation,Otsu + Morphology,0,22,3,22,3,0.0000,0.0000,0.0000,0.0000,0.1691
+patches_282.jpg,patches,validation,Otsu + Morphology,0,11,3,11,3,0.0000,0.0000,0.0000,0.0000,0.1304
+patches_283.jpg,patches,validation,Otsu + Morphology,0,12,4,12,4,0.0000,0.0000,0.0000,0.0000,0.1593
+patches_284.jpg,patches,validation,Otsu + Morphology,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,0.1914
+patches_285.jpg,patches,validation,Otsu + Morphology,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,0.1964
+patches_286.jpg,patches,validation,Otsu + Morphology,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,0.1352
+patches_287.jpg,patches,validation,Otsu + Morphology,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,0.1835
+patches_288.jpg,patches,validation,Otsu + Morphology,1,15,1,16,2,0.0625,0.5000,0.1111,0.6654,0.1754
+patches_289.jpg,patches,validation,Otsu + Morphology,0,14,5,14,5,0.0000,0.0000,0.0000,0.0000,0.1173
+patches_290.jpg,patches,validation,Otsu + Morphology,0,7,5,7,5,0.0000,0.0000,0.0000,0.0000,0.1323
+patches_291.jpg,patches,validation,Otsu + Morphology,0,5,4,5,4,0.0000,0.0000,0.0000,0.0000,0.1234
+patches_292.jpg,patches,validation,Otsu + Morphology,0,8,5,8,5,0.0000,0.0000,0.0000,0.0000,0.1246
+patches_293.jpg,patches,validation,Otsu + Morphology,0,14,2,14,2,0.0000,0.0000,0.0000,0.0000,0.1741
+patches_294.jpg,patches,validation,Otsu + Morphology,0,23,2,23,2,0.0000,0.0000,0.0000,0.0000,0.1714
+patches_295.jpg,patches,validation,Otsu + Morphology,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,0.2231
+patches_296.jpg,patches,validation,Otsu + Morphology,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,0.1220
+patches_297.jpg,patches,validation,Otsu + Morphology,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,0.1715
+patches_298.jpg,patches,validation,Otsu + Morphology,0,13,4,13,4,0.0000,0.0000,0.0000,0.0000,0.1776
+patches_299.jpg,patches,validation,Otsu + Morphology,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,0.1206
+patches_300.jpg,patches,validation,Otsu + Morphology,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,0.1196
+pitted_surface_241.jpg,pitted_surface,validation,Otsu + Morphology,1,6,0,7,1,0.1429,1.0000,0.2500,0.7320,0.1764
+pitted_surface_242.jpg,pitted_surface,validation,Otsu + Morphology,1,29,1,30,2,0.0333,0.5000,0.0625,0.5020,0.1817
+pitted_surface_243.jpg,pitted_surface,validation,Otsu + Morphology,1,50,0,51,1,0.0196,1.0000,0.0385,0.8651,0.2124
+pitted_surface_244.jpg,pitted_surface,validation,Otsu + Morphology,1,4,0,5,1,0.2000,1.0000,0.3333,0.5528,0.1949
+pitted_surface_245.jpg,pitted_surface,validation,Otsu + Morphology,1,6,2,7,3,0.1429,0.3333,0.2000,0.5663,0.1618
+pitted_surface_246.jpg,pitted_surface,validation,Otsu + Morphology,1,24,1,25,2,0.0400,0.5000,0.0741,0.7128,0.1341
+pitted_surface_247.jpg,pitted_surface,validation,Otsu + Morphology,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,0.1896
+pitted_surface_248.jpg,pitted_surface,validation,Otsu + Morphology,1,26,1,27,2,0.0370,0.5000,0.0690,0.7562,0.1767
+pitted_surface_249.jpg,pitted_surface,validation,Otsu + Morphology,1,27,0,28,1,0.0357,1.0000,0.0690,0.8497,0.1757
+pitted_surface_250.jpg,pitted_surface,validation,Otsu + Morphology,0,92,1,92,1,0.0000,0.0000,0.0000,0.0000,0.1886
+pitted_surface_251.jpg,pitted_surface,validation,Otsu + Morphology,1,7,0,8,1,0.1250,1.0000,0.2222,0.7384,0.1798
+pitted_surface_252.jpg,pitted_surface,validation,Otsu + Morphology,0,7,1,7,1,0.0000,0.0000,0.0000,0.0000,0.1776
+pitted_surface_253.jpg,pitted_surface,validation,Otsu + Morphology,1,11,1,12,2,0.0833,0.5000,0.1429,0.6747,0.1879
+pitted_surface_254.jpg,pitted_surface,validation,Otsu + Morphology,1,49,0,50,1,0.0200,1.0000,0.0392,0.7366,0.1759
+pitted_surface_255.jpg,pitted_surface,validation,Otsu + Morphology,1,84,0,85,1,0.0118,1.0000,0.0233,0.5079,0.2172
+pitted_surface_256.jpg,pitted_surface,validation,Otsu + Morphology,1,6,1,7,2,0.1429,0.5000,0.2222,0.8029,0.2415
+pitted_surface_257.jpg,pitted_surface,validation,Otsu + Morphology,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,0.1247
+pitted_surface_258.jpg,pitted_surface,validation,Otsu + Morphology,1,22,1,23,2,0.0435,0.5000,0.0800,0.7872,0.1891
+pitted_surface_259.jpg,pitted_surface,validation,Otsu + Morphology,1,53,0,54,1,0.0185,1.0000,0.0364,0.6640,0.1811
+pitted_surface_260.jpg,pitted_surface,validation,Otsu + Morphology,1,33,0,34,1,0.0294,1.0000,0.0571,0.8517,0.4183
+pitted_surface_261.jpg,pitted_surface,validation,Otsu + Morphology,1,2,2,3,3,0.3333,0.3333,0.3333,0.5512,0.2041
+pitted_surface_262.jpg,pitted_surface,validation,Otsu + Morphology,1,20,0,21,1,0.0476,1.0000,0.0909,0.9036,0.5969
+pitted_surface_263.jpg,pitted_surface,validation,Otsu + Morphology,1,26,0,27,1,0.0370,1.0000,0.0714,0.6962,0.1847
+pitted_surface_264.jpg,pitted_surface,validation,Otsu + Morphology,1,4,0,5,1,0.2000,1.0000,0.3333,0.9173,0.2523
+pitted_surface_265.jpg,pitted_surface,validation,Otsu + Morphology,1,11,0,12,1,0.0833,1.0000,0.1538,0.8288,0.1744
+pitted_surface_266.jpg,pitted_surface,validation,Otsu + Morphology,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,0.1322
+pitted_surface_267.jpg,pitted_surface,validation,Otsu + Morphology,1,5,1,6,2,0.1667,0.5000,0.2500,0.5325,0.1815
+pitted_surface_268.jpg,pitted_surface,validation,Otsu + Morphology,1,4,1,5,2,0.2000,0.5000,0.2857,0.6242,0.1868
+pitted_surface_269.jpg,pitted_surface,validation,Otsu + Morphology,1,39,1,40,2,0.0250,0.5000,0.0476,0.7975,0.1194
+pitted_surface_270.jpg,pitted_surface,validation,Otsu + Morphology,1,29,0,30,1,0.0333,1.0000,0.0645,0.6398,0.1235
+pitted_surface_271.jpg,pitted_surface,validation,Otsu + Morphology,1,30,1,31,2,0.0323,0.5000,0.0606,0.6018,0.2379
+pitted_surface_272.jpg,pitted_surface,validation,Otsu + Morphology,1,7,2,8,3,0.1250,0.3333,0.1818,0.7629,0.1700
+pitted_surface_273.jpg,pitted_surface,validation,Otsu + Morphology,1,2,0,3,1,0.3333,1.0000,0.5000,0.5611,0.1724
+pitted_surface_274.jpg,pitted_surface,validation,Otsu + Morphology,1,23,0,24,1,0.0417,1.0000,0.0800,0.5061,0.1262
+pitted_surface_275.jpg,pitted_surface,validation,Otsu + Morphology,1,28,0,29,1,0.0345,1.0000,0.0667,0.6639,0.1719
+pitted_surface_276.jpg,pitted_surface,validation,Otsu + Morphology,1,2,2,3,3,0.3333,0.3333,0.3333,0.5712,0.1729
+pitted_surface_277.jpg,pitted_surface,validation,Otsu + Morphology,1,4,1,5,2,0.2000,0.5000,0.2857,0.6616,0.1233
+pitted_surface_278.jpg,pitted_surface,validation,Otsu + Morphology,0,23,1,23,1,0.0000,0.0000,0.0000,0.0000,0.1706
+pitted_surface_279.jpg,pitted_surface,validation,Otsu + Morphology,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,0.1849
+pitted_surface_280.jpg,pitted_surface,validation,Otsu + Morphology,1,3,2,4,3,0.2500,0.3333,0.2857,0.7151,0.1928
+pitted_surface_281.jpg,pitted_surface,validation,Otsu + Morphology,1,3,1,4,2,0.2500,0.5000,0.3333,0.5156,0.1900
+pitted_surface_282.jpg,pitted_surface,validation,Otsu + Morphology,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,0.1953
+pitted_surface_283.jpg,pitted_surface,validation,Otsu + Morphology,1,2,0,3,1,0.3333,1.0000,0.5000,0.8647,0.1823
+pitted_surface_284.jpg,pitted_surface,validation,Otsu + Morphology,1,30,1,31,2,0.0323,0.5000,0.0606,0.7227,0.1259
+pitted_surface_285.jpg,pitted_surface,validation,Otsu + Morphology,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,0.1286
+pitted_surface_286.jpg,pitted_surface,validation,Otsu + Morphology,1,47,0,48,1,0.0208,1.0000,0.0408,0.5077,0.1334
+pitted_surface_287.jpg,pitted_surface,validation,Otsu + Morphology,0,23,1,23,1,0.0000,0.0000,0.0000,0.0000,0.1211
+pitted_surface_288.jpg,pitted_surface,validation,Otsu + Morphology,0,35,1,35,1,0.0000,0.0000,0.0000,0.0000,0.1703
+pitted_surface_289.jpg,pitted_surface,validation,Otsu + Morphology,1,14,1,15,2,0.0667,0.5000,0.1176,0.6487,0.1750
+pitted_surface_290.jpg,pitted_surface,validation,Otsu + Morphology,1,6,2,7,3,0.1429,0.3333,0.2000,0.8906,0.1320
+pitted_surface_291.jpg,pitted_surface,validation,Otsu + Morphology,1,42,1,43,2,0.0233,0.5000,0.0444,0.7475,0.1183
+pitted_surface_292.jpg,pitted_surface,validation,Otsu + Morphology,0,11,4,11,4,0.0000,0.0000,0.0000,0.0000,0.1756
+pitted_surface_293.jpg,pitted_surface,validation,Otsu + Morphology,1,70,0,71,1,0.0141,1.0000,0.0278,0.8642,0.1687
+pitted_surface_294.jpg,pitted_surface,validation,Otsu + Morphology,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,0.1701
+pitted_surface_295.jpg,pitted_surface,validation,Otsu + Morphology,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,0.1893
+pitted_surface_296.jpg,pitted_surface,validation,Otsu + Morphology,1,47,2,48,3,0.0208,0.3333,0.0392,0.6579,0.1903
+pitted_surface_297.jpg,pitted_surface,validation,Otsu + Morphology,1,2,0,3,1,0.3333,1.0000,0.5000,0.6277,0.1978
+pitted_surface_298.jpg,pitted_surface,validation,Otsu + Morphology,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,0.1935
+pitted_surface_299.jpg,pitted_surface,validation,Otsu + Morphology,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,0.1214
+pitted_surface_300.jpg,pitted_surface,validation,Otsu + Morphology,1,18,1,19,2,0.0526,0.5000,0.0952,0.8859,0.1799
+rolled-in_scale_241.jpg,rolled-in_scale,validation,Otsu + Morphology,0,26,2,26,2,0.0000,0.0000,0.0000,0.0000,0.1949
+rolled-in_scale_242.jpg,rolled-in_scale,validation,Otsu + Morphology,0,45,2,45,2,0.0000,0.0000,0.0000,0.0000,0.1854
+rolled-in_scale_243.jpg,rolled-in_scale,validation,Otsu + Morphology,0,39,1,39,1,0.0000,0.0000,0.0000,0.0000,0.1208
+rolled-in_scale_244.jpg,rolled-in_scale,validation,Otsu + Morphology,0,36,3,36,3,0.0000,0.0000,0.0000,0.0000,0.1736
+rolled-in_scale_245.jpg,rolled-in_scale,validation,Otsu + Morphology,0,34,2,34,2,0.0000,0.0000,0.0000,0.0000,0.2062
+rolled-in_scale_246.jpg,rolled-in_scale,validation,Otsu + Morphology,0,42,2,42,2,0.0000,0.0000,0.0000,0.0000,0.2069
+rolled-in_scale_247.jpg,rolled-in_scale,validation,Otsu + Morphology,0,47,3,47,3,0.0000,0.0000,0.0000,0.0000,0.1282
+rolled-in_scale_248.jpg,rolled-in_scale,validation,Otsu + Morphology,0,58,2,58,2,0.0000,0.0000,0.0000,0.0000,0.1918
+rolled-in_scale_249.jpg,rolled-in_scale,validation,Otsu + Morphology,0,50,1,50,1,0.0000,0.0000,0.0000,0.0000,0.1364
+rolled-in_scale_250.jpg,rolled-in_scale,validation,Otsu + Morphology,0,29,3,29,3,0.0000,0.0000,0.0000,0.0000,0.1785
+rolled-in_scale_251.jpg,rolled-in_scale,validation,Otsu + Morphology,0,35,2,35,2,0.0000,0.0000,0.0000,0.0000,0.1798
+rolled-in_scale_252.jpg,rolled-in_scale,validation,Otsu + Morphology,0,48,2,48,2,0.0000,0.0000,0.0000,0.0000,0.1393
+rolled-in_scale_253.jpg,rolled-in_scale,validation,Otsu + Morphology,0,72,1,72,1,0.0000,0.0000,0.0000,0.0000,0.1925
+rolled-in_scale_254.jpg,rolled-in_scale,validation,Otsu + Morphology,0,32,1,32,1,0.0000,0.0000,0.0000,0.0000,0.1944
+rolled-in_scale_255.jpg,rolled-in_scale,validation,Otsu + Morphology,0,41,4,41,4,0.0000,0.0000,0.0000,0.0000,0.1988
+rolled-in_scale_256.jpg,rolled-in_scale,validation,Otsu + Morphology,1,32,0,33,1,0.0303,1.0000,0.0588,0.5710,0.1842
+rolled-in_scale_257.jpg,rolled-in_scale,validation,Otsu + Morphology,0,23,3,23,3,0.0000,0.0000,0.0000,0.0000,0.1768
+rolled-in_scale_258.jpg,rolled-in_scale,validation,Otsu + Morphology,0,73,1,73,1,0.0000,0.0000,0.0000,0.0000,0.1240
+rolled-in_scale_259.jpg,rolled-in_scale,validation,Otsu + Morphology,0,34,4,34,4,0.0000,0.0000,0.0000,0.0000,0.1800
+rolled-in_scale_260.jpg,rolled-in_scale,validation,Otsu + Morphology,0,27,3,27,3,0.0000,0.0000,0.0000,0.0000,0.1870
+rolled-in_scale_261.jpg,rolled-in_scale,validation,Otsu + Morphology,0,35,1,35,1,0.0000,0.0000,0.0000,0.0000,0.1798
+rolled-in_scale_262.jpg,rolled-in_scale,validation,Otsu + Morphology,0,46,1,46,1,0.0000,0.0000,0.0000,0.0000,0.1784
+rolled-in_scale_263.jpg,rolled-in_scale,validation,Otsu + Morphology,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,0.2196
+rolled-in_scale_264.jpg,rolled-in_scale,validation,Otsu + Morphology,0,28,3,28,3,0.0000,0.0000,0.0000,0.0000,0.1400
+rolled-in_scale_265.jpg,rolled-in_scale,validation,Otsu + Morphology,0,34,2,34,2,0.0000,0.0000,0.0000,0.0000,0.2750
+rolled-in_scale_266.jpg,rolled-in_scale,validation,Otsu + Morphology,0,27,2,27,2,0.0000,0.0000,0.0000,0.0000,0.1229
+rolled-in_scale_267.jpg,rolled-in_scale,validation,Otsu + Morphology,0,31,3,31,3,0.0000,0.0000,0.0000,0.0000,0.1792
+rolled-in_scale_268.jpg,rolled-in_scale,validation,Otsu + Morphology,0,35,2,35,2,0.0000,0.0000,0.0000,0.0000,0.1730
+rolled-in_scale_269.jpg,rolled-in_scale,validation,Otsu + Morphology,0,37,1,37,1,0.0000,0.0000,0.0000,0.0000,0.2282
+rolled-in_scale_270.jpg,rolled-in_scale,validation,Otsu + Morphology,0,41,3,41,3,0.0000,0.0000,0.0000,0.0000,0.1471
+rolled-in_scale_271.jpg,rolled-in_scale,validation,Otsu + Morphology,0,56,2,56,2,0.0000,0.0000,0.0000,0.0000,0.1372
+rolled-in_scale_272.jpg,rolled-in_scale,validation,Otsu + Morphology,0,36,2,36,2,0.0000,0.0000,0.0000,0.0000,0.1832
+rolled-in_scale_273.jpg,rolled-in_scale,validation,Otsu + Morphology,0,29,2,29,2,0.0000,0.0000,0.0000,0.0000,0.1323
+rolled-in_scale_274.jpg,rolled-in_scale,validation,Otsu + Morphology,0,49,4,49,4,0.0000,0.0000,0.0000,0.0000,0.2055
+rolled-in_scale_275.jpg,rolled-in_scale,validation,Otsu + Morphology,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,0.1852
+rolled-in_scale_276.jpg,rolled-in_scale,validation,Otsu + Morphology,0,27,2,27,2,0.0000,0.0000,0.0000,0.0000,0.1242
+rolled-in_scale_277.jpg,rolled-in_scale,validation,Otsu + Morphology,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,0.1781
+rolled-in_scale_278.jpg,rolled-in_scale,validation,Otsu + Morphology,0,56,3,56,3,0.0000,0.0000,0.0000,0.0000,0.1183
+rolled-in_scale_279.jpg,rolled-in_scale,validation,Otsu + Morphology,0,26,3,26,3,0.0000,0.0000,0.0000,0.0000,0.1714
+rolled-in_scale_280.jpg,rolled-in_scale,validation,Otsu + Morphology,0,42,2,42,2,0.0000,0.0000,0.0000,0.0000,0.1870
+rolled-in_scale_281.jpg,rolled-in_scale,validation,Otsu + Morphology,0,23,3,23,3,0.0000,0.0000,0.0000,0.0000,0.1775
+rolled-in_scale_282.jpg,rolled-in_scale,validation,Otsu + Morphology,0,36,2,36,2,0.0000,0.0000,0.0000,0.0000,0.1685
+rolled-in_scale_283.jpg,rolled-in_scale,validation,Otsu + Morphology,0,45,3,45,3,0.0000,0.0000,0.0000,0.0000,0.1200
+rolled-in_scale_284.jpg,rolled-in_scale,validation,Otsu + Morphology,0,53,1,53,1,0.0000,0.0000,0.0000,0.0000,0.1733
+rolled-in_scale_285.jpg,rolled-in_scale,validation,Otsu + Morphology,0,56,2,56,2,0.0000,0.0000,0.0000,0.0000,0.1915
+rolled-in_scale_286.jpg,rolled-in_scale,validation,Otsu + Morphology,0,57,2,57,2,0.0000,0.0000,0.0000,0.0000,0.1893
+rolled-in_scale_287.jpg,rolled-in_scale,validation,Otsu + Morphology,0,51,2,51,2,0.0000,0.0000,0.0000,0.0000,0.1226
+rolled-in_scale_288.jpg,rolled-in_scale,validation,Otsu + Morphology,1,31,1,32,2,0.0312,0.5000,0.0588,0.5985,0.1771
+rolled-in_scale_289.jpg,rolled-in_scale,validation,Otsu + Morphology,1,50,1,51,2,0.0196,0.5000,0.0377,0.5296,0.1381
+rolled-in_scale_290.jpg,rolled-in_scale,validation,Otsu + Morphology,0,27,2,27,2,0.0000,0.0000,0.0000,0.0000,0.1920
+rolled-in_scale_291.jpg,rolled-in_scale,validation,Otsu + Morphology,0,50,3,50,3,0.0000,0.0000,0.0000,0.0000,0.1969
+rolled-in_scale_292.jpg,rolled-in_scale,validation,Otsu + Morphology,0,47,4,47,4,0.0000,0.0000,0.0000,0.0000,0.1285
+rolled-in_scale_293.jpg,rolled-in_scale,validation,Otsu + Morphology,0,34,2,34,2,0.0000,0.0000,0.0000,0.0000,0.1793
+rolled-in_scale_294.jpg,rolled-in_scale,validation,Otsu + Morphology,0,41,2,41,2,0.0000,0.0000,0.0000,0.0000,0.1710
+rolled-in_scale_295.jpg,rolled-in_scale,validation,Otsu + Morphology,0,35,3,35,3,0.0000,0.0000,0.0000,0.0000,0.1217
+rolled-in_scale_296.jpg,rolled-in_scale,validation,Otsu + Morphology,0,21,1,21,1,0.0000,0.0000,0.0000,0.0000,0.1898
+rolled-in_scale_297.jpg,rolled-in_scale,validation,Otsu + Morphology,0,42,2,42,2,0.0000,0.0000,0.0000,0.0000,0.1885
+rolled-in_scale_298.jpg,rolled-in_scale,validation,Otsu + Morphology,0,40,1,40,1,0.0000,0.0000,0.0000,0.0000,0.1804
+rolled-in_scale_299.jpg,rolled-in_scale,validation,Otsu + Morphology,0,26,2,26,2,0.0000,0.0000,0.0000,0.0000,0.1763
+rolled-in_scale_300.jpg,rolled-in_scale,validation,Otsu + Morphology,0,36,2,36,2,0.0000,0.0000,0.0000,0.0000,0.1733
+scratches_241.jpg,scratches,validation,Otsu + Morphology,1,16,1,17,2,0.0588,0.5000,0.1053,0.6359,0.1755
+scratches_242.jpg,scratches,validation,Otsu + Morphology,1,18,2,19,3,0.0526,0.3333,0.0909,0.7536,0.1763
+scratches_243.jpg,scratches,validation,Otsu + Morphology,1,13,3,14,4,0.0714,0.2500,0.1111,0.5416,0.1810
+scratches_244.jpg,scratches,validation,Otsu + Morphology,1,8,3,9,4,0.1111,0.2500,0.1538,0.5046,0.1783
+scratches_245.jpg,scratches,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.1766
+scratches_246.jpg,scratches,validation,Otsu + Morphology,0,9,1,9,1,0.0000,0.0000,0.0000,0.0000,0.2035
+scratches_247.jpg,scratches,validation,Otsu + Morphology,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,0.2168
+scratches_248.jpg,scratches,validation,Otsu + Morphology,1,9,1,10,2,0.1000,0.5000,0.1667,0.5884,0.2004
+scratches_249.jpg,scratches,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1860
+scratches_250.jpg,scratches,validation,Otsu + Morphology,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,0.1374
+scratches_251.jpg,scratches,validation,Otsu + Morphology,1,6,1,7,2,0.1429,0.5000,0.2222,0.8122,0.1889
+scratches_252.jpg,scratches,validation,Otsu + Morphology,1,10,1,11,2,0.0909,0.5000,0.1538,0.8167,0.1845
+scratches_253.jpg,scratches,validation,Otsu + Morphology,1,4,1,5,2,0.2000,0.5000,0.2857,0.8800,0.1830
+scratches_254.jpg,scratches,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1233
+scratches_255.jpg,scratches,validation,Otsu + Morphology,1,0,0,1,1,1.0000,1.0000,1.0000,0.7444,0.1338
+scratches_256.jpg,scratches,validation,Otsu + Morphology,1,0,0,1,1,1.0000,1.0000,1.0000,0.6429,0.1231
+scratches_257.jpg,scratches,validation,Otsu + Morphology,1,1,0,2,1,0.5000,1.0000,0.6667,0.7162,0.1742
+scratches_258.jpg,scratches,validation,Otsu + Morphology,1,0,0,1,1,1.0000,1.0000,1.0000,0.6945,0.1165
+scratches_259.jpg,scratches,validation,Otsu + Morphology,1,0,0,1,1,1.0000,1.0000,1.0000,0.6368,0.1206
+scratches_260.jpg,scratches,validation,Otsu + Morphology,1,0,2,1,3,1.0000,0.3333,0.5000,0.9188,0.1237
+scratches_261.jpg,scratches,validation,Otsu + Morphology,1,3,0,4,1,0.2500,1.0000,0.4000,0.7189,0.1887
+scratches_262.jpg,scratches,validation,Otsu + Morphology,1,11,1,12,2,0.0833,0.5000,0.1429,0.8350,0.1829
+scratches_263.jpg,scratches,validation,Otsu + Morphology,1,2,1,3,2,0.3333,0.5000,0.4000,0.9098,0.1248
+scratches_264.jpg,scratches,validation,Otsu + Morphology,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,0.1176
+scratches_265.jpg,scratches,validation,Otsu + Morphology,1,12,1,13,2,0.0769,0.5000,0.1333,0.8317,0.1917
+scratches_266.jpg,scratches,validation,Otsu + Morphology,1,9,1,10,2,0.1000,0.5000,0.1667,0.5348,0.2027
+scratches_267.jpg,scratches,validation,Otsu + Morphology,0,31,2,31,2,0.0000,0.0000,0.0000,0.0000,0.2239
+scratches_268.jpg,scratches,validation,Otsu + Morphology,1,15,1,16,2,0.0625,0.5000,0.1111,0.7387,0.1369
+scratches_269.jpg,scratches,validation,Otsu + Morphology,2,15,1,17,3,0.1176,0.6667,0.2000,0.5724,0.1889
+scratches_270.jpg,scratches,validation,Otsu + Morphology,1,15,1,16,2,0.0625,0.5000,0.1111,0.8770,0.1278
+scratches_271.jpg,scratches,validation,Otsu + Morphology,1,13,3,14,4,0.0714,0.2500,0.1111,0.7432,0.1348
+scratches_272.jpg,scratches,validation,Otsu + Morphology,1,7,1,8,2,0.1250,0.5000,0.2000,0.6936,0.1978
+scratches_273.jpg,scratches,validation,Otsu + Morphology,2,11,1,13,3,0.1538,0.6667,0.2500,0.7866,0.1971
+scratches_274.jpg,scratches,validation,Otsu + Morphology,2,16,1,18,3,0.1111,0.6667,0.1905,0.7909,0.1809
+scratches_275.jpg,scratches,validation,Otsu + Morphology,2,8,2,10,4,0.2000,0.5000,0.2857,0.7678,0.1774
+scratches_276.jpg,scratches,validation,Otsu + Morphology,1,2,1,3,2,0.3333,0.5000,0.4000,0.6763,0.2295
+scratches_277.jpg,scratches,validation,Otsu + Morphology,1,6,1,7,2,0.1429,0.5000,0.2222,0.8181,0.1176
+scratches_278.jpg,scratches,validation,Otsu + Morphology,1,4,2,5,3,0.2000,0.3333,0.2500,0.7936,0.1984
+scratches_279.jpg,scratches,validation,Otsu + Morphology,2,6,0,8,2,0.2500,1.0000,0.4000,0.6520,0.1746
+scratches_280.jpg,scratches,validation,Otsu + Morphology,2,1,0,3,2,0.6667,1.0000,0.8000,0.7102,0.1729
+scratches_281.jpg,scratches,validation,Otsu + Morphology,0,18,1,18,1,0.0000,0.0000,0.0000,0.0000,0.1768
+scratches_282.jpg,scratches,validation,Otsu + Morphology,1,5,0,6,1,0.1667,1.0000,0.2857,0.6322,0.1824
+scratches_283.jpg,scratches,validation,Otsu + Morphology,1,4,1,5,2,0.2000,0.5000,0.2857,0.6736,0.1842
+scratches_284.jpg,scratches,validation,Otsu + Morphology,1,3,1,4,2,0.2500,0.5000,0.3333,0.7002,0.1813
+scratches_285.jpg,scratches,validation,Otsu + Morphology,1,1,1,2,2,0.5000,0.5000,0.5000,0.5172,0.1859
+scratches_286.jpg,scratches,validation,Otsu + Morphology,1,6,0,7,1,0.1429,1.0000,0.2500,0.5371,0.2267
+scratches_287.jpg,scratches,validation,Otsu + Morphology,1,0,0,1,1,1.0000,1.0000,1.0000,0.8110,0.1979
+scratches_288.jpg,scratches,validation,Otsu + Morphology,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,0.1897
+scratches_289.jpg,scratches,validation,Otsu + Morphology,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,0.1916
+scratches_290.jpg,scratches,validation,Otsu + Morphology,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,0.2009
+scratches_291.jpg,scratches,validation,Otsu + Morphology,1,14,0,15,1,0.0667,1.0000,0.1250,0.6219,0.2400
+scratches_292.jpg,scratches,validation,Otsu + Morphology,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,0.1813
+scratches_293.jpg,scratches,validation,Otsu + Morphology,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,0.1842
+scratches_294.jpg,scratches,validation,Otsu + Morphology,1,4,2,5,3,0.2000,0.3333,0.2500,0.9900,0.2013
+scratches_295.jpg,scratches,validation,Otsu + Morphology,3,3,1,6,4,0.5000,0.7500,0.6000,0.7800,0.2286
+scratches_296.jpg,scratches,validation,Otsu + Morphology,2,7,3,9,5,0.2222,0.4000,0.2857,0.7132,0.1629
+scratches_297.jpg,scratches,validation,Otsu + Morphology,1,9,1,10,2,0.1000,0.5000,0.1667,0.7869,0.1218
+scratches_298.jpg,scratches,validation,Otsu + Morphology,1,5,0,6,1,0.1667,1.0000,0.2857,0.5513,0.1777
+scratches_299.jpg,scratches,validation,Otsu + Morphology,1,2,0,3,1,0.3333,1.0000,0.5000,0.8439,0.1766
+scratches_300.jpg,scratches,validation,Otsu + Morphology,2,4,0,6,2,0.3333,1.0000,0.5000,0.6686,0.1789
+crazing_241.jpg,crazing,validation,Watershed,0,18,3,18,3,0.0000,0.0000,0.0000,0.0000,1.8580
+crazing_242.jpg,crazing,validation,Watershed,0,24,3,24,3,0.0000,0.0000,0.0000,0.0000,1.8124
+crazing_243.jpg,crazing,validation,Watershed,0,26,4,26,4,0.0000,0.0000,0.0000,0.0000,1.3466
+crazing_244.jpg,crazing,validation,Watershed,0,23,3,23,3,0.0000,0.0000,0.0000,0.0000,2.4518
+crazing_245.jpg,crazing,validation,Watershed,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,1.9037
+crazing_246.jpg,crazing,validation,Watershed,0,19,4,19,4,0.0000,0.0000,0.0000,0.0000,1.9602
+crazing_247.jpg,crazing,validation,Watershed,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,2.0199
+crazing_248.jpg,crazing,validation,Watershed,0,22,3,22,3,0.0000,0.0000,0.0000,0.0000,4.0243
+crazing_249.jpg,crazing,validation,Watershed,0,16,3,16,3,0.0000,0.0000,0.0000,0.0000,1.7618
+crazing_250.jpg,crazing,validation,Watershed,0,18,3,18,3,0.0000,0.0000,0.0000,0.0000,2.0052
+crazing_251.jpg,crazing,validation,Watershed,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,1.9779
+crazing_252.jpg,crazing,validation,Watershed,0,22,3,22,3,0.0000,0.0000,0.0000,0.0000,1.9002
+crazing_253.jpg,crazing,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.9402
+crazing_254.jpg,crazing,validation,Watershed,0,26,1,26,1,0.0000,0.0000,0.0000,0.0000,1.8501
+crazing_255.jpg,crazing,validation,Watershed,0,23,3,23,3,0.0000,0.0000,0.0000,0.0000,1.4471
+crazing_256.jpg,crazing,validation,Watershed,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,1.6537
+crazing_257.jpg,crazing,validation,Watershed,0,30,3,30,3,0.0000,0.0000,0.0000,0.0000,1.4968
+crazing_258.jpg,crazing,validation,Watershed,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,1.3864
+crazing_259.jpg,crazing,validation,Watershed,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,1.9824
+crazing_260.jpg,crazing,validation,Watershed,0,29,2,29,2,0.0000,0.0000,0.0000,0.0000,1.1914
+crazing_261.jpg,crazing,validation,Watershed,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,1.4669
+crazing_262.jpg,crazing,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.5509
+crazing_263.jpg,crazing,validation,Watershed,0,26,2,26,2,0.0000,0.0000,0.0000,0.0000,1.9237
+crazing_264.jpg,crazing,validation,Watershed,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,1.6443
+crazing_265.jpg,crazing,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.7480
+crazing_266.jpg,crazing,validation,Watershed,0,19,2,19,2,0.0000,0.0000,0.0000,0.0000,1.2707
+crazing_267.jpg,crazing,validation,Watershed,0,24,3,24,3,0.0000,0.0000,0.0000,0.0000,1.7542
+crazing_268.jpg,crazing,validation,Watershed,0,24,3,24,3,0.0000,0.0000,0.0000,0.0000,1.2565
+crazing_269.jpg,crazing,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.7609
+crazing_270.jpg,crazing,validation,Watershed,0,30,3,30,3,0.0000,0.0000,0.0000,0.0000,1.3802
+crazing_271.jpg,crazing,validation,Watershed,0,17,4,17,4,0.0000,0.0000,0.0000,0.0000,2.1369
+crazing_272.jpg,crazing,validation,Watershed,0,9,3,9,3,0.0000,0.0000,0.0000,0.0000,1.4661
+crazing_273.jpg,crazing,validation,Watershed,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,2.0202
+crazing_274.jpg,crazing,validation,Watershed,0,24,4,24,4,0.0000,0.0000,0.0000,0.0000,2.0732
+crazing_275.jpg,crazing,validation,Watershed,0,23,3,23,3,0.0000,0.0000,0.0000,0.0000,1.7780
+crazing_276.jpg,crazing,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6364
+crazing_277.jpg,crazing,validation,Watershed,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,1.9927
+crazing_278.jpg,crazing,validation,Watershed,0,10,4,10,4,0.0000,0.0000,0.0000,0.0000,1.7912
+crazing_279.jpg,crazing,validation,Watershed,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,1.7078
+crazing_280.jpg,crazing,validation,Watershed,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,1.7948
+crazing_281.jpg,crazing,validation,Watershed,0,30,2,30,2,0.0000,0.0000,0.0000,0.0000,2.1732
+crazing_282.jpg,crazing,validation,Watershed,0,18,2,18,2,0.0000,0.0000,0.0000,0.0000,1.6829
+crazing_283.jpg,crazing,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.4913
+crazing_284.jpg,crazing,validation,Watershed,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,1.4103
+crazing_285.jpg,crazing,validation,Watershed,0,20,3,20,3,0.0000,0.0000,0.0000,0.0000,1.2563
+crazing_286.jpg,crazing,validation,Watershed,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,1.2779
+crazing_287.jpg,crazing,validation,Watershed,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,1.5196
+crazing_288.jpg,crazing,validation,Watershed,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,1.0864
+crazing_289.jpg,crazing,validation,Watershed,0,16,1,16,1,0.0000,0.0000,0.0000,0.0000,1.7114
+crazing_290.jpg,crazing,validation,Watershed,0,27,3,27,3,0.0000,0.0000,0.0000,0.0000,1.4595
+crazing_291.jpg,crazing,validation,Watershed,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,1.6807
+crazing_292.jpg,crazing,validation,Watershed,0,22,3,22,3,0.0000,0.0000,0.0000,0.0000,1.3967
+crazing_293.jpg,crazing,validation,Watershed,0,19,3,19,3,0.0000,0.0000,0.0000,0.0000,1.6271
+crazing_294.jpg,crazing,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,2.1536
+crazing_295.jpg,crazing,validation,Watershed,0,17,2,17,2,0.0000,0.0000,0.0000,0.0000,1.8113
+crazing_296.jpg,crazing,validation,Watershed,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,1.8365
+crazing_297.jpg,crazing,validation,Watershed,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,1.7982
+crazing_298.jpg,crazing,validation,Watershed,0,20,2,20,2,0.0000,0.0000,0.0000,0.0000,1.2421
+crazing_299.jpg,crazing,validation,Watershed,0,20,4,20,4,0.0000,0.0000,0.0000,0.0000,1.2216
+crazing_300.jpg,crazing,validation,Watershed,0,23,3,23,3,0.0000,0.0000,0.0000,0.0000,1.6607
+inclusion_241.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6968
+inclusion_242.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6120
+inclusion_243.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.0857
+inclusion_244.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.5469
+inclusion_245.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.6771
+inclusion_246.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.2354
+inclusion_247.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.7224
+inclusion_248.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.0965
+inclusion_249.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6828
+inclusion_250.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.4276
+inclusion_251.jpg,inclusion,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.0758
+inclusion_252.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.1387
+inclusion_253.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.0715
+inclusion_254.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.3623
+inclusion_255.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6205
+inclusion_256.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5626
+inclusion_257.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.3418
+inclusion_258.jpg,inclusion,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.6545
+inclusion_259.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.3787
+inclusion_260.jpg,inclusion,validation,Watershed,0,11,2,11,2,0.0000,0.0000,0.0000,0.0000,1.0880
+inclusion_261.jpg,inclusion,validation,Watershed,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,1.2397
+inclusion_262.jpg,inclusion,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.7040
+inclusion_263.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.7705
+inclusion_264.jpg,inclusion,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.6574
+inclusion_265.jpg,inclusion,validation,Watershed,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,1.1586
+inclusion_266.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.6200
+inclusion_267.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.3053
+inclusion_268.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.6223
+inclusion_269.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.2832
+inclusion_270.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.4835
+inclusion_271.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.5950
+inclusion_272.jpg,inclusion,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.6098
+inclusion_273.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5318
+inclusion_274.jpg,inclusion,validation,Watershed,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,1.3840
+inclusion_275.jpg,inclusion,validation,Watershed,0,1,6,1,6,0.0000,0.0000,0.0000,0.0000,1.3553
+inclusion_276.jpg,inclusion,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.0903
+inclusion_277.jpg,inclusion,validation,Watershed,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,1.3880
+inclusion_278.jpg,inclusion,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.4842
+inclusion_279.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5830
+inclusion_280.jpg,inclusion,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.3908
+inclusion_281.jpg,inclusion,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.0485
+inclusion_282.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.8621
+inclusion_283.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.5611
+inclusion_284.jpg,inclusion,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.4607
+inclusion_285.jpg,inclusion,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.4780
+inclusion_286.jpg,inclusion,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.2366
+inclusion_287.jpg,inclusion,validation,Watershed,0,1,8,1,8,0.0000,0.0000,0.0000,0.0000,1.0458
+inclusion_288.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5526
+inclusion_289.jpg,inclusion,validation,Watershed,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,1.5842
+inclusion_290.jpg,inclusion,validation,Watershed,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,1.4733
+inclusion_291.jpg,inclusion,validation,Watershed,0,15,4,15,4,0.0000,0.0000,0.0000,0.0000,1.3752
+inclusion_292.jpg,inclusion,validation,Watershed,0,5,7,5,7,0.0000,0.0000,0.0000,0.0000,1.5831
+inclusion_293.jpg,inclusion,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.3514
+inclusion_294.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.7497
+inclusion_295.jpg,inclusion,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.2670
+inclusion_296.jpg,inclusion,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.6201
+inclusion_297.jpg,inclusion,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.1195
+inclusion_298.jpg,inclusion,validation,Watershed,0,2,5,2,5,0.0000,0.0000,0.0000,0.0000,1.2298
+inclusion_299.jpg,inclusion,validation,Watershed,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,1.5041
+inclusion_300.jpg,inclusion,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.2631
+patches_241.jpg,patches,validation,Watershed,0,0,1,0,1,0.0000,0.0000,0.0000,0.0000,0.9223
+patches_242.jpg,patches,validation,Watershed,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,1.9560
+patches_243.jpg,patches,validation,Watershed,0,5,5,5,5,0.0000,0.0000,0.0000,0.0000,2.1126
+patches_244.jpg,patches,validation,Watershed,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,1.6830
+patches_245.jpg,patches,validation,Watershed,0,7,7,7,7,0.0000,0.0000,0.0000,0.0000,1.4034
+patches_246.jpg,patches,validation,Watershed,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,2.0158
+patches_247.jpg,patches,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,2.1717
+patches_248.jpg,patches,validation,Watershed,0,6,5,6,5,0.0000,0.0000,0.0000,0.0000,2.0736
+patches_249.jpg,patches,validation,Watershed,0,0,3,0,3,0.0000,0.0000,0.0000,0.0000,0.7724
+patches_250.jpg,patches,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.3205
+patches_251.jpg,patches,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.8549
+patches_252.jpg,patches,validation,Watershed,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,1.5156
+patches_253.jpg,patches,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.4771
+patches_254.jpg,patches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6188
+patches_255.jpg,patches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.8275
+patches_256.jpg,patches,validation,Watershed,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,1.4099
+patches_257.jpg,patches,validation,Watershed,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,1.7745
+patches_258.jpg,patches,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.4545
+patches_259.jpg,patches,validation,Watershed,0,5,5,5,5,0.0000,0.0000,0.0000,0.0000,1.5302
+patches_260.jpg,patches,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.9627
+patches_261.jpg,patches,validation,Watershed,0,4,4,4,4,0.0000,0.0000,0.0000,0.0000,1.6453
+patches_262.jpg,patches,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.1247
+patches_263.jpg,patches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.6246
+patches_264.jpg,patches,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.7013
+patches_265.jpg,patches,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.5714
+patches_266.jpg,patches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.4203
+patches_267.jpg,patches,validation,Watershed,0,4,4,4,4,0.0000,0.0000,0.0000,0.0000,1.9404
+patches_268.jpg,patches,validation,Watershed,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,1.9718
+patches_269.jpg,patches,validation,Watershed,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,2.0460
+patches_270.jpg,patches,validation,Watershed,0,0,2,0,2,0.0000,0.0000,0.0000,0.0000,1.0686
+patches_271.jpg,patches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.1187
+patches_272.jpg,patches,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.8730
+patches_273.jpg,patches,validation,Watershed,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,2.0655
+patches_274.jpg,patches,validation,Watershed,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,1.0720
+patches_275.jpg,patches,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.2887
+patches_276.jpg,patches,validation,Watershed,0,13,4,13,4,0.0000,0.0000,0.0000,0.0000,1.3127
+patches_277.jpg,patches,validation,Watershed,0,4,4,4,4,0.0000,0.0000,0.0000,0.0000,1.7941
+patches_278.jpg,patches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.8473
+patches_279.jpg,patches,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.5781
+patches_280.jpg,patches,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.9360
+patches_281.jpg,patches,validation,Watershed,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,1.2175
+patches_282.jpg,patches,validation,Watershed,0,6,3,6,3,0.0000,0.0000,0.0000,0.0000,1.2788
+patches_283.jpg,patches,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.3373
+patches_284.jpg,patches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5006
+patches_285.jpg,patches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.8372
+patches_286.jpg,patches,validation,Watershed,0,2,4,2,4,0.0000,0.0000,0.0000,0.0000,2.0136
+patches_287.jpg,patches,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.8963
+patches_288.jpg,patches,validation,Watershed,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,1.1100
+patches_289.jpg,patches,validation,Watershed,0,4,5,4,5,0.0000,0.0000,0.0000,0.0000,1.8461
+patches_290.jpg,patches,validation,Watershed,0,5,5,5,5,0.0000,0.0000,0.0000,0.0000,2.2370
+patches_291.jpg,patches,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.5866
+patches_292.jpg,patches,validation,Watershed,0,2,5,2,5,0.0000,0.0000,0.0000,0.0000,1.4939
+patches_293.jpg,patches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.3654
+patches_294.jpg,patches,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.8031
+patches_295.jpg,patches,validation,Watershed,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,1.9484
+patches_296.jpg,patches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.1903
+patches_297.jpg,patches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.8704
+patches_298.jpg,patches,validation,Watershed,0,1,4,1,4,0.0000,0.0000,0.0000,0.0000,1.6788
+patches_299.jpg,patches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.6074
+patches_300.jpg,patches,validation,Watershed,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,1.2044
+pitted_surface_241.jpg,pitted_surface,validation,Watershed,0,9,1,9,1,0.0000,0.0000,0.0000,0.0000,1.4621
+pitted_surface_242.jpg,pitted_surface,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.6610,1.9922
+pitted_surface_243.jpg,pitted_surface,validation,Watershed,0,11,1,11,1,0.0000,0.0000,0.0000,0.0000,1.7997
+pitted_surface_244.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.3426
+pitted_surface_245.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.7522
+pitted_surface_246.jpg,pitted_surface,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.6498
+pitted_surface_247.jpg,pitted_surface,validation,Watershed,0,7,2,7,2,0.0000,0.0000,0.0000,0.0000,1.1756
+pitted_surface_248.jpg,pitted_surface,validation,Watershed,0,15,2,15,2,0.0000,0.0000,0.0000,0.0000,1.4656
+pitted_surface_249.jpg,pitted_surface,validation,Watershed,0,17,1,17,1,0.0000,0.0000,0.0000,0.0000,1.2400
+pitted_surface_250.jpg,pitted_surface,validation,Watershed,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,1.7053
+pitted_surface_251.jpg,pitted_surface,validation,Watershed,0,11,1,11,1,0.0000,0.0000,0.0000,0.0000,1.6134
+pitted_surface_252.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.9374
+pitted_surface_253.jpg,pitted_surface,validation,Watershed,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,1.2404
+pitted_surface_254.jpg,pitted_surface,validation,Watershed,0,12,1,12,1,0.0000,0.0000,0.0000,0.0000,1.1857
+pitted_surface_255.jpg,pitted_surface,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.6464
+pitted_surface_256.jpg,pitted_surface,validation,Watershed,1,11,1,12,2,0.0833,0.5000,0.1429,0.5640,1.3687
+pitted_surface_257.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.0419
+pitted_surface_258.jpg,pitted_surface,validation,Watershed,0,10,2,10,2,0.0000,0.0000,0.0000,0.0000,0.9929
+pitted_surface_259.jpg,pitted_surface,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.1790
+pitted_surface_260.jpg,pitted_surface,validation,Watershed,0,16,1,16,1,0.0000,0.0000,0.0000,0.0000,1.6696
+pitted_surface_261.jpg,pitted_surface,validation,Watershed,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,1.4920
+pitted_surface_262.jpg,pitted_surface,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.7318
+pitted_surface_263.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.4204
+pitted_surface_264.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.2764
+pitted_surface_265.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.6802
+pitted_surface_266.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.3263
+pitted_surface_267.jpg,pitted_surface,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.7135
+pitted_surface_268.jpg,pitted_surface,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.7288
+pitted_surface_269.jpg,pitted_surface,validation,Watershed,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,1.1093
+pitted_surface_270.jpg,pitted_surface,validation,Watershed,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,1.7237
+pitted_surface_271.jpg,pitted_surface,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.6943
+pitted_surface_272.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.5429
+pitted_surface_273.jpg,pitted_surface,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.6172
+pitted_surface_274.jpg,pitted_surface,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.9931
+pitted_surface_275.jpg,pitted_surface,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,2.2092
+pitted_surface_276.jpg,pitted_surface,validation,Watershed,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,0.9825
+pitted_surface_277.jpg,pitted_surface,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.2138
+pitted_surface_278.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.3171
+pitted_surface_279.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.5281
+pitted_surface_280.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.7279
+pitted_surface_281.jpg,pitted_surface,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.6850
+pitted_surface_282.jpg,pitted_surface,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.3140
+pitted_surface_283.jpg,pitted_surface,validation,Watershed,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,1.2629
+pitted_surface_284.jpg,pitted_surface,validation,Watershed,0,14,2,14,2,0.0000,0.0000,0.0000,0.0000,1.7047
+pitted_surface_285.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.6119
+pitted_surface_286.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.5774
+pitted_surface_287.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.1572
+pitted_surface_288.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.5847
+pitted_surface_289.jpg,pitted_surface,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.9014
+pitted_surface_290.jpg,pitted_surface,validation,Watershed,0,0,3,0,3,0.0000,0.0000,0.0000,0.0000,0.7510
+pitted_surface_291.jpg,pitted_surface,validation,Watershed,0,22,2,22,2,0.0000,0.0000,0.0000,0.0000,1.6002
+pitted_surface_292.jpg,pitted_surface,validation,Watershed,0,12,4,12,4,0.0000,0.0000,0.0000,0.0000,2.0087
+pitted_surface_293.jpg,pitted_surface,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.6977
+pitted_surface_294.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.6386
+pitted_surface_295.jpg,pitted_surface,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.5966
+pitted_surface_296.jpg,pitted_surface,validation,Watershed,0,1,3,1,3,0.0000,0.0000,0.0000,0.0000,1.8171
+pitted_surface_297.jpg,pitted_surface,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.3753
+pitted_surface_298.jpg,pitted_surface,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.7668
+pitted_surface_299.jpg,pitted_surface,validation,Watershed,1,0,2,1,3,1.0000,0.3333,0.5000,0.5695,1.8745
+pitted_surface_300.jpg,pitted_surface,validation,Watershed,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,1.8110
+rolled-in_scale_241.jpg,rolled-in_scale,validation,Watershed,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,1.7414
+rolled-in_scale_242.jpg,rolled-in_scale,validation,Watershed,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,1.7396
+rolled-in_scale_243.jpg,rolled-in_scale,validation,Watershed,0,6,1,6,1,0.0000,0.0000,0.0000,0.0000,1.5639
+rolled-in_scale_244.jpg,rolled-in_scale,validation,Watershed,0,4,3,4,3,0.0000,0.0000,0.0000,0.0000,1.6872
+rolled-in_scale_245.jpg,rolled-in_scale,validation,Watershed,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,1.6621
+rolled-in_scale_246.jpg,rolled-in_scale,validation,Watershed,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,1.5983
+rolled-in_scale_247.jpg,rolled-in_scale,validation,Watershed,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,1.3841
+rolled-in_scale_248.jpg,rolled-in_scale,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.5593
+rolled-in_scale_249.jpg,rolled-in_scale,validation,Watershed,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,1.6784
+rolled-in_scale_250.jpg,rolled-in_scale,validation,Watershed,1,12,2,13,3,0.0769,0.3333,0.1250,0.5328,1.8123
+rolled-in_scale_251.jpg,rolled-in_scale,validation,Watershed,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,1.3850
+rolled-in_scale_252.jpg,rolled-in_scale,validation,Watershed,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,1.7508
+rolled-in_scale_253.jpg,rolled-in_scale,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.2255
+rolled-in_scale_254.jpg,rolled-in_scale,validation,Watershed,0,15,1,15,1,0.0000,0.0000,0.0000,0.0000,1.7444
+rolled-in_scale_255.jpg,rolled-in_scale,validation,Watershed,0,3,4,3,4,0.0000,0.0000,0.0000,0.0000,1.8349
+rolled-in_scale_256.jpg,rolled-in_scale,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.6172
+rolled-in_scale_257.jpg,rolled-in_scale,validation,Watershed,1,14,2,15,3,0.0667,0.3333,0.1111,0.6625,1.7999
+rolled-in_scale_258.jpg,rolled-in_scale,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.0431
+rolled-in_scale_259.jpg,rolled-in_scale,validation,Watershed,0,11,4,11,4,0.0000,0.0000,0.0000,0.0000,1.9086
+rolled-in_scale_260.jpg,rolled-in_scale,validation,Watershed,0,11,3,11,3,0.0000,0.0000,0.0000,0.0000,1.5226
+rolled-in_scale_261.jpg,rolled-in_scale,validation,Watershed,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,1.6531
+rolled-in_scale_262.jpg,rolled-in_scale,validation,Watershed,0,5,1,5,1,0.0000,0.0000,0.0000,0.0000,1.6728
+rolled-in_scale_263.jpg,rolled-in_scale,validation,Watershed,0,20,2,20,2,0.0000,0.0000,0.0000,0.0000,1.8105
+rolled-in_scale_264.jpg,rolled-in_scale,validation,Watershed,0,17,3,17,3,0.0000,0.0000,0.0000,0.0000,1.2954
+rolled-in_scale_265.jpg,rolled-in_scale,validation,Watershed,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,1.3636
+rolled-in_scale_266.jpg,rolled-in_scale,validation,Watershed,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,1.7050
+rolled-in_scale_267.jpg,rolled-in_scale,validation,Watershed,0,10,3,10,3,0.0000,0.0000,0.0000,0.0000,1.3114
+rolled-in_scale_268.jpg,rolled-in_scale,validation,Watershed,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,1.3099
+rolled-in_scale_269.jpg,rolled-in_scale,validation,Watershed,0,15,1,15,1,0.0000,0.0000,0.0000,0.0000,1.4863
+rolled-in_scale_270.jpg,rolled-in_scale,validation,Watershed,0,8,3,8,3,0.0000,0.0000,0.0000,0.0000,1.6552
+rolled-in_scale_271.jpg,rolled-in_scale,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.4237
+rolled-in_scale_272.jpg,rolled-in_scale,validation,Watershed,0,3,2,3,2,0.0000,0.0000,0.0000,0.0000,1.4085
+rolled-in_scale_273.jpg,rolled-in_scale,validation,Watershed,0,5,2,5,2,0.0000,0.0000,0.0000,0.0000,1.8686
+rolled-in_scale_274.jpg,rolled-in_scale,validation,Watershed,0,10,4,10,4,0.0000,0.0000,0.0000,0.0000,1.4978
+rolled-in_scale_275.jpg,rolled-in_scale,validation,Watershed,0,11,3,11,3,0.0000,0.0000,0.0000,0.0000,1.8437
+rolled-in_scale_276.jpg,rolled-in_scale,validation,Watershed,0,9,2,9,2,0.0000,0.0000,0.0000,0.0000,1.8379
+rolled-in_scale_277.jpg,rolled-in_scale,validation,Watershed,0,21,3,21,3,0.0000,0.0000,0.0000,0.0000,1.6233
+rolled-in_scale_278.jpg,rolled-in_scale,validation,Watershed,0,5,3,5,3,0.0000,0.0000,0.0000,0.0000,1.8061
+rolled-in_scale_279.jpg,rolled-in_scale,validation,Watershed,0,7,3,7,3,0.0000,0.0000,0.0000,0.0000,1.2550
+rolled-in_scale_280.jpg,rolled-in_scale,validation,Watershed,0,12,2,12,2,0.0000,0.0000,0.0000,0.0000,1.7665
+rolled-in_scale_281.jpg,rolled-in_scale,validation,Watershed,0,22,3,22,3,0.0000,0.0000,0.0000,0.0000,1.7374
+rolled-in_scale_282.jpg,rolled-in_scale,validation,Watershed,0,19,2,19,2,0.0000,0.0000,0.0000,0.0000,1.8590
+rolled-in_scale_283.jpg,rolled-in_scale,validation,Watershed,1,9,2,10,3,0.1000,0.3333,0.1538,0.5591,1.4742
+rolled-in_scale_284.jpg,rolled-in_scale,validation,Watershed,1,18,0,19,1,0.0526,1.0000,0.1000,0.6743,1.7918
+rolled-in_scale_285.jpg,rolled-in_scale,validation,Watershed,0,15,2,15,2,0.0000,0.0000,0.0000,0.0000,1.7979
+rolled-in_scale_286.jpg,rolled-in_scale,validation,Watershed,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,1.2731
+rolled-in_scale_287.jpg,rolled-in_scale,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.2243
+rolled-in_scale_288.jpg,rolled-in_scale,validation,Watershed,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,1.2010
+rolled-in_scale_289.jpg,rolled-in_scale,validation,Watershed,0,14,2,14,2,0.0000,0.0000,0.0000,0.0000,1.8177
+rolled-in_scale_290.jpg,rolled-in_scale,validation,Watershed,0,24,2,24,2,0.0000,0.0000,0.0000,0.0000,1.3860
+rolled-in_scale_291.jpg,rolled-in_scale,validation,Watershed,1,7,2,8,3,0.1250,0.3333,0.1818,0.5607,1.4203
+rolled-in_scale_292.jpg,rolled-in_scale,validation,Watershed,1,7,3,8,4,0.1250,0.2500,0.1667,0.5513,1.7540
+rolled-in_scale_293.jpg,rolled-in_scale,validation,Watershed,0,23,2,23,2,0.0000,0.0000,0.0000,0.0000,1.2675
+rolled-in_scale_294.jpg,rolled-in_scale,validation,Watershed,0,18,2,18,2,0.0000,0.0000,0.0000,0.0000,1.9601
+rolled-in_scale_295.jpg,rolled-in_scale,validation,Watershed,0,14,3,14,3,0.0000,0.0000,0.0000,0.0000,1.8277
+rolled-in_scale_296.jpg,rolled-in_scale,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.7471
+rolled-in_scale_297.jpg,rolled-in_scale,validation,Watershed,0,15,2,15,2,0.0000,0.0000,0.0000,0.0000,1.3712
+rolled-in_scale_298.jpg,rolled-in_scale,validation,Watershed,0,8,1,8,1,0.0000,0.0000,0.0000,0.0000,1.9266
+rolled-in_scale_299.jpg,rolled-in_scale,validation,Watershed,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,1.5226
+rolled-in_scale_300.jpg,rolled-in_scale,validation,Watershed,0,16,2,16,2,0.0000,0.0000,0.0000,0.0000,1.8279
+scratches_241.jpg,scratches,validation,Watershed,1,3,1,4,2,0.2500,0.5000,0.3333,0.6000,1.3061
+scratches_242.jpg,scratches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.0697
+scratches_243.jpg,scratches,validation,Watershed,0,8,4,8,4,0.0000,0.0000,0.0000,0.0000,1.2005
+scratches_244.jpg,scratches,validation,Watershed,1,6,3,7,4,0.1429,0.2500,0.1818,0.5745,1.3920
+scratches_245.jpg,scratches,validation,Watershed,0,2,2,2,2,0.0000,0.0000,0.0000,0.0000,1.5791
+scratches_246.jpg,scratches,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.4517
+scratches_247.jpg,scratches,validation,Watershed,0,6,2,6,2,0.0000,0.0000,0.0000,0.0000,1.6900
+scratches_248.jpg,scratches,validation,Watershed,0,4,2,4,2,0.0000,0.0000,0.0000,0.0000,1.4991
+scratches_249.jpg,scratches,validation,Watershed,1,2,0,3,1,0.3333,1.0000,0.5000,0.6528,1.2089
+scratches_250.jpg,scratches,validation,Watershed,1,1,1,2,2,0.5000,0.5000,0.5000,0.6388,0.9393
+scratches_251.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.7909,1.3449
+scratches_252.jpg,scratches,validation,Watershed,1,3,1,4,2,0.2500,0.5000,0.3333,0.7949,1.5394
+scratches_253.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.8889,1.3471
+scratches_254.jpg,scratches,validation,Watershed,1,2,0,3,1,0.3333,1.0000,0.5000,0.6587,1.2271
+scratches_255.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.6786,0.9612
+scratches_256.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.5882,1.3426
+scratches_257.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.6840,1.3166
+scratches_258.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.6633,1.2697
+scratches_259.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.5804,1.3376
+scratches_260.jpg,scratches,validation,Watershed,1,0,2,1,3,1.0000,0.3333,0.5000,0.8036,0.9091
+scratches_261.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.7241,1.5164
+scratches_262.jpg,scratches,validation,Watershed,1,1,1,2,2,0.5000,0.5000,0.5000,0.7384,1.3936
+scratches_263.jpg,scratches,validation,Watershed,1,0,1,1,2,1.0000,0.5000,0.6667,0.9157,1.2419
+scratches_264.jpg,scratches,validation,Watershed,0,2,3,2,3,0.0000,0.0000,0.0000,0.0000,1.9722
+scratches_265.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.6717,1.4465
+scratches_266.jpg,scratches,validation,Watershed,0,8,2,8,2,0.0000,0.0000,0.0000,0.0000,1.4029
+scratches_267.jpg,scratches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.4645
+scratches_268.jpg,scratches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.4717
+scratches_269.jpg,scratches,validation,Watershed,0,12,3,12,3,0.0000,0.0000,0.0000,0.0000,1.6130
+scratches_270.jpg,scratches,validation,Watershed,0,13,2,13,2,0.0000,0.0000,0.0000,0.0000,1.7464
+scratches_271.jpg,scratches,validation,Watershed,1,8,3,9,4,0.1111,0.2500,0.1538,0.7701,1.5410
+scratches_272.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.7790,1.3899
+scratches_273.jpg,scratches,validation,Watershed,1,4,2,5,3,0.2000,0.3333,0.2500,0.6867,1.1871
+scratches_274.jpg,scratches,validation,Watershed,1,1,2,2,3,0.5000,0.3333,0.4000,0.8959,1.6064
+scratches_275.jpg,scratches,validation,Watershed,2,0,2,2,4,1.0000,0.5000,0.6667,0.6460,1.5072
+scratches_276.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.5826,1.3490
+scratches_277.jpg,scratches,validation,Watershed,1,1,1,2,2,0.5000,0.5000,0.5000,0.8173,1.3990
+scratches_278.jpg,scratches,validation,Watershed,1,1,2,2,3,0.5000,0.3333,0.4000,0.7667,1.0806
+scratches_279.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.7097,1.5506
+scratches_280.jpg,scratches,validation,Watershed,1,1,1,2,2,0.5000,0.5000,0.5000,0.8490,1.4580
+scratches_281.jpg,scratches,validation,Watershed,1,2,0,3,1,0.3333,1.0000,0.5000,0.8709,1.3744
+scratches_282.jpg,scratches,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.3522
+scratches_283.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.7394,1.1391
+scratches_284.jpg,scratches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5376
+scratches_285.jpg,scratches,validation,Watershed,1,1,1,2,2,0.5000,0.5000,0.5000,0.5224,1.3303
+scratches_286.jpg,scratches,validation,Watershed,0,4,1,4,1,0.0000,0.0000,0.0000,0.0000,1.4860
+scratches_287.jpg,scratches,validation,Watershed,1,0,0,1,1,1.0000,1.0000,1.0000,0.8065,1.4113
+scratches_288.jpg,scratches,validation,Watershed,0,3,1,3,1,0.0000,0.0000,0.0000,0.0000,1.4835
+scratches_289.jpg,scratches,validation,Watershed,0,1,1,1,1,0.0000,0.0000,0.0000,0.0000,1.4729
+scratches_290.jpg,scratches,validation,Watershed,0,3,3,3,3,0.0000,0.0000,0.0000,0.0000,1.6831
+scratches_291.jpg,scratches,validation,Watershed,1,1,0,2,1,0.5000,1.0000,0.6667,0.5769,1.0370
+scratches_292.jpg,scratches,validation,Watershed,1,5,1,6,2,0.1667,0.5000,0.2500,0.8994,1.3867
+scratches_293.jpg,scratches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.2983
+scratches_294.jpg,scratches,validation,Watershed,1,2,2,3,3,0.3333,0.3333,0.3333,0.9516,1.5507
+scratches_295.jpg,scratches,validation,Watershed,2,6,2,8,4,0.2500,0.5000,0.3333,0.5757,1.4948
+scratches_296.jpg,scratches,validation,Watershed,1,3,4,4,5,0.2500,0.2000,0.2222,0.9500,1.4918
+scratches_297.jpg,scratches,validation,Watershed,0,1,2,1,2,0.0000,0.0000,0.0000,0.0000,1.5172
+scratches_298.jpg,scratches,validation,Watershed,0,2,1,2,1,0.0000,0.0000,0.0000,0.0000,1.3535
+scratches_299.jpg,scratches,validation,Watershed,1,3,0,4,1,0.2500,1.0000,0.4000,0.8061,1.4199
+scratches_300.jpg,scratches,validation,Watershed,1,2,1,3,2,0.3333,0.5000,0.4000,0.6964,1.3806

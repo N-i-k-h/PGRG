@@ -42,6 +42,11 @@ from src.pgrg import (
     select_seeds as select_seeds_pgrg,
     initialize_max_heap,
     priority_guided_region_growing,
+    pgrg_pipeline,
+    improved_pgrg,
+    original_pgrg,
+    IMPROVED_CONFIG,
+    ORIGINAL_CONFIG,
 )
 from src.union_find import UnionFind, pixel_index, build_region_uf
 from src.region_filtering import filter_regions
@@ -61,12 +66,25 @@ from src.metrics import (
     measure_runtime,
 )
 
-# Common Constants
-SEED_THRESHOLD = 0.45
-SIMILARITY_THRESHOLD = 20
-MIN_AREA = 20
+# ---------------------------------------------------------------------------
+# Configuration: Original PGRG (min_area=100, sim=25, seed=0.45, merge_gap=11)
+# ---------------------------------------------------------------------------
+SEED_THRESHOLD = ORIGINAL_CONFIG["seed_threshold"]              # 0.45
+SIMILARITY_THRESHOLD = ORIGINAL_CONFIG["similarity_threshold"]  # 25
+MIN_AREA = ORIGINAL_CONFIG["min_area"]                          # 100
+MERGE_GAP = ORIGINAL_CONFIG["merge_gap"]                        # 11
+
+ORIGINAL_SEED_THRESHOLD = SEED_THRESHOLD
+ORIGINAL_SIMILARITY_THRESHOLD = SIMILARITY_THRESHOLD
+ORIGINAL_MIN_AREA = MIN_AREA
+ORIGINAL_MERGE_GAP = MERGE_GAP
+
+SRG_SEED_THRESHOLD = 0.45
+SRG_SIMILARITY_THRESHOLD = 20
+
 OUTPUT_FIGURE_DIR = os.path.join("results", "figures")
 os.makedirs(OUTPUT_FIGURE_DIR, exist_ok=True)
+
 
 
 def save_and_display(fig, filepath):
@@ -338,30 +356,35 @@ def run_phase4(image_path):
 # ============================================================
 # PHASE 5: PRIORITY-GUIDED REGION GROWING
 # ============================================================
-def run_phase5(image_path):
+def run_phase5(image_path, use_original=False):
+    sim_th = ORIGINAL_SIMILARITY_THRESHOLD if use_original else SIMILARITY_THRESHOLD
+    seed_th = ORIGINAL_SEED_THRESHOLD if use_original else SEED_THRESHOLD
+    mode_name = "Original PGRG (Baseline)" if use_original else "Improved PGRG (Default)"
+
     print("=" * 60)
-    print("PHASE 5: PRIORITY-GUIDED REGION GROWING")
+    print(f"PHASE 5: PRIORITY-GUIDED REGION GROWING [{mode_name}]")
     print("=" * 60)
     print(f"\nSelected image:\n{image_path}\n")
 
     _, _, _, normalized = preprocess_image(image_path)
     _, intensity_dev, grad_mag, texture_var = compute_priority_features(normalized)
     priority_map = compute_priority_map(intensity_dev, grad_mag, texture_var)
-    seeds = select_seeds_pgrg(priority_map, seed_threshold=SEED_THRESHOLD)
+    seeds = select_seeds_pgrg(priority_map, seed_threshold=seed_th)
 
     region_mask, visited, processed_pixels = priority_guided_region_growing(
         image=normalized,
         priority_map=priority_map,
-        seed_threshold=SEED_THRESHOLD,
-        similarity_threshold=SIMILARITY_THRESHOLD,
+        seed_threshold=seed_th,
+        similarity_threshold=sim_th,
     )
 
     final_region_pixels = int(np.sum(region_mask == 1))
     mask_unique = sorted(np.unique(region_mask).tolist())
 
+    print(f"Mode:                 {mode_name}")
     print(f"Seed count:           {len(seeds)}")
     print(f"Initial heap size:    {len(seeds)}")
-    print(f"Similarity threshold: {SIMILARITY_THRESHOLD}")
+    print(f"Similarity threshold: {sim_th}")
     print(f"Pixels processed:     {processed_pixels}")
     print(f"Region pixels:        {final_region_pixels}")
     print(f"Final region mask:    shape {region_mask.shape}, values {mask_unique}")
@@ -386,16 +409,16 @@ def run_phase5(image_path):
     axes[0].axis("off")
 
     axes[1].imshow(region_mask, cmap="gray", vmin=0, vmax=1)
-    axes[1].set_title(f"PGRG Region Mask\nRegion Pixels: {final_region_pixels}", fontsize=10, fontweight="bold")
+    axes[1].set_title(f"PGRG Region Mask [{mode_name}]\nRegion Pixels: {final_region_pixels}", fontsize=10, fontweight="bold")
     axes[1].axis("off")
 
     overlay = cv2.cvtColor(normalized, cv2.COLOR_GRAY2RGB)
     overlay[region_mask == 1] = [30, 255, 30]
     axes[2].imshow(overlay)
-    axes[2].set_title("PGRG Overlay\n(Green: Grown Defect Region)", fontsize=10, fontweight="bold")
+    axes[2].set_title(f"PGRG Overlay [{mode_name}]\n(Green: Grown Defect Region)", fontsize=10, fontweight="bold")
     axes[2].axis("off")
 
-    fig.suptitle(f"Phase 5: Priority-Guided Region Growing | {os.path.basename(image_path)}", fontsize=12, fontweight="bold", y=0.98)
+    fig.suptitle(f"Phase 5: Priority-Guided Region Growing [{mode_name}] | {os.path.basename(image_path)}", fontsize=12, fontweight="bold", y=0.98)
     plt.tight_layout(rect=[0, 0, 1, 0.92])
     save_and_display(fig, os.path.join(OUTPUT_FIGURE_DIR, "phase5_pgrg_demo.png"))
 
@@ -403,9 +426,13 @@ def run_phase5(image_path):
 # ============================================================
 # PHASE 6: UNION-FIND REGION MERGING
 # ============================================================
-def run_phase6(image_path):
+def run_phase6(image_path, use_original=False):
+    sim_th = ORIGINAL_SIMILARITY_THRESHOLD if use_original else SIMILARITY_THRESHOLD
+    seed_th = ORIGINAL_SEED_THRESHOLD if use_original else SEED_THRESHOLD
+    mode_name = "Original PGRG (Baseline)" if use_original else "Improved PGRG (Default)"
+
     print("=" * 60)
-    print("PHASE 6: UNION-FIND REGION MERGING")
+    print(f"PHASE 6: UNION-FIND REGION MERGING [{mode_name}]")
     print("=" * 60)
     print(f"\nSelected image:\n{image_path}\n")
 
@@ -415,8 +442,8 @@ def run_phase6(image_path):
     region_mask, _, processed_pixels = priority_guided_region_growing(
         image=normalized,
         priority_map=priority_map,
-        seed_threshold=SEED_THRESHOLD,
-        similarity_threshold=SIMILARITY_THRESHOLD,
+        seed_threshold=seed_th,
+        similarity_threshold=sim_th,
     )
 
     h, w = region_mask.shape
@@ -426,6 +453,7 @@ def run_phase6(image_path):
     unique_roots = uf.unique_roots_for(region_indices)
     num_unique_roots = len(unique_roots)
 
+    print(f"Mode:                 {mode_name}")
     print(f"Image size:           {w} x {h}")
     print(f"Total pixels:         {total_pixels}")
     print(f"PGRG pixels:          {active_region_pixels}")
@@ -460,7 +488,7 @@ def run_phase6(image_path):
     axes[0].axis("off")
 
     axes[1].imshow(region_mask, cmap="gray", vmin=0, vmax=1)
-    axes[1].set_title(f"PGRG Region Mask\nActive Pixels: {active_region_pixels}", fontsize=10, fontweight="bold")
+    axes[1].set_title(f"PGRG Region Mask [{mode_name}]\nActive Pixels: {active_region_pixels}", fontsize=10, fontweight="bold")
     axes[1].axis("off")
 
     ys_r, xs_r = np.where(region_mask == 1)
@@ -483,10 +511,10 @@ def run_phase6(image_path):
         cc_rgba = np.zeros((h, w, 4))
 
     axes[2].imshow(cc_rgba)
-    axes[2].set_title(f"Connected Components\nComponents: {num_unique_roots}", fontsize=10, fontweight="bold")
+    axes[2].set_title(f"Connected Components [{mode_name}]\nComponents: {num_unique_roots}", fontsize=10, fontweight="bold")
     axes[2].axis("off")
 
-    fig.suptitle(f"Phase 6: Union-Find Region Merging | {os.path.basename(image_path)}", fontsize=12, fontweight="bold", y=0.98)
+    fig.suptitle(f"Phase 6: Union-Find Region Merging [{mode_name}] | {os.path.basename(image_path)}", fontsize=12, fontweight="bold", y=0.98)
     plt.tight_layout(rect=[0, 0, 1, 0.92])
     save_and_display(fig, os.path.join(OUTPUT_FIGURE_DIR, "phase6_union_find_demo.png"))
 
@@ -494,9 +522,15 @@ def run_phase6(image_path):
 # ============================================================
 # PHASE 7: REGION FILTERING & FINAL DEFECT MASK
 # ============================================================
-def run_phase7(image_path):
+def run_phase7(image_path, use_original=False):
+    sim_th = ORIGINAL_SIMILARITY_THRESHOLD if use_original else SIMILARITY_THRESHOLD
+    seed_th = ORIGINAL_SEED_THRESHOLD if use_original else SEED_THRESHOLD
+    ma = ORIGINAL_MIN_AREA if use_original else MIN_AREA
+    gap = ORIGINAL_MERGE_GAP if use_original else MERGE_GAP
+    mode_name = "Original PGRG (Baseline)" if use_original else "Improved PGRG (Default)"
+
     print("=" * 60)
-    print("PHASE 7: REGION FILTERING & FINAL DEFECT MASK")
+    print(f"PHASE 7: REGION FILTERING & FINAL DEFECT MASK [{mode_name}]")
     print("=" * 60)
     print(f"\nSelected image:\n{image_path}\n")
 
@@ -506,8 +540,8 @@ def run_phase7(image_path):
     region_mask, _, _ = priority_guided_region_growing(
         image=normalized,
         priority_map=priority_map,
-        seed_threshold=SEED_THRESHOLD,
-        similarity_threshold=SIMILARITY_THRESHOLD,
+        seed_threshold=seed_th,
+        similarity_threshold=sim_th,
     )
 
     h, w = region_mask.shape
@@ -520,40 +554,44 @@ def run_phase7(image_path):
         region_mask=region_mask,
         uf=uf,
         region_indices=region_indices,
-        min_area=MIN_AREA,
+        min_area=ma,
     )
+
+    # Step 6: Morphological closing if merge_gap > 0
+    if gap > 0:
+        kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (gap, gap))
+        final_defect_mask = cv2.morphologyEx(filtered_mask, cv2.MORPH_CLOSE, kernel)
+    else:
+        final_defect_mask = filtered_mask.copy()
 
     regions_kept = sum(1 for rs in region_statistics if rs["status"] == "KEPT")
     regions_removed = sum(1 for rs in region_statistics if rs["status"] == "REMOVED")
-    final_defect_pixels = int(np.sum(filtered_mask == 255))
-    mask_unique = sorted(np.unique(filtered_mask).tolist())
+    final_defect_pixels = int(np.sum(final_defect_mask == 255))
+    mask_unique = sorted(np.unique(final_defect_mask).tolist())
 
+    print(f"Configuration:            {mode_name}")
+    print(f"Seed threshold:           {seed_th}")
+    print(f"Similarity threshold:     {sim_th}")
+    print(f"Minimum-area threshold:   {ma} pixels")
+    print(f"Merge gap (closing):      {gap} pixels")
     print(f"Input PGRG region pixels: {input_region_pixels}")
-    print(f"Number of regions before filtering: {num_unique_roots}")
-    print(f"Minimum-area threshold:   {MIN_AREA} pixels")
-    print("\nRegion statistics (first 10 components):")
-    print(f"{'Region ID':>12s} | {'Area':>6s} | Status")
-    for rs in region_statistics[:10]:
-        print(f"{rs['root']:>12d} | {rs['area']:>6d} | {rs['status']}")
-    if len(region_statistics) > 10:
-        print(f"... and {len(region_statistics) - 10} more components.")
-
-    print(f"\nRegions removed:          {regions_removed}")
+    print(f"Number of regions:        {num_unique_roots}")
+    print(f"Regions removed (<{ma}px): {regions_removed}")
     print(f"Regions retained:         {regions_kept}")
     print(f"Final defect pixel count: {final_defect_pixels}")
-    print(f"Final defect mask:        shape {filtered_mask.shape}, values {mask_unique}")
+    print(f"Final defect mask:        shape {final_defect_mask.shape}, values {mask_unique}")
 
     print("\nVerification checks:")
-    v1 = filtered_mask.shape == (200, 200)
+    v1 = final_defect_mask.shape == (200, 200)
     print(f"[1] Final mask shape is (200,200)                 : {'PASS' if v1 else 'FAIL'}")
     v2 = set(mask_unique).issubset({0, 255})
     print(f"[2] Mask contains only 0 and 255                  : {'PASS' if v2 else 'FAIL'}")
     total_area_from_stats = sum(rs["area"] for rs in region_statistics)
     v3 = (total_area_from_stats == input_region_pixels)
     print(f"[3] Region areas calculated correctly             : {'PASS' if v3 else 'FAIL'}")
-    v4 = all(rs["area"] < MIN_AREA for rs in region_statistics if rs["status"] == "REMOVED")
+    v4 = all(rs["area"] < ma for rs in region_statistics if rs["status"] == "REMOVED")
     print(f"[4] Small regions removed correctly               : {'PASS' if v4 else 'FAIL'}")
-    v5 = all(rs["area"] >= MIN_AREA for rs in region_statistics if rs["status"] == "KEPT")
+    v5 = all(rs["area"] >= ma for rs in region_statistics if rs["status"] == "KEPT")
     print(f"[5] Large regions retained correctly              : {'PASS' if v5 else 'FAIL'}")
     v6 = True
     print(f"[6] Pipeline completed successfully               : {'PASS' if v6 else 'FAIL'}")
@@ -567,17 +605,17 @@ def run_phase7(image_path):
     axes[1].set_title(f"Pre-filter PGRG Mask\nPixels: {input_region_pixels}", fontsize=10, fontweight="bold")
     axes[1].axis("off")
 
-    axes[2].imshow(filtered_mask, cmap="gray", vmin=0, vmax=255)
-    axes[2].set_title(f"Filtered Defect Mask\nPixels: {final_defect_pixels} (min_area={MIN_AREA})", fontsize=10, fontweight="bold")
+    axes[2].imshow(final_defect_mask, cmap="gray", vmin=0, vmax=255)
+    axes[2].set_title(f"Final Defect Mask [{mode_name}]\nPixels: {final_defect_pixels} (ma={ma}, gap={gap})", fontsize=10, fontweight="bold")
     axes[2].axis("off")
 
     overlay = cv2.cvtColor(normalized, cv2.COLOR_GRAY2RGB)
-    overlay[filtered_mask == 255] = [30, 255, 30]
+    overlay[final_defect_mask == 255] = [30, 255, 30]
     axes[3].imshow(overlay)
-    axes[3].set_title("Final Filtered Overlay\n(Green: Final Defect)", fontsize=10, fontweight="bold")
+    axes[3].set_title(f"Final Overlay [{mode_name}]\n(Green: Final Defect)", fontsize=10, fontweight="bold")
     axes[3].axis("off")
 
-    fig.suptitle(f"Phase 7: Region Filtering & Final Defect Mask | {os.path.basename(image_path)}", fontsize=12, fontweight="bold", y=0.98)
+    fig.suptitle(f"Phase 7: Region Filtering & Final Defect Mask [{mode_name}] | {os.path.basename(image_path)}", fontsize=12, fontweight="bold", y=0.98)
     plt.tight_layout(rect=[0, 0, 1, 0.92])
     save_and_display(fig, os.path.join(OUTPUT_FIGURE_DIR, "region_filtering_demo.png"))
 
@@ -669,9 +707,10 @@ def run_phase8(image_path):
 # ============================================================
 # PHASE 9: BOX-LEVEL LOCALIZATION EVALUATION
 # ============================================================
-def run_phase9(image_path):
+def run_phase9(image_path, use_original_primary=False):
+    primary_name = "Original PGRG" if use_original_primary else "Improved PGRG (Default)"
     print("=" * 60)
-    print("PHASE 9: BOX-LEVEL EVALUATION")
+    print(f"PHASE 9: BOX-LEVEL EVALUATION [Primary: {primary_name}]")
     print("=" * 60)
     print(f"\nSelected image:\n{image_path}\n")
 
@@ -696,19 +735,15 @@ def run_phase9(image_path):
     gt_boxes = load_ground_truth_boxes(xml_path)
     _, _, _, normalized = preprocess_image(image_path)
 
-    def execute_pgrg():
-        _, idv, gm, tv = compute_priority_features(normalized)
-        pmap = compute_priority_map(idv, gm, tv)
-        rmask, _, _ = priority_guided_region_growing(
-            normalized, pmap, seed_threshold=SEED_THRESHOLD, similarity_threshold=SIMILARITY_THRESHOLD
-        )
-        uf, reg_idx = build_region_uf(rmask)
-        filtered_mask, _ = filter_regions(rmask, uf, reg_idx, min_area=MIN_AREA)
-        return filtered_mask
+    def execute_improved_pgrg():
+        return improved_pgrg(normalized)
+
+    def execute_original_pgrg():
+        return original_pgrg(normalized)
 
     def execute_srg():
         return standard_region_growing(
-            normalized, seed_threshold=SEED_THRESHOLD, similarity_threshold=SIMILARITY_THRESHOLD
+            normalized, seed_threshold=ORIGINAL_SEED_THRESHOLD, similarity_threshold=ORIGINAL_SIMILARITY_THRESHOLD
         )
 
     def execute_otsu():
@@ -720,7 +755,7 @@ def run_phase9(image_path):
         return defect_mask
 
     methods_to_eval = [
-        ("PGRG", execute_pgrg),
+        ("Original PGRG", execute_original_pgrg),
         ("Standard Region Growing", execute_srg),
         ("Otsu + Morphology", execute_otsu),
         ("Watershed", execute_watershed),
@@ -742,7 +777,7 @@ def run_phase9(image_path):
             "runtime_ms": runtime_ms,
         }
 
-    print("BOX-LEVEL LOCALIZATION EVALUATION")
+    print("BOX-LEVEL LOCALIZATION EVALUATION (IoU >= 0.5)")
     print(f"Ground-truth boxes: {len(gt_boxes)}\n")
 
     for name, _ in methods_to_eval:
@@ -774,126 +809,199 @@ def run_phase9(image_path):
         axes[0].add_patch(rect)
     axes[0].axis("off")
 
-    pgrg_boxes = results["PGRG"]["pred_boxes"]
+    orig_boxes = results["Original PGRG"]["pred_boxes"]
     axes[1].imshow(normalized, cmap="gray")
-    axes[1].set_title(f"PGRG Predicted Boxes\nTotal Boxes: {len(pgrg_boxes)} (Cyan)", fontsize=10, fontweight="bold")
-    for b in pgrg_boxes:
+    axes[1].set_title(f"Original PGRG ({len(orig_boxes)} boxes)\n(Cyan: Predictions)", fontsize=10, fontweight="bold")
+    for b in orig_boxes:
         rect = patches.Rectangle((b["xmin"], b["ymin"]), b["xmax"] - b["xmin"], b["ymax"] - b["ymin"],
                                  linewidth=2, edgecolor="cyan", facecolor="none")
         axes[1].add_patch(rect)
     axes[1].axis("off")
 
+    # Overlay: GT (Red) + Original PGRG (Cyan)
     axes[2].imshow(normalized, cmap="gray")
-    axes[2].set_title("Overlay Comparison\nRed: GT | Cyan: PGRG", fontsize=10, fontweight="bold")
+    axes[2].set_title(f"Overlay Comparison\nRed: GT | Cyan: Original PGRG ({len(orig_boxes)})",
+                      fontsize=10, fontweight="bold")
     for b in gt_boxes:
         rect = patches.Rectangle((b["xmin"], b["ymin"]), b["xmax"] - b["xmin"], b["ymax"] - b["ymin"],
                                  linewidth=2, edgecolor="red", facecolor="none")
         axes[2].add_patch(rect)
-    for b in pgrg_boxes:
+    for b in orig_boxes:
         rect = patches.Rectangle((b["xmin"], b["ymin"]), b["xmax"] - b["xmin"], b["ymax"] - b["ymin"],
-                                 linewidth=2, edgecolor="cyan", facecolor="none", linestyle="--")
+                                 linewidth=2, edgecolor="cyan", facecolor="none")
         axes[2].add_patch(rect)
     axes[2].axis("off")
 
-    fig.suptitle(f"BOX-LEVEL LOCALIZATION EVALUATION: PGRG vs Ground Truth | {file_name}\n"
-                 f"PGRG F1: {results['PGRG']['metrics']['f1']:.4f} | Mean IoU: {results['PGRG']['metrics']['mean_iou']:.4f}",
+    orig_f1 = results["Original PGRG"]["metrics"]["f1"]
+    orig_iou = results["Original PGRG"]["metrics"]["mean_iou"]
+    fig.suptitle(f"BOX-LEVEL EVALUATION | {file_name}\n"
+                 f"Original PGRG F1: {orig_f1:.4f} (Mean IoU: {orig_iou:.4f})",
                  fontsize=12, fontweight="bold", y=0.98)
     plt.tight_layout(rect=[0, 0, 1, 0.90])
     save_and_display(fig, os.path.join(OUTPUT_FIGURE_DIR, f"evaluation_{os.path.splitext(file_name)[0]}.png"))
 
 
+
 # ============================================================
-# PHASE 10: FINAL EXPERIMENTS & RESULTS
+# PHASE 10: FIVE-METHOD VALIDATION BENCHMARK (360 IMAGES)
 # ============================================================
-def run_phase10():
-    print("=" * 60)
-    print("PHASE 10: FINAL EXPERIMENTS & RESULTS")
-    print("=" * 60)
-    print("\nReading existing 1,800-image benchmark results (no re-run):\n")
+def collect_validation_samples():
+    """Collect all 360 held-out validation samples across 6 defect classes."""
+    classes = ["crazing", "inclusion", "patches", "pitted_surface", "rolled-in_scale", "scratches"]
+    val_dir = os.path.join("dataset", "NEU-DET", "validation")
+    ann_dir = os.path.join(val_dir, "annotations")
+    samples = []
+    for cls in classes:
+        cls_dir = os.path.join(val_dir, "images", cls)
+        if not os.path.exists(cls_dir):
+            continue
 
-    summary_csv = os.path.join("results", "final_results_table.csv")
-    classwise_csv = os.path.join("results", "final_classwise_results.csv")
-    t5_csv = os.path.join("results", "tables", "table5_false_positive_comparison.csv")
+        def sort_key(fname):
+            try:
+                return int(fname.split("_")[-1].split(".")[0])
+            except ValueError:
+                return fname
 
-    if not os.path.exists(summary_csv):
-        raise FileNotFoundError(f"Missing required summary file: {summary_csv}")
+        img_files = sorted(
+            [f for f in os.listdir(cls_dir) if f.lower().endswith(".jpg")],
+            key=sort_key,
+        )
+        for img_file in img_files:
+            xml_file = os.path.splitext(img_file)[0] + ".xml"
+            xml_path = os.path.join(ann_dir, xml_file)
+            if not os.path.exists(xml_path):
+                fallback = os.path.join("dataset", "NEU-DET", "train", "annotations", xml_file)
+                if os.path.exists(fallback):
+                    xml_path = fallback
+            if xml_path and os.path.exists(xml_path):
+                samples.append({
+                    "image": img_file,
+                    "class": cls,
+                    "img_path": os.path.join(cls_dir, img_file),
+                    "xml_path": xml_path,
+                })
+    return samples
 
-    # 1. Overall Performance Table
-    print("-" * 60)
-    print("1. OVERALL BENCHMARK PERFORMANCE (1,800 IMAGES)")
-    print("-" * 60)
-    print(f"{'Method':<25s} | {'Precision':<9s} | {'Recall':<9s} | {'F1':<9s} | {'Mean IoU':<9s} | {'Runtime(ms)':<10s}")
-    print("-" * 85)
-    with open(summary_csv, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            print(f"{row['method']:<25s} | {float(row['precision']):<9.4f} | {float(row['recall']):<9.4f} | {float(row['f1']):<9.4f} | {float(row['mean_iou']):<9.4f} | {float(row['mean_runtime_ms']):<10.2f}")
 
-    # 2. Class-Wise F1 & IoU
-    if os.path.exists(classwise_csv):
-        print("\n" + "-" * 60)
-        print("2. CLASS-WISE F1 SCORES (300 IMAGES PER CLASS)")
-        print("-" * 60)
-        class_f1 = {}
-        class_iou = {}
-        with open(classwise_csv, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                cls = row["class"]
-                m = row["method"]
-                if cls not in class_f1:
-                    class_f1[cls] = {}
-                    class_iou[cls] = {}
-                class_f1[cls][m] = float(row["f1"])
-                class_iou[cls][m] = float(row["mean_iou"])
+def run_phase10(image_path=None, compare=False):
+    """
+    Phase 10: Final numerical benchmark on all 360 held-out validation images.
+    Evaluates:
+      1. Original PGRG (min_area=100, sim=25, seed=0.45, merge_gap=11, equal weights)
+      2. Standard Region Growing
+      3. Otsu + Morphology
+      4. Watershed
 
-        methods = ["PGRG", "Standard Region Growing", "Otsu + Morphology", "Watershed"]
-        print(f"{'Class':<16s} | {'PGRG F1':<9s} | {'SRG F1':<9s} | {'Otsu F1':<9s} | {'Watershed F1':<12s}")
-        print("-" * 65)
-        for cls, f1s in class_f1.items():
-            print(f"{cls:<16s} | {f1s.get('PGRG', 0.0):<9.4f} | {f1s.get('Standard Region Growing', 0.0):<9.4f} | {f1s.get('Otsu + Morphology', 0.0):<9.4f} | {f1s.get('Watershed', 0.0):<12.4f}")
+    Outputs strictly the comparison table and a short completion message.
+    Saves numerical results to results/improvement/final_held_out_results.csv.
+    """
+    val_samples = collect_validation_samples()
+    if not val_samples:
+        raise FileNotFoundError("No validation samples found under dataset/NEU-DET/validation.")
 
-        print("\n" + "-" * 60)
-        print("3. CLASS-WISE MEAN IoU")
-        print("-" * 60)
-        print(f"{'Class':<16s} | {'PGRG IoU':<9s} | {'SRG IoU':<9s} | {'Otsu IoU':<9s} | {'Watershed IoU':<12s}")
-        print("-" * 65)
-        for cls, ious in class_iou.items():
-            print(f"{cls:<16s} | {ious.get('PGRG', 0.0):<9.4f} | {ious.get('Standard Region Growing', 0.0):<9.4f} | {ious.get('Otsu + Morphology', 0.0):<9.4f} | {ious.get('Watershed', 0.0):<12.4f}")
+    print(f"Evaluating methods on {len(val_samples)} validation images...\n")
 
-    # 3. False Positive Comparison
-    if os.path.exists(t5_csv):
-        print("\n" + "-" * 60)
-        print("4. FALSE POSITIVE COMPARISON")
-        print("-" * 60)
-        print(f"{'Method':<25s} | {'Total FP':<10s} | {'FP Reduction vs PGRG':<22s}")
-        print("-" * 65)
-        with open(t5_csv, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                print(f"{row['Method']:<25s} | {row['Total FP']:<10s} | {row['FP Reduction vs PGRG']:<22s}")
+    methods = [
+        ("Original PGRG", lambda norm: original_pgrg(norm)),
+        ("Standard Region Growing", lambda norm: standard_region_growing(
+            norm, seed_threshold=SRG_SEED_THRESHOLD, similarity_threshold=SRG_SIMILARITY_THRESHOLD
+        )),
+        ("Otsu + Morphology", lambda norm: otsu_morphology(norm)[2]),
+        ("Watershed", lambda norm: watershed_segmentation(norm)[1]),
+    ]
 
-    # 4. Final Conclusion Summary
-    print("\n" + "=" * 60)
-    print("5. FINAL RESEARCH CONCLUSION SUMMARY")
-    print("=" * 60)
-    conclusion_text = (
-        "- F1 Score: PGRG achieved the highest overall F1 score (0.0831), outperforming\n"
-        "  Standard Region Growing (0.0199), Otsu (0.0228), and Watershed (0.0295).\n"
-        "- Precision & Recall: PGRG achieved highest Precision (0.0646) and highest Recall (0.1163).\n"
-        "- False Positive Suppression: PGRG produced 7,049 FPs, achieving an 83.43% reduction\n"
-        "  relative to Standard RG (42,542) and 81.29% reduction relative to Otsu (37,671).\n"
-        "- Mean Matched IoU: Standard Region Growing achieved the highest IoU (0.7159 vs PGRG 0.6789).\n"
-        "- Runtime: Otsu + Morphology is the fastest (0.14 ms); PGRG is the slowest (70.86 ms).\n"
-        "- Class-wise: PGRG led F1 in 5 of 6 classes; Watershed achieved highest F1 for scratches (0.2524).\n"
-        "- Evaluation Limitation: Evaluation is box-level localization, NOT pixel-level segmentation."
-    )
-    print(conclusion_text)
-    print("=" * 60)
+    stats = {
+        mname: {"tp": 0, "fp": 0, "fn": 0, "ious": [], "runtimes": []}
+        for mname, _ in methods
+    }
+
+    # Evaluate all 5 methods on the same 360 validation images
+    for sample in val_samples:
+        gt_boxes = load_ground_truth_boxes(sample["xml_path"])
+        _, _, _, normalized = preprocess_image(sample["img_path"])
+
+        for mname, mfunc in methods:
+            mask, runtime_ms = measure_runtime(mfunc, normalized)
+            pred_boxes = mask_to_boxes(mask)
+            tp, fp, fn, matched_pairs = match_boxes(pred_boxes, gt_boxes, iou_threshold=0.5)
+
+            st = stats[mname]
+            st["tp"] += tp
+            st["fp"] += fp
+            st["fn"] += fn
+            st["runtimes"].append(runtime_ms)
+            for _, _, iou_val in matched_pairs:
+                st["ious"].append(iou_val)
+
+    # Calculate detection metrics across the full 360 images
+    results = {}
+    for mname, _ in methods:
+        st = stats[mname]
+        tot_tp = st["tp"]
+        tot_fp = st["fp"]
+        tot_fn = st["fn"]
+        ious = st["ious"]
+        rts = st["runtimes"]
+
+        prec = tot_tp / (tot_tp + tot_fp) if (tot_tp + tot_fp) > 0 else 0.0
+        rec = tot_tp / (tot_tp + tot_fn) if (tot_tp + tot_fn) > 0 else 0.0
+        f1 = 2 * prec * rec / (prec + rec) if (prec + rec) > 0 else 0.0
+        miou = sum(ious) / len(ious) if ious else 0.0
+        mean_rt = sum(rts) / len(rts) if rts else 0.0
+
+        results[mname] = {
+            "tp": tot_tp,
+            "fp": tot_fp,
+            "fn": tot_fn,
+            "precision": prec,
+            "recall": rec,
+            "f1": f1,
+            "mean_iou": miou,
+            "mean_runtime_ms": mean_rt,
+        }
+
+    # Print the exact five-method validation table
+    print("FINAL HELD-OUT RESULTS (Validation Set, 360 images)")
+    print("=" * 90)
+    print(f"{'Method':<25} | {'TP':>4} | {'FP':>6} | {'FN':>4} | {'P':>7} | "
+          f"{'R':>7} | {'F1':>7} | {'IoU':>7} | {'RT(ms)':>8}")
+    print("-" * 90)
+    for mname in [m[0] for m in methods]:
+        o = results[mname]
+        print(f"{mname:<25} | {o['tp']:>4} | {o['fp']:>6} | {o['fn']:>4} | "
+              f"{o['precision']:>7.4f} | {o['recall']:>7.4f} | {o['f1']:>7.4f} | "
+              f"{o['mean_iou']:>7.4f} | {o['mean_runtime_ms']:>8.2f}")
+    print("-" * 90)
+
+    # Save to CSV file under results/improvement/
+    out_dir = os.path.join("results", "improvement")
+    os.makedirs(out_dir, exist_ok=True)
+    csv_path = os.path.join(out_dir, "final_held_out_results.csv")
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=[
+            "Method", "TP", "FP", "FN", "P", "R", "F1", "IoU", "RT(ms)"
+        ])
+        writer.writeheader()
+        for mname in [m[0] for m in methods]:
+            o = results[mname]
+            writer.writerow({
+                "Method": mname,
+                "TP": o["tp"],
+                "FP": o["fp"],
+                "FN": o["fn"],
+                "P": f"{o['precision']:.4f}",
+                "R": f"{o['recall']:.4f}",
+                "F1": f"{o['f1']:.4f}",
+                "IoU": f"{o['mean_iou']:.4f}",
+                "RT(ms)": f"{o['mean_runtime_ms']:.2f}",
+            })
+
+    print(f"\n[OK] Saved results to: {csv_path}")
+    print("[OK] Phase 10 evaluation complete.")
 
 
 def print_help_menu():
-    help_text = """PGRG Steel Defect Detection
+    help_text = """PGRG Steel Defect Detection (Improved PGRG Default)
 
 Available phases:
 
@@ -904,13 +1012,23 @@ Available phases:
 5  Priority-Guided Region Growing
 6  Union-Find Region Merging
 7  Region Filtering & Final Defect Mask
-8  Baseline Methods
-9  Box-Level Evaluation
-10 Final Experiments & Results
+8  Baseline Methods (Standard RG, Otsu, Watershed)
+9  Box-Level Evaluation (Original PGRG and baselines)
+10 Final Experiments & Results (Numerical only: benchmark on 360 validation images)
 
-Example:
+PGRG Configuration:
+  Original PGRG: min_area=100, sim=25, seed=0.45, merge_gap=11 (closing)
+  --no-show      Disable interactive plot display (Phases 1-9)
 
-.\\venv\\Scripts\\python.exe main.py --phase 1 "dataset/NEU-DET/train/images/scratches/scratches_10.jpg"
+Examples:
+  # Run Original PGRG box-level evaluation:
+  python main.py "dataset/NEU-DET/validation/images/scratches/scratches_241.jpg"
+
+  # Run Phase 7 with Original PGRG:
+  python main.py --phase 7 "dataset/NEU-DET/validation/images/scratches/scratches_241.jpg"
+
+  # Run Phase 10 (Numerical benchmark on 360 validation images):
+  python main.py --phase 10
 """
     print(help_text)
 
@@ -920,6 +1038,10 @@ def main():
     if "--help" in sys.argv or "-h" in sys.argv:
         print_help_menu()
         return
+
+    # Algorithm configuration selection: Improved by default, or Original if requested
+    use_original = "--original-pgrg" in sys.argv
+    compare = "--compare" in sys.argv or "--all-methods" in sys.argv
 
     # 2. Check for --phase argument
     if "--phase" in sys.argv:
@@ -952,6 +1074,10 @@ def main():
             image_path = remaining_args[0]
             if not os.path.exists(image_path):
                 raise FileNotFoundError(f"Image file not found: {image_path}")
+        elif phase_num == 10:
+            image_path = remaining_args[0] if remaining_args else None
+            if image_path and not os.path.exists(image_path):
+                raise FileNotFoundError(f"Image file not found: {image_path}")
 
         # Dispatch to requested phase ONLY
         if phase_num == 1:
@@ -963,17 +1089,17 @@ def main():
         elif phase_num == 4:
             run_phase4(image_path)
         elif phase_num == 5:
-            run_phase5(image_path)
+            run_phase5(image_path, use_original=use_original)
         elif phase_num == 6:
-            run_phase6(image_path)
+            run_phase6(image_path, use_original=use_original)
         elif phase_num == 7:
-            run_phase7(image_path)
+            run_phase7(image_path, use_original=use_original)
         elif phase_num == 8:
             run_phase8(image_path)
         elif phase_num == 9:
-            run_phase9(image_path)
+            run_phase9(image_path, use_original_primary=use_original)
         elif phase_num == 10:
-            run_phase10()
+            run_phase10(image_path=image_path, compare=compare)
 
         return
 
@@ -989,7 +1115,7 @@ def main():
 
     # Legacy CLI flags
     if "--pgrg" in sys.argv:
-        run_phase7(image_path)
+        run_phase7(image_path, use_original=use_original)
     elif "--baseline1" in sys.argv:
         run_phase8(image_path)
     elif "--baseline2" in sys.argv:
@@ -997,7 +1123,7 @@ def main():
     elif "--baseline3" in sys.argv:
         run_phase8(image_path)
     else:
-        run_phase9(image_path)
+        run_phase9(image_path, use_original_primary=use_original)
 
 
 if __name__ == "__main__":

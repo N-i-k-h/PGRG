@@ -69,10 +69,10 @@ configuration used in all existing benchmark evaluations.
 
 | Configuration | Images | TP | FP | FN | Precision | Recall | F1 | Mean IoU | Runtime (ms) |
 |---|---|---|---|---|---|---|---|---|---|
-| Deviation Only | 60 | 17 | 416 | 107 | 0.0393 | 0.1371 | 0.0610 | 0.6847 | 61.12 |
-| Gradient Only | 60 | 26 | 657 | 98 | 0.0381 | 0.2097 | 0.0644 | 0.6910 | 64.35 |
-| Texture Only | 60 | 26 | 186 | 98 | 0.1226 | 0.2097 | 0.1548 | 0.6838 | 48.69 |
-| Full PGRG | 60 | 21 | 206 | 103 | 0.0925 | 0.1694 | 0.1197 | 0.7300 | 45.76 |
+| Deviation Only | 60 | 17 | 416 | 107 | 0.0393 | 0.1371 | 0.0610 | 0.6847 | 57.44 |
+| Gradient Only | 60 | 26 | 657 | 98 | 0.0381 | 0.2097 | 0.0644 | 0.6910 | 60.19 |
+| Texture Only | 60 | 26 | 186 | 98 | 0.1226 | 0.2097 | 0.1548 | 0.6838 | 45.16 |
+| Full PGRG | 60 | 21 | 206 | 103 | 0.0925 | 0.1694 | 0.1197 | 0.7300 | 42.89 |
 
 ### Best Configuration per Metric
 

@@ -1,0 +1,31 @@
+class,method,tp,fp,fn,precision,recall,f1,mean_iou,mean_runtime_ms
+crazing,Improved PGRG,2,96,160,0.0204,0.0123,0.0154,0.5301,250.70
+inclusion,Improved PGRG,7,75,140,0.0854,0.0476,0.0611,0.6458,180.35
+patches,Improved PGRG,24,82,160,0.2264,0.1304,0.1655,0.7340,135.96
+pitted_surface,Improved PGRG,39,90,66,0.3023,0.3714,0.3333,0.7019,158.23
+rolled-in_scale,Improved PGRG,1,90,131,0.0110,0.0076,0.0090,0.6202,332.66
+scratches,Improved PGRG,37,69,87,0.3491,0.2984,0.3217,0.6916,27.30
+crazing,Original PGRG,5,391,157,0.0126,0.0309,0.0179,0.5493,169.21
+inclusion,Original PGRG,8,143,139,0.0530,0.0544,0.0537,0.6557,134.05
+patches,Original PGRG,31,154,153,0.1676,0.1685,0.1680,0.7435,101.80
+pitted_surface,Original PGRG,39,614,66,0.0597,0.3714,0.1029,0.7179,125.91
+rolled-in_scale,Original PGRG,5,327,127,0.0151,0.0379,0.0216,0.6356,259.93
+scratches,Original PGRG,20,163,104,0.1093,0.1613,0.1303,0.6623,22.32
+crazing,Standard Region Growing,1,1446,161,0.0007,0.0062,0.0012,0.5911,137.85
+inclusion,Standard Region Growing,0,750,147,0.0000,0.0000,0.0000,0.0000,108.03
+patches,Standard Region Growing,0,1237,184,0.0000,0.0000,0.0000,0.0000,96.51
+pitted_surface,Standard Region Growing,46,1252,59,0.0354,0.4381,0.0656,0.7315,119.56
+rolled-in_scale,Standard Region Growing,2,3255,130,0.0006,0.0152,0.0012,0.5400,99.63
+scratches,Standard Region Growing,30,479,94,0.0589,0.2419,0.0948,0.6959,9.76
+crazing,Otsu + Morphology,6,2864,156,0.0021,0.0370,0.0040,0.5471,0.24
+inclusion,Otsu + Morphology,0,398,147,0.0000,0.0000,0.0000,0.0000,0.18
+patches,Otsu + Morphology,1,625,183,0.0016,0.0054,0.0025,0.6654,0.17
+pitted_surface,Otsu + Morphology,44,1204,61,0.0353,0.4190,0.0650,0.6993,0.18
+rolled-in_scale,Otsu + Morphology,3,2323,129,0.0013,0.0227,0.0024,0.5664,0.17
+scratches,Otsu + Morphology,56,441,68,0.1127,0.4516,0.1804,0.7212,0.18
+crazing,Watershed,0,1038,162,0.0000,0.0000,0.0000,0.0000,1.73
+inclusion,Watershed,0,127,147,0.0000,0.0000,0.0000,0.0000,1.43
+patches,Watershed,0,195,184,0.0000,0.0000,0.0000,0.0000,1.61
+pitted_surface,Watershed,3,298,102,0.0100,0.0286,0.0148,0.5982,1.54
+rolled-in_scale,Watershed,6,658,126,0.0090,0.0455,0.0151,0.5901,1.60
+scratches,Watershed,41,154,83,0.2103,0.3306,0.2571,0.7260,1.39

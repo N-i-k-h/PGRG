@@ -1,0 +1,4 @@
+Image,Method,TP,FP,FN,Precision,Recall,F1 score,Mean matched-box IoU,Runtime (ms)
+scratches_14.jpg,Improved PGRG (Default),1,0,1,1.0,0.5,0.6666666666666666,0.5490662139219016,5.29199989978224
+,Improved PGRG (Default),110,502,744,0.1797,0.1288,0.1501,0.698,180.87
+,Original PGRG (Baseline),108,1792,746,0.0568,0.1265,0.0784,0.6987,135.54
